@@ -1,0 +1,63 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import { projects } from "@/data/projects";
+import { SITE } from "@/config";
+---
+
+<Layout title={`项目展示 | ${SITE.title}`}>
+  <Header />
+  <main id="main-content" class="app-layout py-12 sm:py-16">
+    <section>
+      <p class="mb-3 text-sm font-medium text-accent">Projects</p>
+      <h1 class="text-3xl font-bold sm:text-4xl">项目展示</h1>
+      <p class="mt-4 max-w-2xl leading-8">
+        {/* // TODO: 替换为你的项目页介绍 */}
+        这里展示一些项目、实验和工具原型。数据集中维护在
+        <code>src/data/projects.ts</code>，后续可以直接编辑。
+      </p>
+    </section>
+
+    <section class="mt-10 grid gap-5 sm:grid-cols-2">
+      {
+        projects.map(project => (
+          <article class="rounded border border-border p-5 transition hover:border-accent hover:bg-muted/30">
+            {project.coverImage && (
+              <img
+                src={project.coverImage}
+                alt=""
+                class="mb-5 aspect-video w-full rounded border border-border object-cover"
+              />
+            )}
+            <h2 class="text-xl font-semibold">{project.title}</h2>
+            <p class="mt-3 leading-7">{project.description}</p>
+            <ul class="mt-4 flex flex-wrap gap-2">
+              {project.tags.map(tag => (
+                <li class="rounded border border-border px-2.5 py-1 text-xs">
+                  {tag}
+                </li>
+              ))}
+            </ul>
+            <div class="mt-5 flex flex-wrap gap-3">
+              <LinkButton href={project.githubUrl} target="_blank">
+                <IconGitHub class="inline-block size-4" />
+                GitHub
+              </LinkButton>
+              {project.demoUrl && (
+                <LinkButton href={project.demoUrl} target="_blank">
+                  Demo
+                  <IconArrowRight class="inline-block size-4 rtl:-rotate-180" />
+                </LinkButton>
+              )}
+            </div>
+          </article>
+        ))
+      }
+    </section>
+  </main>
+  <Footer />
+</Layout>

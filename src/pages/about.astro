@@ -1,0 +1,85 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconMail from "@/assets/icons/IconMail.svg";
+import { SITE } from "@/config";
+
+// TODO: 替换为你的技能列表
+const skills = ["AI", "Machine Learning", "Python", "Astro", "Research"];
+
+// TODO: 替换为你的联系方式
+const contacts = [
+  {
+    name: "GitHub",
+    href: "https://github.com/your-username",
+    icon: IconGitHub,
+  },
+  {
+    name: "Email",
+    href: "mailto:your-email@example.com",
+    icon: IconMail,
+  },
+];
+---
+
+<Layout title={`关于我 | ${SITE.title}`}>
+  <Header />
+  <main id="main-content" class="app-layout py-12 sm:py-16">
+    <section class="flex flex-col gap-8 sm:flex-row sm:items-center">
+      <div
+        class="flex size-36 shrink-0 items-center justify-center rounded-full border border-dashed border-border bg-muted/30 text-sm text-foreground/70"
+        aria-label="头像占位区"
+      >
+        {/* // TODO: 添加头像文件 src/assets/avatar.jpg 后，在这里替换为图片 */}
+        Avatar
+      </div>
+
+      <div>
+        <p class="mb-3 text-sm font-medium text-accent">About</p>
+        <h1 class="text-3xl font-bold sm:text-4xl">{SITE.title}</h1>
+        <p class="mt-5 max-w-2xl leading-8">
+          {/* // TODO: 替换为你的个人介绍 */}
+          这里是一段个人介绍占位文案。你可以介绍自己的学习方向、研究兴趣、当前关注的
+          AI 主题，以及这个网站希望沉淀的内容。
+        </p>
+      </div>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="text-xl font-semibold">技能标签</h2>
+      <ul class="mt-5 flex flex-wrap gap-3">
+        {
+          skills.map(skill => (
+            <li class="rounded border border-border px-3 py-1.5 text-sm">
+              {skill}
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="text-xl font-semibold">联系方式</h2>
+      <ul class="mt-5 flex flex-wrap gap-4">
+        {
+          contacts.map(({ name, href, icon: Icon }) => (
+            <li>
+              <a
+                href={href}
+                class="inline-flex items-center gap-2 rounded border border-border px-4 py-2 hover:border-accent hover:text-accent"
+                target={href.startsWith("http") ? "_blank" : undefined}
+                rel={href.startsWith("http") ? "noreferrer" : undefined}
+              >
+                <Icon class="size-5" />
+                {name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+  <Footer />
+</Layout>
