@@ -8,6 +8,7 @@ const MANIFEST_FILE = path.join(BLOG_DIR, ".notion-sync-manifest.json");
 
 const notionToken = process.env.NOTION_TOKEN;
 const databaseId = process.env.NOTION_DATABASE_ID;
+const configuredDataSourceId = process.env.NOTION_DATA_SOURCE_ID;
 
 if (!notionToken || !databaseId) {
   throw new Error(
@@ -15,7 +16,10 @@ if (!notionToken || !databaseId) {
   );
 }
 
-const notion = new Client({ auth: notionToken });
+const notion = new Client({
+  auth: notionToken,
+  notionVersion: "2025-09-03",
+});
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
 const PROPERTY_ALIASES = {
@@ -133,10 +137,11 @@ function toFrontmatter({ title, description, pubDatetime, tags }) {
 async function queryAllPages() {
   const pages = [];
   let cursor;
+  const dataSourceId = await resolveDataSourceId();
 
   do {
-    const response = await notion.databases.query({
-      database_id: databaseId,
+    const response = await notion.dataSources.query({
+      data_source_id: dataSourceId,
       start_cursor: cursor,
       page_size: 100,
     });
@@ -146,6 +151,25 @@ async function queryAllPages() {
   } while (cursor);
 
   return pages;
+}
+
+async function resolveDataSourceId() {
+  if (configuredDataSourceId) return configuredDataSourceId;
+
+  try {
+    const database = await notion.databases.retrieve({
+      database_id: databaseId,
+    });
+    const dataSource = database.data_sources?.[0];
+
+    if (dataSource?.id) return dataSource.id;
+  } catch (error) {
+    process.stderr.write(
+      `Could not retrieve database metadata. Treating NOTION_DATABASE_ID as a data source id.\n${error.message ?? error}\n`
+    );
+  }
+
+  return databaseId;
 }
 
 async function readManifest() {

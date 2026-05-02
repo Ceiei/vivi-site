@@ -159,6 +159,7 @@ src/pages/reading.astro
 
 - `NOTION_TOKEN`：Notion Integration 的 Secret。
 - `NOTION_DATABASE_ID`：Notion Database ID。
+- `NOTION_DATA_SOURCE_ID`：可选。新版 Notion API 使用 data source 查询；脚本会优先自动从 database 解析 data source id。只有自动解析失败时才需要手动添加这个 Secret。
 
 `.github/workflows/notion-sync.yml` 会在北京时间每天 08:00 自动运行，也可以在 Actions 页面手动触发。
 
