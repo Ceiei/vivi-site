@@ -173,10 +173,11 @@ src/pages/reading.astro
 | `Description`           | Rich text    | 文章摘要，会写入 frontmatter 的 `description` |
 | `Published`             | Checkbox     | 勾选后才会同步                                |
 | `PubDatetime` 或 `Date` | Date         | 发布日期，会写入 `pubDatetime`                |
+| `ModDatetime`           | Date         | 可选，上次更新时间，会写入 `modDatetime`      |
 | `Tags`                  | Multi-select | 文章标签                                      |
 | `Slug`                  | Rich text    | 可选，自定义文章文件名和 URL slug             |
 
-脚本也兼容中文字段名：`标题`、`摘要`、`已发布`、`发布日期`、`标签`、`路径`。
+脚本也兼容中文字段名：`标题`、`摘要`、`已发布`、`发布日期`、`更新时间`、`标签`、`路径`。
 
 每篇同步文章会生成以下 frontmatter：
 
@@ -184,7 +185,8 @@ src/pages/reading.astro
 ---
 title: "文章标题"
 description: "文章摘要"
-pubDatetime: "2026-05-02T00:00:00.000Z"
+pubDatetime: 2026-05-02T00:00:00.000Z
+modDatetime: 2026-05-03T00:00:00.000Z
 tags: ["AI", "学习笔记"]
 draft: false
 ---
