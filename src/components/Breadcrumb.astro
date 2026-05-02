@@ -1,0 +1,58 @@
+---
+import { stripBase, withBase } from "@/utils/withBase";
+
+const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
+const pathSegments = stripBase(currentUrlPath).split("/").filter(Boolean);
+
+const labelMap: Record<string, string> = {
+  blog: "AI学习笔记",
+  tags: "文章标签",
+  about: "关于我",
+  projects: "项目展示",
+  notes: "碎碎念",
+};
+
+const breadcrumbList = pathSegments.map((segment, index) => {
+  const previousSegment = pathSegments[index - 1];
+  const isPageNumber =
+    ["blog", "tags"].includes(previousSegment) &&
+    !Number.isNaN(Number(segment));
+  const label = isPageNumber
+    ? `第 ${segment} 页`
+    : (labelMap[segment] ?? decodeURIComponent(segment));
+
+  return {
+    label,
+    href: withBase(`/${pathSegments.slice(0, index + 1).join("/")}/`),
+  };
+});
+---
+
+<nav class="app-layout mt-8 mb-1" aria-label="breadcrumb">
+  <ul
+    class="font-light [&>li]:inline [&>li:not(:last-child)>a]:hover:opacity-100"
+  >
+    <li>
+      <a href={withBase("/")} class="opacity-80">Home</a>
+      <span aria-hidden="true" class="opacity-80">&raquo;</span>
+    </li>
+    {
+      breadcrumbList.map(({ label, href }, index) =>
+        index + 1 === breadcrumbList.length ? (
+          <li>
+            <span class="opacity-75" aria-current="page">
+              {label}
+            </span>
+          </li>
+        ) : (
+          <li>
+            <a href={href} class="opacity-70">
+              {label}
+            </a>
+            <span aria-hidden="true">&raquo;</span>
+          </li>
+        )
+      )
+    }
+  </ul>
+</nav>
