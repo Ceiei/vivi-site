@@ -8,6 +8,7 @@ const MANIFEST_FILE = path.join(BLOG_DIR, ".notion-sync-manifest.json");
 
 const notionToken = process.env.NOTION_TOKEN;
 const databaseId = process.env.NOTION_DATABASE_ID;
+const configuredDataSourceId = process.env.NOTION_DATA_SOURCE_ID;
 
 if (!notionToken || !databaseId) {
   throw new Error(
@@ -15,7 +16,10 @@ if (!notionToken || !databaseId) {
   );
 }
 
-const notion = new Client({ auth: notionToken });
+const notion = new Client({
+  auth: notionToken,
+  notionVersion: "2025-09-03",
+});
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
 const PROPERTY_ALIASES = {
@@ -24,6 +28,15 @@ const PROPERTY_ALIASES = {
   published: ["Published", "Publish", "已发布", "发布"],
   status: ["Status", "状态"],
   pubDatetime: ["PubDatetime", "Published At", "Date", "发布日期", "发布时间"],
+  modDatetime: [
+    "ModDatetime",
+    "Updated At",
+    "Last Edited",
+    "Last Updated",
+    "更新时间",
+    "最后更新",
+    "修改时间",
+  ],
   tags: ["Tags", "Tag", "标签", "分类"],
   slug: ["Slug", "URL Slug", "路径"],
 };
@@ -64,6 +77,17 @@ function readDate(properties) {
     return new Date(property.date.start).toISOString();
   }
   return new Date().toISOString();
+}
+
+function readOptionalDate(properties, aliases) {
+  const property = getProperty(properties, aliases);
+  if (property?.type === "date" && property.date?.start) {
+    return new Date(property.date.start).toISOString();
+  }
+  if (property?.type === "last_edited_time" && property.last_edited_time) {
+    return new Date(property.last_edited_time).toISOString();
+  }
+  return undefined;
 }
 
 function readTags(properties) {
@@ -117,26 +141,50 @@ function yamlArray(values) {
   return `[${values.map(value => yamlString(value)).join(", ")}]`;
 }
 
-function toFrontmatter({ title, description, pubDatetime, tags }) {
-  return [
+function toFrontmatter({ title, description, pubDatetime, modDatetime, tags }) {
+  const frontmatter = [
     "---",
     `title: ${yamlString(title)}`,
     `description: ${yamlString(description)}`,
     `pubDatetime: ${pubDatetime}`,
-    `tags: ${yamlArray(tags)}`,
-    "draft: false",
-    "---",
-    "",
-  ].join("\n");
+  ];
+
+  if (modDatetime) {
+    frontmatter.push(`modDatetime: ${modDatetime}`);
+  }
+
+  frontmatter.push(`tags: ${yamlArray(tags)}`, "draft: false", "---", "");
+
+  return frontmatter.join("\n");
+}
+
+async function resolveDataSourceId() {
+  if (configuredDataSourceId) return configuredDataSourceId;
+
+  try {
+    const database = await notion.databases.retrieve({
+      database_id: databaseId,
+    });
+    const dataSource = database.data_sources?.[0];
+
+    if (dataSource?.id) return dataSource.id;
+  } catch (error) {
+    process.stderr.write(
+      `Could not retrieve database metadata. Treating NOTION_DATABASE_ID as a data source id.\n${error.message ?? error}\n`
+    );
+  }
+
+  return databaseId;
 }
 
 async function queryAllPages() {
   const pages = [];
   let cursor;
+  const dataSourceId = await resolveDataSourceId();
 
   do {
-    const response = await notion.databases.query({
-      database_id: databaseId,
+    const response = await notion.dataSources.query({
+      data_source_id: dataSourceId,
       start_cursor: cursor,
       page_size: 100,
     });
@@ -178,6 +226,10 @@ async function pageToMarkdown(page) {
     "AI 学习笔记"
   );
   const pubDatetime = readDate(properties);
+  const modDatetime = readOptionalDate(
+    properties,
+    PROPERTY_ALIASES.modDatetime
+  );
   const tags = readTags(properties);
   const explicitSlug = readText(properties, PROPERTY_ALIASES.slug, "");
   const slug = slugify(explicitSlug || title, page.id);
@@ -188,7 +240,13 @@ async function pageToMarkdown(page) {
 
   return {
     fileName: `${slug}.md`,
-    content: `${toFrontmatter({ title, description, pubDatetime, tags })}${body.trim()}\n`,
+    content: `${toFrontmatter({
+      title,
+      description,
+      pubDatetime,
+      modDatetime,
+      tags,
+    })}${body.trim()}\n`,
   };
 }
 

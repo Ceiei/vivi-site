@@ -159,6 +159,7 @@ src/pages/reading.astro
 
 - `NOTION_TOKEN`：Notion Integration 的 Secret。
 - `NOTION_DATABASE_ID`：Notion Database ID。
+- `NOTION_DATA_SOURCE_ID`：可选。新版 Notion API 使用 data source 查询；脚本会优先自动从 database 解析 data source id。只有自动解析失败时才需要手动添加这个 Secret。
 
 `.github/workflows/notion-sync.yml` 会在北京时间每天 08:00 自动运行，也可以在 Actions 页面手动触发。
 
@@ -172,10 +173,11 @@ src/pages/reading.astro
 | `Description`           | Rich text    | 文章摘要，会写入 frontmatter 的 `description` |
 | `Published`             | Checkbox     | 勾选后才会同步                                |
 | `PubDatetime` 或 `Date` | Date         | 发布日期，会写入 `pubDatetime`                |
+| `ModDatetime`           | Date         | 可选，上次更新时间，会写入 `modDatetime`      |
 | `Tags`                  | Multi-select | 文章标签                                      |
 | `Slug`                  | Rich text    | 可选，自定义文章文件名和 URL slug             |
 
-脚本也兼容中文字段名：`标题`、`摘要`、`已发布`、`发布日期`、`标签`、`路径`。
+脚本也兼容中文字段名：`标题`、`摘要`、`已发布`、`发布日期`、`更新时间`、`标签`、`路径`。
 
 每篇同步文章会生成以下 frontmatter：
 
@@ -183,7 +185,8 @@ src/pages/reading.astro
 ---
 title: "文章标题"
 description: "文章摘要"
-pubDatetime: "2026-05-02T00:00:00.000Z"
+pubDatetime: 2026-05-02T00:00:00.000Z
+modDatetime: 2026-05-03T00:00:00.000Z
 tags: ["AI", "学习笔记"]
 draft: false
 ---
