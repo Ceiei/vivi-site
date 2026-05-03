@@ -71,12 +71,16 @@ const internshipItems = [
 
 const skillGroups = [
   [
-    "Machine Learning",
-    "Deep Learning",
+    "ML/DL",
     "Diffusion Model",
     "LLM",
-    "Agent",
     "RecSys",
+  ],
+  [
+    "Python",
+    "C/C++",
+    "SQL",
+    "R",
   ],
 ];
 
@@ -101,7 +105,7 @@ const aboutNavItems = [
       <section id="about-intro" class="scroll-mt-24 space-y-8">
         <SectionHeader title="关于我" />
 
-        <div class="grid gap-8 lg:grid-cols-[180px_minmax(0,1fr)]">
+        <div class="grid gap-8 lg:grid-cols-[360px_minmax(0,0.86fr)]">
           <aside
             class="flex flex-col items-center gap-4 text-center lg:items-start lg:text-left"
           >
@@ -111,7 +115,7 @@ const aboutNavItems = [
               <img
                 src={avatarSrc}
                 alt="Vivi 的头像"
-                class="h-[300px] w-[300px] rounded-[1.25rem] object-cover"
+                class="h-[500px] w-[360px] rounded-[1.25rem] object-cover"
                 loading="eager"
               />
             </div>
@@ -122,7 +126,7 @@ const aboutNavItems = [
 
           <div class="space-y-6 py-2">
             <p
-              class="max-w-4xl leading-8 text-foreground/85"
+              class="max-w-3xl leading-8 text-foreground/85"
               style="font-family: 'Songti SC', 'SimSun', serif;"
             >
               你好👋，我是 Vivi，<br />
@@ -155,10 +159,10 @@ const aboutNavItems = [
                   type="button"
                   class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                   data-copy-email
-                  data-email="1210670547@qq.com"
+                  data-email="18662816018@163.com"
                 >
                   <IconMail class="size-4" />
-                  1210670547@qq.com
+                  Email
                 </button>
 
                 <button
@@ -196,6 +200,23 @@ const aboutNavItems = [
                         </span>
                       ))}
                     </div>
+                  ))
+                }
+              </div>
+            </div>
+
+            <div class="space-y-4">
+              <p
+                class="text-sm font-semibold tracking-[0.24em] text-foreground/60 uppercase"
+              >
+                英语水平
+              </p>
+              <div class="flex flex-wrap gap-3">
+                {
+                  ["CET-6(611)", "IELTS 7.0"].map(item => (
+                    <span class="rounded-full border border-white/25 bg-[linear-gradient(135deg,rgba(255,255,255,0.30),rgba(255,255,255,0.10))] px-4 py-2 text-sm font-medium text-foreground/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_8px_20px_rgba(0,0,0,0.04)] backdrop-blur-md dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.16),rgba(255,255,255,0.06))] dark:text-foreground">
+                      {item}
+                    </span>
                   ))
                 }
               </div>

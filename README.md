@@ -82,10 +82,7 @@ npm run notion:sync
 - `src/pages/blog/[...page].astro`
 - `src/pages/blog/[...slug]/index.astro`
 
-学习博客页面包含两个内容区：
-
-- AI 学习笔记：内容目录为 `src/content/blog/`，支持 Notion 同步和标签筛选。
-- 碎碎念：内容目录为 `src/content/notes/`，独立 Markdown 文件按时间倒序展示在学习博客页内。
+学习博客页面展示 `src/content/blog/` 中的文章，支持 Notion 同步和标签筛选。
 
 手动新增文章时，在 `src/content/blog/` 下创建 `.md` 文件，并使用下面的 frontmatter：
 
@@ -100,16 +97,6 @@ draft: false
 ```
 
 Notion 自动同步也会写入这个目录。文章 URL 会是 `/blog/文件名/`，标签筛选页面仍然是 `/tags/标签名/`。
-
-新增碎碎念时，在 `src/content/notes/` 下创建 `.md` 文件：
-
-```yaml
----
-date: 2026-05-02T09:00:00.000Z
-mood: "💡"
----
-这里写正文内容。
-```
 
 `mood` 可删除或留空。
 
@@ -206,7 +193,7 @@ src/pages/reading.astro
 }
 ```
 
-如果新模块需要 Markdown 内容，还需要在 `src/content.config.ts` 里新增一个 collection，并在 `src/content/模块名/` 下放 Markdown 文件。可以参考 `notes` collection 的写法。
+如果新模块需要 Markdown 内容，还需要在 `src/content.config.ts` 里新增一个 collection，并在 `src/content/模块名/` 下放 Markdown 文件。
 
 ## GitHub Pages 配置
 
@@ -267,7 +254,6 @@ draft: false
 - `src/data/publications.ts`：论文发表数据。
 - `src/data/awards.ts`：获奖情况数据。
 - `src/content/blog/`：博客文章 Markdown，Notion 同步输出目录。
-- `src/content/notes/`：碎碎念 Markdown 内容目录，展示在学习博客页内。
 - `scripts/notion-sync.js`：Notion Database 到 Markdown 的同步脚本。
 - `.github/workflows/deploy.yml`：push 到 `main` 后部署 GitHub Pages。
 - `.github/workflows/notion-sync.yml`：每天定时同步 Notion 并部署。
