@@ -74,18 +74,12 @@ const isActive = (path: string) => {
       >
         <li class="col-span-2">
           <a
-            href={withBase("/")}
-            class:list={{ "active-nav": isActive("/") }}
+            href={withBase("/about")}
+            class:list={{
+              "active-nav": isActive("/about") || currentPath === "/",
+            }}
           >
             关于我
-          </a>
-        </li>
-        <li class="col-span-2">
-          <a
-            href={withBase("/blog")}
-            class:list={{ "active-nav": isActive("/blog") }}
-          >
-            AI学习笔记
           </a>
         </li>
         <li class="col-span-2">
@@ -93,15 +87,15 @@ const isActive = (path: string) => {
             href={withBase("/projects")}
             class:list={{ "active-nav": isActive("/projects") }}
           >
-            项目展示
+            项目汇总
           </a>
         </li>
         <li class="col-span-2">
           <a
-            href={withBase("/notes")}
-            class:list={{ "active-nav": isActive("/notes") }}
+            href={withBase("/blog")}
+            class:list={{ "active-nav": isActive("/blog") }}
           >
-            碎碎念
+            学习博客
           </a>
         </li>
         {

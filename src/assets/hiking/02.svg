@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2ffe9" />
+      <stop offset="100%" stop-color="#9de3b7" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f6b47" />
+      <stop offset="100%" stop-color="#1d3f2e" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="36" fill="url(#g1)" />
+  <circle cx="610" cy="120" r="52" fill="#fff7c7" opacity="0.95" />
+  <path d="M60 476 160 340l94 116 114-190 132 130 112-126 128 206H60Z" fill="url(#g2)" />
+  <path d="M320 476 402 362l80 114H320Z" fill="#28573d" opacity="0.9" />
+  <rect x="56" y="66" width="188" height="62" rx="31" fill="#ffffffaa" />
+  <text x="150" y="106" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#21422f">Hiking 02</text>
+</svg>

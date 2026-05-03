@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbe8ff" />
+      <stop offset="100%" stop-color="#8db7ff" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3455a1" />
+      <stop offset="100%" stop-color="#24396e" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="36" fill="url(#g1)" />
+  <circle cx="620" cy="120" r="56" fill="#fff3b4" opacity="0.95" />
+  <path d="M80 470h640v-38l-72-52-82 26-102-66-106 54-98-42-82 36-98 44v38Z" fill="url(#g2)" />
+  <path d="M250 470c50-88 106-140 160-140s110 52 160 140" stroke="#fff" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round" />
+  <rect x="56" y="66" width="200" height="62" rx="31" fill="#ffffffaa" />
+  <text x="156" y="106" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#20315a">Travel 01</text>
+</svg>

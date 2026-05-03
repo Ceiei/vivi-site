@@ -1,4 +1,722 @@
 ---
-return Astro.redirect("/");
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import SideNav from "@/components/SideNav.astro";
+import SectionHeader from "@/components/about/SectionHeader.astro";
+import TimelineItem from "@/components/about/TimelineItem.astro";
+import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconMail from "@/assets/icons/IconMail.svg";
+import IconWeChat from "@/assets/icons/IconWeChat.svg";
+import IconArxiv from "@/assets/icons/IconArxiv.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import avatar from "@/assets/avatar.jpg";
+import wechatQr from "@/assets/wechat-qr.jpg";
+import { SITE } from "@/config";
+import { withBase } from "@/utils/withBase";
+import getSortedPosts from "@/utils/getSortedPosts";
+import { getPath } from "@/utils/getPath";
+import { projects } from "@/data/projects";
+import { publications } from "@/data/publications";
+import { awards } from "@/data/awards";
+import { running } from "@/data/running";
+import { hiking, travel } from "@/data/hobbies";
+
+const avatarSrc = avatar.src ?? avatar;
+const wechatQrSrc = wechatQr.src ?? wechatQr;
+const latestProjects = projects.slice(0, 3);
+const latestPublications = publications.slice(0, 1);
+const latestAwards = awards;
+const latestPosts = getSortedPosts(await getCollection("blog")).slice(0, 3);
+const displayName = "陈思微 Vivi";
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("zh-CN", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+
+const educationItems = [
+  {
+    title: "上海交通大学",
+    meta: "数学科学学院 · 应用统计 · 理学硕士",
+    timeframe: "2026.09 - 2028.07",
+  },
+  {
+    title: "华东师范大学",
+    meta: "统计学院 · 统计学 + 计算机科学与技术（双学位） · 理学 + 工学学士",
+    timeframe: "2022.09 - 2026.07",
+  },
+];
+
+const internshipItems = [
+  {
+    title: "腾讯",
+    meta: "IEG · 数据科学实习生",
+    timeframe: "2026.05 - 至今",
+  },
+  {
+    title: "莉莉丝游戏",
+    meta: "发行技术与数据中台 · 数据风控实习生",
+    timeframe: "2025.12 - 2026.05",
+  },
+  {
+    title: "字节跳动",
+    meta: "TikTok Shop · 策略分析实习生",
+    timeframe: "2025.08 - 2025.12",
+  },
+];
+
+const skillGroups = [
+  [
+    "Machine Learning",
+    "Deep Learning",
+    "Diffusion Model",
+    "LLM",
+    "Agent",
+    "RecSys",
+  ],
+];
+
+const aboutNavItems = [
+  { href: "#about-intro", label: "关于我" },
+  { href: "#education", label: "教育背景" },
+  { href: "#internships", label: "实习经历" },
+  { href: "#publications", label: "论文发表" },
+  { href: "#awards", label: "获奖情况" },
+  { href: "#project-intro", label: "项目介绍" },
+  { href: "#blog", label: "学习博客" },
+  { href: "#hobbies", label: "兴趣爱好" },
+];
 ---
->>>>>>> fix-notion-sync
+
+<Layout title={`关于我 | ${SITE.title}`}>
+  <Header />
+  <SideNav items={aboutNavItems} />
+
+  <main id="main-content" class="app-layout py-12 sm:py-16">
+    <div class="space-y-12">
+      <section id="about-intro" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="关于我" />
+
+        <div class="grid gap-8 lg:grid-cols-[180px_minmax(0,1fr)]">
+          <aside
+            class="flex flex-col items-center gap-4 text-center lg:items-start lg:text-left"
+          >
+            <div
+              class="overflow-hidden rounded-[1.75rem] border border-border bg-muted/30 p-2 shadow-sm"
+            >
+              <img
+                src={avatarSrc}
+                alt="Vivi 的头像"
+                class="h-[300px] w-[300px] rounded-[1.25rem] object-cover"
+                loading="eager"
+              />
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold tracking-tight">{displayName}</h3>
+            </div>
+          </aside>
+
+          <div class="space-y-6 py-2">
+            <p
+              class="max-w-4xl leading-8 text-foreground/85"
+              style="font-family: 'Songti SC', 'SimSun', serif;"
+            >
+              你好👋，我是 Vivi，<br />
+              04 年江苏人，ISTJ-A/天蝎座，<br />
+              华东师范大学统计学+计算机科学与技术大四本科生，预计于 2026 年 9 月入学上海交通大学攻读应用统计硕士。<br
+              />
+              28 届应届毕业生，先后在字节跳动、莉莉丝游戏和腾讯进行实习，分别参与策略分析、数据风控和数据科学相关工作。<br
+              />
+              我主要关注机器学习、LLM 和 Agent 在业务场景中的落地应用。
+            </p>
+
+            <div class="space-y-3">
+              <p
+                class="text-sm font-semibold tracking-[0.24em] text-foreground/60 uppercase"
+              >
+                联系方式
+              </p>
+              <div class="flex flex-wrap items-center gap-3">
+                <a
+                  href="https://github.com/Ceiei"
+                  class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <IconGitHub class="size-4" />
+                  GitHub
+                </a>
+
+                <button
+                  type="button"
+                  class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  data-copy-email
+                  data-email="1210670547@qq.com"
+                >
+                  <IconMail class="size-4" />
+                  1210670547@qq.com
+                </button>
+
+                <button
+                  type="button"
+                  class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  data-open-wechat
+                >
+                  <IconWeChat class="size-4" />
+                  WeChat
+                </button>
+
+                <span
+                  class="text-sm text-accent opacity-0 transition-opacity duration-200"
+                  data-copy-status
+                  aria-live="polite"
+                >
+                  已复制到剪贴板
+                </span>
+              </div>
+            </div>
+
+            <div class="space-y-4">
+              <p
+                class="text-sm font-semibold tracking-[0.24em] text-foreground/60 uppercase"
+              >
+                技能标签
+              </p>
+              <div class="space-y-3">
+                {
+                  skillGroups.map(group => (
+                    <div class="flex flex-wrap gap-3">
+                      {group.map(skill => (
+                        <span class="rounded-full border border-white/25 bg-[linear-gradient(135deg,rgba(255,255,255,0.30),rgba(255,255,255,0.10))] px-4 py-2 text-sm font-medium text-foreground/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_8px_20px_rgba(0,0,0,0.04)] backdrop-blur-md dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.16),rgba(255,255,255,0.06))] dark:text-foreground">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  ))
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="education" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="教育背景" />
+        <ul class="space-y-5">
+          {
+            educationItems.map(item => (
+              <TimelineItem
+                title={item.title}
+                meta={item.meta}
+                timeframe={item.timeframe}
+              />
+            ))
+          }
+        </ul>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="internships" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="实习经历" />
+        <ul class="space-y-5">
+          {
+            internshipItems.map(item => (
+              <TimelineItem
+                title={item.title}
+                meta={item.meta}
+                timeframe={item.timeframe}
+              />
+            ))
+          }
+        </ul>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="publications" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="论文发表">
+          <a
+            slot="action"
+            class="inline-flex items-center gap-1 text-sm font-medium text-accent transition hover:underline"
+            href={withBase("/projects#publications")}
+          >
+            查看全部
+            <IconArrowRight class="size-4 rtl:-rotate-180" />
+          </a>
+        </SectionHeader>
+
+        <div class="grid gap-5 lg:grid-cols-1">
+          {
+            latestPublications.map(publication => (
+              <article class="rounded-3xl border border-border bg-muted/20 p-5 transition hover:border-accent/50 hover:bg-muted/30">
+                <div class="flex flex-wrap items-start justify-between gap-3">
+                  <div class="space-y-2">
+                    <a
+                      href={withBase(`/publications/${publication.slug}`)}
+                      class="text-lg font-semibold transition hover:text-accent"
+                    >
+                      {publication.title}
+                    </a>
+                    <p class="text-sm text-foreground/65">
+                      {publication.authors.join(" · ")} · {publication.venue}{" "}
+                      {publication.year}
+                      {publication.status && ` · ${publication.status}`}
+                    </p>
+                  </div>
+                  <a
+                    href={publication.arxivUrl}
+                    class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <IconArxiv class="size-4" />
+                    arXiv
+                  </a>
+                </div>
+
+                <p class="mt-4 leading-7 text-foreground/80">
+                  {publication.abstract}
+                </p>
+
+                <div class="mt-5 flex flex-wrap gap-3">
+                  <a
+                    href={withBase(`/publications/${publication.slug}`)}
+                    class="inline-flex items-center gap-1 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  >
+                    查看详情
+                    <IconArrowRight class="size-4 rtl:-rotate-180" />
+                  </a>
+                  {publication.openreviewUrl && (
+                    <a
+                      href={publication.openreviewUrl}
+                      class="inline-flex items-center gap-1 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      OpenReview
+                      <IconArrowRight class="size-4 rtl:-rotate-180" />
+                    </a>
+                  )}
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="awards" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="获奖情况">
+          <a
+            slot="action"
+            class="inline-flex items-center gap-1 text-sm font-medium text-accent transition hover:underline"
+            href={withBase("/projects#awards")}
+          >
+            查看全部
+            <IconArrowRight class="size-4 rtl:-rotate-180" />
+          </a>
+        </SectionHeader>
+
+        <div class="grid gap-5">
+          {
+            latestAwards.map(award => {
+              const hasAwardDetails = Boolean(
+                award.researchQuestions?.length ||
+                award.solution?.length ||
+                award.contributions?.length
+              );
+
+              return (
+                <article class="rounded-3xl border border-border bg-muted/20 p-5 transition hover:border-accent/50 hover:bg-muted/30">
+                  <div class="flex flex-wrap items-start justify-between gap-4">
+                    <div class="space-y-2">
+                      <a
+                        href={withBase(`/awards/${award.slug}`)}
+                        class="text-lg font-semibold transition hover:text-accent"
+                      >
+                        {award.competitionName}
+                      </a>
+                      <p class="text-sm text-foreground/65">
+                        {award.organizer} · {award.year} · {award.award}
+                      </p>
+                    </div>
+
+                    <a
+                      href={withBase(`/awards/${award.slug}`)}
+                      class="inline-flex items-center gap-1 text-sm font-medium text-accent transition hover:underline"
+                    >
+                      {hasAwardDetails ? "查看详情" : "查看证书"}
+                      <IconArrowRight class="size-4 rtl:-rotate-180" />
+                    </a>
+                  </div>
+
+                  {hasAwardDetails && (
+                    <p class="mt-4 leading-7 text-foreground/80">
+                      {award.description}
+                    </p>
+                  )}
+
+                  {hasAwardDetails && award.role && (
+                    <p class="mt-4 text-sm text-foreground/70">
+                      承担角色：{award.role}
+                    </p>
+                  )}
+
+                  <ul class="mt-5 flex flex-wrap gap-2">
+                    {award.tags.map(tag => (
+                      <li class="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                        {tag}
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              );
+            })
+          }
+        </div>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="project-intro" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="项目介绍">
+          <a
+            slot="action"
+            class="inline-flex items-center gap-1 text-sm font-medium text-accent transition hover:underline"
+            href={withBase("/projects#project-intro")}
+          >
+            查看全部
+            <IconArrowRight class="size-4 rtl:-rotate-180" />
+          </a>
+        </SectionHeader>
+
+        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {
+            latestProjects.map(project => (
+              <article class="group flex h-full flex-col rounded-3xl border border-border bg-muted/20 p-5 transition hover:border-accent/50 hover:bg-muted/30">
+                <h3 class="text-lg leading-snug font-semibold transition group-hover:text-accent">
+                  <a href={withBase(`/projects/${project.slug}`)}>
+                    {project.title}
+                  </a>
+                </h3>
+                <p class="mt-3 flex-1 leading-7 text-foreground/80">
+                  {project.description}
+                </p>
+                <ul class="mt-4 flex flex-wrap gap-2">
+                  {project.tags.map(tag => (
+                    <li class="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                      {tag}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={withBase(`/projects/${project.slug}`)}
+                  class="mt-5 inline-flex items-center gap-1 self-end text-sm font-medium text-accent transition hover:underline"
+                >
+                  查看详情
+                  <IconArrowRight class="size-4 rtl:-rotate-180" />
+                </a>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="blog" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="学习博客">
+          <a
+            slot="action"
+            class="inline-flex items-center gap-1 text-sm font-medium text-accent transition hover:underline"
+            href={withBase("/blog")}
+          >
+            查看全部
+            <IconArrowRight class="size-4 rtl:-rotate-180" />
+          </a>
+        </SectionHeader>
+
+        <div class="space-y-3">
+          {
+            latestPosts.map(post => (
+              <article class="rounded-3xl border border-border bg-muted/20 px-5 py-4 transition hover:border-accent/50 hover:bg-muted/30">
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <div class="min-w-0">
+                    <a
+                      href={getPath(post.id, post.filePath)}
+                      class="block truncate text-lg font-semibold transition hover:text-accent"
+                    >
+                      {post.data.title}
+                    </a>
+                    <p class="mt-1 line-clamp-1 text-sm text-foreground/70">
+                      {post.data.description}
+                    </p>
+                  </div>
+                  <p class="shrink-0 text-sm text-foreground/60">
+                    {formatDate(post.data.pubDatetime)}
+                  </p>
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <hr class="border-border/80" />
+
+      <section id="hobbies" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="兴趣爱好" />
+
+        <div class="space-y-10">
+          <section class="space-y-4">
+            <h3 class="text-2xl font-semibold">跑步</h3>
+            <div class="grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
+              <article
+                class="overflow-hidden rounded-3xl border border-border bg-muted/15 p-5"
+              >
+                <div class="flex items-center justify-between gap-4">
+                  <div>
+                    <p
+                      class="text-sm tracking-[0.24em] text-foreground/55 uppercase"
+                    >
+                      Running Gallery
+                    </p>
+                    <h4 class="mt-2 text-xl font-semibold">本月跑量</h4>
+                  </div>
+                  <div
+                    class="rounded-full bg-accent/10 px-4 py-2 text-sm font-medium text-accent"
+                  >
+                    {running.monthlyKm} km
+                  </div>
+                </div>
+
+                <div
+                  class="mt-5 grid gap-4 sm:grid-cols-[1fr_auto] sm:items-center"
+                >
+                  <div
+                    class="flex justify-center rounded-3xl bg-background/70 p-4"
+                  >
+                    <svg
+                      viewBox="0 0 220 160"
+                      class="h-40 w-full max-w-xs text-accent/75"
+                      aria-hidden="true"
+                    >
+                      <ellipse
+                        cx="110"
+                        cy="80"
+                        rx="74"
+                        ry="50"
+                        class="fill-none stroke-current"
+                        stroke-width="10"
+                        stroke-dasharray="10 8"></ellipse>
+                      <ellipse
+                        cx="110"
+                        cy="80"
+                        rx="50"
+                        ry="28"
+                        class="fill-none stroke-current"
+                        stroke-width="2"
+                        stroke-dasharray="4 6"></ellipse>
+                      <path
+                        d="M68 80h84"
+                        class="stroke-current"
+                        stroke-width="2"
+                        opacity="0.4"></path>
+                      <path
+                        d="M110 30v100"
+                        class="stroke-current"
+                        stroke-width="2"
+                        opacity="0.25"></path>
+                      <circle
+                        cx="164"
+                        cy="80"
+                        r="6"
+                        fill="currentColor"
+                        opacity="0.9"></circle>
+                    </svg>
+                  </div>
+
+                  <div class="space-y-3 text-sm text-foreground/70">
+                    <p>最后更新：{running.lastUpdated}</p>
+                    <p>// TODO: 后续可替换为 Strava API 自动同步</p>
+                  </div>
+                </div>
+              </article>
+
+              <article
+                class="overflow-hidden rounded-3xl border border-border bg-muted/15 p-5"
+              >
+                <h4 class="text-lg font-semibold">跑步记录预览</h4>
+                <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                  {
+                    [
+                      { label: "月跑量", value: `${running.monthlyKm} km` },
+                      { label: "更新月份", value: running.lastUpdated },
+                    ].map(stat => (
+                      <div class="rounded-2xl border border-border bg-background/70 p-4">
+                        <p class="text-sm tracking-[0.2em] text-foreground/55 uppercase">
+                          {stat.label}
+                        </p>
+                        <p class="mt-2 text-2xl font-semibold text-accent">
+                          {stat.value}
+                        </p>
+                      </div>
+                    ))
+                  }
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="space-y-4">
+            <h3 class="text-2xl font-semibold">徒步</h3>
+            <div class="overflow-x-auto pb-2 [scrollbar-width:thin]">
+              <div class="flex w-max snap-x snap-mandatory gap-4 pr-2">
+                {
+                  hiking.map(item => {
+                    return (
+                      <article class="w-[min(76vw,17rem)] shrink-0 snap-start overflow-hidden rounded-3xl border border-border bg-muted/15">
+                        <div class="aspect-[3/4] bg-gradient-to-br from-amber-100 via-sky-100 to-emerald-100 p-2 dark:from-amber-950/30 dark:via-sky-900/20 dark:to-emerald-900/20">
+                          {item.image && (
+                            <img
+                              src={item.image}
+                              alt={item.location}
+                              class="size-full rounded-2xl bg-background/70 object-contain"
+                              loading="lazy"
+                            />
+                          )}
+                        </div>
+                        <div class="space-y-1 p-4">
+                          <p class="font-medium">{item.location}</p>
+                        </div>
+                      </article>
+                    );
+                  })
+                }
+              </div>
+            </div>
+          </section>
+
+          <section class="space-y-4">
+            <h3 class="text-2xl font-semibold">旅行</h3>
+            <div class="overflow-x-auto pb-2 [scrollbar-width:thin]">
+              <div class="flex w-max snap-x snap-mandatory gap-4 pr-2">
+                {
+                  travel.map(item => {
+                    return (
+                      <article class="w-[min(76vw,17rem)] shrink-0 snap-start overflow-hidden rounded-3xl border border-border bg-muted/15">
+                        <div class="aspect-[3/4] bg-gradient-to-br from-rose-100 via-orange-100 to-cyan-100 p-2 dark:from-rose-950/30 dark:via-orange-900/20 dark:to-cyan-900/20">
+                          {item.image && (
+                            <img
+                              src={item.image}
+                              alt={item.location}
+                              class="size-full rounded-2xl bg-background/70 object-contain"
+                              loading="lazy"
+                            />
+                          )}
+                        </div>
+                        <div class="space-y-1 p-4">
+                          <p class="font-medium">{item.location}</p>
+                        </div>
+                      </article>
+                    );
+                  })
+                }
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <dialog
+    class="w-[min(92vw,24rem)] rounded-3xl border border-border bg-background p-0 shadow-2xl"
+    data-wechat-dialog
+  >
+    <div class="space-y-4 p-5 sm:p-6">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-lg font-semibold">WeChat 二维码</h3>
+          <p class="mt-1 text-sm text-foreground/60">扫码后请备注来意。</p>
+        </div>
+        <button
+          type="button"
+          class="rounded-full border border-border px-3 py-1 text-sm transition hover:border-accent hover:text-accent"
+          data-close-wechat
+        >
+          关闭
+        </button>
+      </div>
+
+      <img
+        src={wechatQrSrc}
+        alt="WeChat 二维码"
+        class="w-full rounded-2xl border border-border"
+      />
+    </div>
+  </dialog>
+
+  <Footer />
+</Layout>
+
+<script is:inline>
+  const copyButton = document.querySelector("[data-copy-email]");
+  const copyStatus = document.querySelector("[data-copy-status]");
+  const wechatDialog = document.querySelector("[data-wechat-dialog]");
+  const openWechatButton = document.querySelector("[data-open-wechat]");
+  const closeWechatButton = document.querySelector("[data-close-wechat]");
+
+  if (copyButton && copyStatus) {
+    let hideStatusTimer;
+
+    copyButton.addEventListener("click", async () => {
+      const email = copyButton.getAttribute("data-email") ?? "";
+
+      try {
+        await navigator.clipboard.writeText(email);
+        copyStatus.textContent = "已复制到剪贴板";
+        copyStatus.classList.remove("opacity-0");
+        copyStatus.classList.add("opacity-100");
+
+        window.clearTimeout(hideStatusTimer);
+        hideStatusTimer = window.setTimeout(() => {
+          copyStatus.classList.remove("opacity-100");
+          copyStatus.classList.add("opacity-0");
+        }, 1800);
+      } catch {
+        copyStatus.textContent = "复制失败，请手动复制";
+        copyStatus.classList.remove("opacity-0");
+        copyStatus.classList.add("opacity-100");
+      }
+    });
+  }
+
+  if (wechatDialog && openWechatButton) {
+    openWechatButton.addEventListener("click", () => {
+      if (typeof wechatDialog.showModal === "function") {
+        wechatDialog.showModal();
+      }
+    });
+  }
+
+  if (wechatDialog && closeWechatButton) {
+    closeWechatButton.addEventListener("click", () => {
+      wechatDialog.close();
+    });
+
+    wechatDialog.addEventListener("click", event => {
+      if (event.target === wechatDialog) {
+        wechatDialog.close();
+      }
+    });
+  }
+</script>

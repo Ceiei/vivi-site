@@ -34,7 +34,7 @@ git push origin main
 
 如果出现冲突，先在本地解决冲突，再重新执行 build 和 push。
 
-这是一个基于 AstroPaper 的个人网站，包含关于我、AI 学习笔记、项目展示和碎碎念四个模块。AI 学习笔记支持把 Notion Database 中已发布的页面同步为 Markdown，并通过 GitHub Actions 自动部署到 GitHub Pages。
+这是一个基于 AstroPaper 的个人网站，当前入口包含关于我、项目汇总和学习博客三个页面。学习博客支持把 Notion Database 中已发布的页面同步为 Markdown，并通过 GitHub Actions 自动部署到 GitHub Pages。
 
 ## 本地运行
 
@@ -61,7 +61,7 @@ npm run notion:sync
 
 同步后的 Markdown 会输出到 `src/content/blog/`。
 
-## 四个模块如何修改
+## 页面模块如何修改
 
 ### 关于我
 
@@ -75,14 +75,17 @@ npm run notion:sync
 - 技能标签：修改 `skills` 数组。
 - 联系方式：修改 `contacts` 数组里的 GitHub 和 Email 链接。
 
-### AI 学习笔记
+### 学习博客
 
 列表页和详情页：
 
 - `src/pages/blog/[...page].astro`
 - `src/pages/blog/[...slug]/index.astro`
 
-文章内容目录：`src/content/blog/`
+学习博客页面包含两个内容区：
+
+- AI 学习笔记：内容目录为 `src/content/blog/`，支持 Notion 同步和标签筛选。
+- 碎碎念：内容目录为 `src/content/notes/`，独立 Markdown 文件按时间倒序展示在学习博客页内。
 
 手动新增文章时，在 `src/content/blog/` 下创建 `.md` 文件，并使用下面的 frontmatter：
 
@@ -98,11 +101,27 @@ draft: false
 
 Notion 自动同步也会写入这个目录。文章 URL 会是 `/blog/文件名/`，标签筛选页面仍然是 `/tags/标签名/`。
 
-### 项目展示
+新增碎碎念时，在 `src/content/notes/` 下创建 `.md` 文件：
+
+```yaml
+---
+date: 2026-05-02T09:00:00.000Z
+mood: "💡"
+---
+这里写正文内容。
+```
+
+`mood` 可删除或留空。
+
+### 项目汇总
 
 页面文件：`src/pages/projects.astro`
 
-项目数据文件：`src/data/projects.ts`
+项目汇总页面包含三个内容区：
+
+- 项目介绍：数据文件为 `src/data/projects.ts`。
+- 论文发表：数据文件为 `src/data/publications.ts`，详情页在 `src/pages/publications/[slug].astro`。
+- 获奖情况：数据文件为 `src/data/awards.ts`。
 
 新增或修改项目时，编辑 `projects` 数组：
 
@@ -119,23 +138,35 @@ Notion 自动同步也会写入这个目录。文章 URL 会是 `/blog/文件名
 
 `demoUrl` 为空时页面会自动隐藏 Demo 链接。`coverImage` 可填 `/images/example.png` 这类 public 目录路径，或留空不显示封面。
 
-### 碎碎念
+新增或修改论文时，编辑 `publications` 数组：
 
-页面文件：`src/pages/notes.astro`
-
-内容目录：`src/content/notes/`
-
-每条碎碎念是一个独立 Markdown 文件，不需要标题。新增时创建一个 `.md` 文件：
-
-```yaml
----
-date: 2026-05-02T09:00:00.000Z
-mood: "💡"
----
-这里写正文内容。
+```ts
+{
+  slug: "paper-slug",
+  title: "论文标题",
+  authors: ["Your Name", "Co-author"],
+  venue: "Conference",
+  year: 2026,
+  abstract: "论文摘要。",
+  openreviewUrl: "https://openreview.net/forum?id=placeholder",
+  arxivUrl: "https://arxiv.org/abs/0000.00000",
+}
 ```
 
-页面会按 `date` 倒序展示。`mood` 可删除或留空。
+新增或修改获奖情况时，编辑 `awards` 数组：
+
+```ts
+{
+  title: "比赛或奖项名称",
+  organizer: "主办方",
+  year: 2026,
+  description: "奖项说明、负责内容和结果。",
+  tags: ["AI", "Data Science"],
+  url: "",
+}
+```
+
+`url` 为空时页面会自动隐藏外部链接。
 
 ## 如何增加新的模块
 
@@ -149,7 +180,7 @@ mood: "💡"
 src/pages/reading.astro
 ```
 
-页面可以参考 `src/pages/projects.astro` 或 `src/pages/notes.astro` 的结构，继续使用 `Layout`、`Header`、`Footer` 和 Tailwind class。
+页面可以参考 `src/pages/projects.astro` 或 `src/pages/blog/[...page].astro` 的结构，继续使用 `Layout`、`Header`、`Footer` 和 Tailwind class。
 
 2. 更新导航栏
 
@@ -231,11 +262,12 @@ draft: false
 - `src/config.ts`：站点名称、作者、SEO 描述、GitHub Pages 地址。
 - `src/pages/about.astro`：关于我页面，包含头像占位、技能标签和联系方式。
 - `src/pages/blog/`：AI 学习笔记列表和文章详情页。
-- `src/pages/projects.astro`：项目展示页面。
-- `src/pages/notes.astro`：碎碎念时间轴/瀑布流页面。
-- `src/data/projects.ts`：项目展示数据。
+- `src/pages/projects.astro`：项目汇总页面，包含项目介绍、论文发表和获奖情况。
+- `src/data/projects.ts`：项目介绍数据。
+- `src/data/publications.ts`：论文发表数据。
+- `src/data/awards.ts`：获奖情况数据。
 - `src/content/blog/`：博客文章 Markdown，Notion 同步输出目录。
-- `src/content/notes/`：碎碎念 Markdown 内容目录。
+- `src/content/notes/`：碎碎念 Markdown 内容目录，展示在学习博客页内。
 - `scripts/notion-sync.js`：Notion Database 到 Markdown 的同步脚本。
 - `.github/workflows/deploy.yml`：push 到 `main` 后部署 GitHub Pages。
 - `.github/workflows/notion-sync.yml`：每天定时同步 Notion 并部署。

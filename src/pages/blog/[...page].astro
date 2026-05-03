@@ -1,6 +1,6 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
@@ -16,17 +16,70 @@ export const getStaticPaths = (async ({ paginate }) => {
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
+const showNotes = page.currentPage === 1;
+const notes = await getCollection("notes");
+const sortedNotes = notes.sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+const renderedNotes = await Promise.all(
+  sortedNotes.map(async note => {
+    const { Content } = await render(note);
+    return { ...note, Content };
+  })
+);
+const dateFormatter = new Intl.DateTimeFormat("zh-CN", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
 ---
 
-<Layout title={`AI学习笔记 | ${SITE.title}`}>
+<Layout title={`学习博客 | ${SITE.title}`}>
   <Header />
   <Main
-    pageTitle="AI学习笔记"
-    pageDesc="论文阅读、模型实践、工具链配置和实验复盘。"
+    pageTitle="学习博客"
+    pageDesc="AI 学习笔记、论文阅读、模型实践、工具链配置、实验复盘和碎碎念。"
   >
-    <ul>
-      {page.data.map(data => <Card {...data} />)}
-    </ul>
+    <section class="space-y-4">
+      <div>
+        <p class="text-sm font-medium tracking-[0.24em] text-accent uppercase">
+          AI Notes
+        </p>
+        <h2 class="mt-2 text-2xl font-semibold tracking-tight">AI学习笔记</h2>
+      </div>
+      <ul>
+        {page.data.map(data => <Card {...data} />)}
+      </ul>
+    </section>
+
+    {
+      showNotes && (
+        <section id="notes" class="mt-12 space-y-6">
+          <div>
+            <p class="text-sm font-medium tracking-[0.24em] text-accent uppercase">
+              Notes
+            </p>
+            <h2 class="mt-2 text-2xl font-semibold tracking-tight">碎碎念</h2>
+          </div>
+
+          <div class="columns-1 gap-5 sm:columns-2">
+            {renderedNotes.map(({ data, Content }) => (
+              <article class="mb-5 break-inside-avoid rounded border border-border p-5">
+                <div class="mb-4 flex items-center justify-between gap-4 text-sm text-foreground/70">
+                  <time datetime={data.date.toISOString()}>
+                    {dateFormatter.format(data.date)}
+                  </time>
+                  {data.mood && <span aria-label="mood">{data.mood}</span>}
+                </div>
+                <div class="app-prose text-sm leading-7">
+                  <Content />
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )
+    }
   </Main>
 
   <Pagination {page} />

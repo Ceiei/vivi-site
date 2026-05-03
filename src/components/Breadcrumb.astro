@@ -5,11 +5,12 @@ const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
 const pathSegments = stripBase(currentUrlPath).split("/").filter(Boolean);
 
 const labelMap: Record<string, string> = {
-  blog: "AI学习笔记",
+  blog: "学习博客",
   tags: "文章标签",
   about: "关于我",
-  projects: "项目展示",
-  notes: "碎碎念",
+  projects: "项目汇总",
+  publications: "论文发表",
+  awards: "获奖情况",
 };
 
 const breadcrumbList = pathSegments.map((segment, index) => {

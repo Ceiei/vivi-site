@@ -1,0 +1,159 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import BackButton from "@/components/BackButton.astro";
+import { SITE } from "@/config";
+import { withBase } from "@/utils/withBase";
+import { awards } from "@/data/awards";
+
+export const getStaticPaths = (async () => {
+  return awards.map(award => ({
+    params: { slug: award.slug },
+    props: { award },
+  }));
+}) satisfies GetStaticPaths;
+
+const { award } = Astro.props;
+const hasProjectDetails = Boolean(
+  award.researchQuestions?.length ||
+  award.solution?.length ||
+  award.contributions?.length
+);
+const certificateUrl = award.certificateUrl
+  ? withBase(award.certificateUrl)
+  : undefined;
+---
+
+<Layout
+  title={`${award.competitionName} | ${SITE.title}`}
+  description={award.description}
+>
+  <Header />
+  <BackButton href="/projects#awards" label="返回项目汇总" />
+
+  <main id="main-content" class="app-layout py-12 sm:py-16">
+    <article
+      class="space-y-8 rounded-3xl border border-border bg-muted/20 p-6 sm:p-8"
+    >
+      <div class="space-y-3">
+        <p class="text-sm font-medium tracking-[0.24em] text-accent uppercase">
+          Award
+        </p>
+        <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">
+          {award.competitionName}
+        </h1>
+        <p class="text-sm text-foreground/65">
+          {award.organizer} · {award.year} · {award.award}
+        </p>
+      </div>
+
+      {
+        hasProjectDetails && (
+          <section class="rounded-2xl border border-border bg-background p-5">
+            <h2 class="text-xl font-semibold">项目简介</h2>
+            <p class="mt-4 text-base leading-8 text-foreground/80">
+              {award.description}
+            </p>
+            <dl class="mt-5 grid gap-4 text-sm text-foreground/75 sm:grid-cols-2">
+              {award.projectTitle && (
+                <div>
+                  <dt class="font-semibold text-foreground">项目名称</dt>
+                  <dd class="mt-1">{award.projectTitle}</dd>
+                </div>
+              )}
+              {award.role && (
+                <div>
+                  <dt class="font-semibold text-foreground">承担角色</dt>
+                  <dd class="mt-1">{award.role}</dd>
+                </div>
+              )}
+              <div>
+                <dt class="font-semibold text-foreground">所获奖项</dt>
+                <dd class="mt-1">{award.award}</dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-foreground">技术标签</dt>
+                <dd class="mt-2 flex flex-wrap gap-2">
+                  {award.tags.map(tag => (
+                    <span class="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                      {tag}
+                    </span>
+                  ))}
+                </dd>
+              </div>
+            </dl>
+          </section>
+        )
+      }
+
+      {
+        hasProjectDetails && (
+          <section class="space-y-5">
+            {award.researchQuestions?.length && (
+              <div class="rounded-2xl border border-border bg-background p-5">
+                <h2 class="text-xl font-semibold">研究问题</h2>
+                <ol class="mt-4 list-decimal space-y-3 ps-5 text-base leading-8 text-foreground/80 marker:font-semibold marker:text-accent">
+                  {award.researchQuestions.map(item => (
+                    <li>{item}</li>
+                  ))}
+                </ol>
+              </div>
+            )}
+
+            {award.solution?.length && (
+              <div class="rounded-2xl border border-border bg-background p-5">
+                <h2 class="text-xl font-semibold">解决方案</h2>
+                <ol class="mt-4 list-decimal space-y-3 ps-5 text-base leading-8 text-foreground/80 marker:font-semibold marker:text-accent">
+                  {award.solution.map(item => (
+                    <li>{item}</li>
+                  ))}
+                </ol>
+              </div>
+            )}
+
+            {award.contributions?.length && (
+              <div class="rounded-2xl border border-border bg-background p-5">
+                <h2 class="text-xl font-semibold">主要贡献</h2>
+                <ol class="mt-4 list-decimal space-y-3 ps-5 text-base leading-8 text-foreground/80 marker:font-semibold marker:text-accent">
+                  {award.contributions.map(item => (
+                    <li>{item}</li>
+                  ))}
+                </ol>
+              </div>
+            )}
+          </section>
+        )
+      }
+
+      {
+        certificateUrl && (
+          <section class="space-y-4">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+              <h2 class="text-xl font-semibold">获奖证书</h2>
+              <a
+                href={certificateUrl}
+                class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                target="_blank"
+                rel="noreferrer"
+              >
+                打开证书
+              </a>
+            </div>
+            <div class="overflow-hidden rounded-2xl border border-border bg-background">
+              <iframe
+                src={certificateUrl}
+                title={`${award.competitionName} 获奖证书`}
+                class="h-[72vh] min-h-[32rem] w-full"
+                loading="lazy"
+              />
+            </div>
+          </section>
+        )
+      }
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

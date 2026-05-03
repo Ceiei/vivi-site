@@ -3,6 +3,14 @@ import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
 import { withBase } from "@/utils/withBase";
+
+type Props = {
+  href?: string;
+  label?: string;
+};
+
+const { href, label = "返回上一级" } = Astro.props;
+const resolvedHref = href ? withBase(href) : withBase("/");
 ---
 
 {
@@ -10,11 +18,12 @@ import { withBase } from "@/utils/withBase";
     <div class="app-layout flex items-center justify-start">
       <LinkButton
         id="back-button"
-        href={withBase("/")}
+        href={resolvedHref}
+        data-static-back-url={href ? "true" : undefined}
         class="focus-outline -ms-2 mt-8 mb-2 hover:text-foreground/75"
       >
         <IconChevronLeft class="inline-block size-6 rtl:rotate-180" />
-        <span>Go back</span>
+        <span>{label}</span>
       </LinkButton>
     </div>
   )
@@ -27,8 +36,9 @@ import { withBase } from "@/utils/withBase";
       document.querySelector("#back-button");
 
     const backUrl = sessionStorage.getItem("backUrl");
+    const hasStaticBackUrl = backButton?.dataset.staticBackUrl === "true";
 
-    if (backUrl && backButton) {
+    if (backUrl && backButton && !hasStaticBackUrl) {
       backButton.href = backUrl;
     }
   }

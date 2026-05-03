@@ -3,61 +3,278 @@ import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import LinkButton from "@/components/LinkButton.astro";
+import SideNav from "@/components/SideNav.astro";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconArxiv from "@/assets/icons/IconArxiv.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { projects } from "@/data/projects";
+import { publications } from "@/data/publications";
+import { awards } from "@/data/awards";
 import { SITE } from "@/config";
+import { withBase } from "@/utils/withBase";
+
+const sortedProjects = [...projects];
+const sortedPublications = [...publications].sort((a, b) => b.year - a.year);
+const sortedAwards = awards;
+const projectNavItems = [
+  { href: "#project-intro", label: "项目介绍" },
+  { href: "#publications", label: "论文发表" },
+  { href: "#awards", label: "获奖情况" },
+];
 ---
 
-<Layout title={`项目展示 | ${SITE.title}`}>
+<Layout
+  title={`项目汇总 | ${SITE.title}`}
+  description="项目介绍、论文发表和获奖情况汇总。"
+>
   <Header />
-  <main id="main-content" class="app-layout py-12 sm:py-16">
-    <section>
-      <p class="mb-3 text-sm font-medium text-accent">Projects</p>
-      <h1 class="text-3xl font-bold sm:text-4xl">项目展示</h1>
-      <p class="mt-4 max-w-2xl leading-8">
-        {/* // TODO: 替换为你的项目页介绍 */}
-        这里展示一些项目、实验和工具原型。数据集中维护在
-        <code>src/data/projects.ts</code>，后续可以直接编辑。
-      </p>
-    </section>
+  <SideNav items={projectNavItems} />
 
-    <section class="mt-10 grid gap-5 sm:grid-cols-2">
-      {
-        projects.map(project => (
-          <article class="rounded border border-border p-5 transition hover:border-accent hover:bg-muted/30">
-            {project.coverImage && (
-              <img
-                src={project.coverImage}
-                alt=""
-                class="mb-5 aspect-video w-full rounded border border-border object-cover"
-              />
-            )}
-            <h2 class="text-xl font-semibold">{project.title}</h2>
-            <p class="mt-3 leading-7">{project.description}</p>
-            <ul class="mt-4 flex flex-wrap gap-2">
-              {project.tags.map(tag => (
-                <li class="rounded border border-border px-2.5 py-1 text-xs">
-                  {tag}
-                </li>
-              ))}
-            </ul>
-            <div class="mt-5 flex flex-wrap gap-3">
-              <LinkButton href={project.githubUrl} target="_blank">
-                <IconGitHub class="inline-block size-4" />
-                GitHub
-              </LinkButton>
-              {project.demoUrl && (
-                <LinkButton href={project.demoUrl} target="_blank">
-                  Demo
-                  <IconArrowRight class="inline-block size-4 rtl:-rotate-180" />
-                </LinkButton>
-              )}
-            </div>
-          </article>
-        ))
-      }
-    </section>
+  <main id="main-content" class="app-layout py-12 sm:py-16">
+    <div class="space-y-12">
+      <section class="space-y-3">
+        <p class="text-sm font-medium tracking-[0.24em] text-accent uppercase">
+          Portfolio
+        </p>
+        <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">项目汇总</h1>
+        <p class="max-w-3xl leading-8 text-foreground/80">
+          这里集中展示项目介绍、论文发表和获奖情况。项目数据维护在 <code
+            >src/data/projects.ts</code
+          >， 论文数据维护在 <code>src/data/publications.ts</code
+          >，获奖数据维护在 <code>src/data/awards.ts</code>。
+        </p>
+      </section>
+
+      <section id="project-intro" class="scroll-mt-24 space-y-6">
+        <div class="space-y-2">
+          <p
+            class="text-sm font-medium tracking-[0.24em] text-accent uppercase"
+          >
+            Projects
+          </p>
+          <h2 class="text-2xl font-semibold tracking-tight sm:text-3xl">
+            项目介绍
+          </h2>
+        </div>
+
+        <div class="grid gap-5">
+          {
+            sortedProjects.map(project => (
+              <article class="rounded-3xl border border-border bg-muted/20 p-6 transition hover:border-accent/50 hover:bg-muted/30">
+                <div class="flex flex-wrap items-start justify-between gap-4">
+                  <div class="space-y-2">
+                    <a
+                      href={withBase(`/projects/${project.slug}`)}
+                      class="text-xl font-semibold transition hover:text-accent"
+                    >
+                      {project.title}
+                    </a>
+                    <p class="text-sm text-foreground/65">
+                      {project.tags.slice(0, 3).join(" · ")}
+                    </p>
+                  </div>
+                </div>
+
+                <p class="mt-3 flex-1 leading-7 text-foreground/80">
+                  {project.description}
+                </p>
+
+                <ul class="mt-4 flex flex-wrap gap-2">
+                  {project.tags.map(tag => (
+                    <li class="rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-medium text-sky-700 dark:border-sky-400/20 dark:bg-sky-400/10 dark:text-sky-200">
+                      {tag}
+                    </li>
+                  ))}
+                </ul>
+
+                <div class="mt-5 flex flex-wrap gap-3">
+                  <LinkButton href={withBase(`/projects/${project.slug}`)}>
+                    查看详情
+                    <IconArrowRight class="size-4 rtl:-rotate-180" />
+                  </LinkButton>
+                  {project.githubUrl && (
+                    <LinkButton
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <IconGitHub class="size-4" />
+                      GitHub
+                    </LinkButton>
+                  )}
+                  {project.demoUrl && (
+                    <LinkButton
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                      <IconArrowRight class="size-4 rtl:-rotate-180" />
+                    </LinkButton>
+                  )}
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <section id="publications" class="scroll-mt-24 space-y-6">
+        <div class="space-y-2">
+          <p
+            class="text-sm font-medium tracking-[0.24em] text-accent uppercase"
+          >
+            Publications
+          </p>
+          <h2 class="text-2xl font-semibold tracking-tight sm:text-3xl">
+            论文发表
+          </h2>
+        </div>
+
+        <div class="grid gap-5">
+          {
+            sortedPublications.map(publication => (
+              <article class="rounded-3xl border border-border bg-muted/20 p-6 transition hover:border-accent/50 hover:bg-muted/30">
+                <div class="flex flex-wrap items-start justify-between gap-4">
+                  <div class="space-y-2">
+                    <a
+                      href={withBase(`/publications/${publication.slug}`)}
+                      class="text-xl font-semibold transition hover:text-accent"
+                    >
+                      {publication.title}
+                    </a>
+                    <p class="text-sm text-foreground/65">
+                      {publication.authors.join(" · ")} · {publication.venue}{" "}
+                      {publication.year}
+                      {publication.status && ` · ${publication.status}`}
+                    </p>
+                  </div>
+
+                  <a
+                    href={publication.arxivUrl}
+                    class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <IconArxiv class="size-4" />
+                    arXiv
+                  </a>
+                </div>
+
+                <p class="mt-4 leading-8 text-foreground/80">
+                  {publication.abstract}
+                </p>
+
+                <div class="mt-5 flex flex-wrap gap-3">
+                  <LinkButton
+                    href={withBase(`/publications/${publication.slug}`)}
+                  >
+                    查看详情
+                    <IconArrowRight class="size-4 rtl:-rotate-180" />
+                  </LinkButton>
+                  {publication.openreviewUrl && (
+                    <LinkButton
+                      href={publication.openreviewUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      OpenReview
+                      <IconArrowRight class="size-4 rtl:-rotate-180" />
+                    </LinkButton>
+                  )}
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <section id="awards" class="scroll-mt-24 space-y-6">
+        <div class="space-y-2">
+          <p
+            class="text-sm font-medium tracking-[0.24em] text-accent uppercase"
+          >
+            Awards
+          </p>
+          <h2 class="text-2xl font-semibold tracking-tight sm:text-3xl">
+            获奖情况
+          </h2>
+        </div>
+
+        <div class="grid gap-5">
+          {
+            sortedAwards.map(award => {
+              const hasAwardDetails = Boolean(
+                award.researchQuestions?.length ||
+                award.solution?.length ||
+                award.contributions?.length
+              );
+
+              return (
+                <article class="rounded-3xl border border-border bg-muted/20 p-6 transition hover:border-accent/50 hover:bg-muted/30">
+                  <div class="flex flex-wrap items-start justify-between gap-4">
+                    <div class="space-y-2">
+                      <a
+                        href={withBase(`/awards/${award.slug}`)}
+                        class="text-xl font-semibold transition hover:text-accent"
+                      >
+                        {award.competitionName}
+                      </a>
+                      <p class="text-sm text-foreground/65">
+                        {award.organizer} · {award.year} · {award.award}
+                      </p>
+                    </div>
+
+                    <LinkButton href={withBase(`/awards/${award.slug}`)}>
+                      {hasAwardDetails ? "查看详情" : "查看证书"}
+                      <IconArrowRight class="size-4 rtl:-rotate-180" />
+                    </LinkButton>
+                  </div>
+
+                  {hasAwardDetails && (
+                    <>
+                      <p class="mt-4 leading-8 text-foreground/80">
+                        {award.description}
+                      </p>
+
+                      {(award.projectTitle || award.role) && (
+                        <dl class="mt-4 grid gap-3 text-sm text-foreground/75 sm:grid-cols-2">
+                          {award.projectTitle && (
+                            <div>
+                              <dt class="font-semibold text-foreground">
+                                项目名称
+                              </dt>
+                              <dd class="mt-1">{award.projectTitle}</dd>
+                            </div>
+                          )}
+                          {award.role && (
+                            <div>
+                              <dt class="font-semibold text-foreground">
+                                承担角色
+                              </dt>
+                              <dd class="mt-1">{award.role}</dd>
+                            </div>
+                          )}
+                        </dl>
+                      )}
+                    </>
+                  )}
+
+                  <ul class="mt-4 flex flex-wrap gap-2">
+                    {award.tags.map(tag => (
+                      <li class="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                        {tag}
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              );
+            })
+          }
+        </div>
+      </section>
+    </div>
   </main>
+
   <Footer />
 </Layout>

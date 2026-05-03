@@ -2,8 +2,8 @@ export const SITE = {
   website: "https://ceiei.github.io/vivi-site/",
   author: "",
   profile: "",
-  desc: "个人网站，记录 AI 学习笔记、项目展示和日常碎碎念。",
-  title: "Your Name", // TODO: 替换为你的名字
+  desc: "个人网站，记录项目汇总、学习博客和个人经历。",
+  title: "V's Blog", // TODO: 替换为你的名字
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

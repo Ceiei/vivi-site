@@ -1,0 +1,121 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import BackButton from "@/components/BackButton.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import IconArxiv from "@/assets/icons/IconArxiv.svg";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import { SITE } from "@/config";
+import { withBase } from "@/utils/withBase";
+import { publications } from "@/data/publications";
+
+export const getStaticPaths = (async () => {
+  return publications.map(publication => ({
+    params: { slug: publication.slug },
+    props: { publication },
+  }));
+}) satisfies GetStaticPaths;
+
+const { publication } = Astro.props;
+const pdfUrl = withBase(publication.pdfUrl);
+---
+
+<Layout
+  title={`${publication.title} | ${SITE.title}`}
+  description={publication.abstract}
+>
+  <Header />
+  <BackButton href="/projects#publications" label="返回项目汇总" />
+
+  <main id="main-content" class="app-layout py-12 sm:py-16">
+    <article
+      class="space-y-8 rounded-3xl border border-border bg-muted/20 p-6 sm:p-8"
+    >
+      <div class="space-y-3">
+        <p class="text-sm font-medium tracking-[0.24em] text-accent uppercase">
+          Publication
+        </p>
+        <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">
+          {publication.title}
+        </h1>
+        <p class="text-sm text-foreground/65">
+          {publication.authors.join(" · ")} · {publication.venue}
+          {publication.year}
+          {publication.status && ` · ${publication.status}`}
+        </p>
+        <a
+          href={publication.arxivUrl}
+          class="inline-flex items-center gap-2 text-sm font-medium text-accent transition hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconArxiv class="size-4" />
+          arXiv:2509.20928
+        </a>
+      </div>
+
+      <section class="rounded-2xl border border-border bg-background p-5">
+        <h2 class="text-xl font-semibold">摘要</h2>
+        <p class="mt-4 text-base leading-8 text-foreground/80">
+          {publication.abstract}
+        </p>
+      </section>
+
+      <section class="space-y-5">
+        <div class="rounded-2xl border border-border bg-background p-5">
+          <h2 class="text-xl font-semibold">研究背景</h2>
+          <p class="mt-4 text-base leading-8 text-foreground/80">
+            {publication.summary}
+          </p>
+          <ol
+            class="mt-4 list-decimal space-y-3 ps-5 text-base leading-8 text-foreground/80 marker:font-semibold marker:text-accent"
+          >
+            {publication.highlights.map(item => <li>{item}</li>)}
+          </ol>
+        </div>
+
+        <div class="rounded-2xl border border-border bg-background p-5">
+          <h2 class="text-xl font-semibold">主要贡献</h2>
+          <ol
+            class="mt-4 list-decimal space-y-3 ps-5 text-base leading-8 text-foreground/80 marker:font-semibold marker:text-accent"
+          >
+            {publication.contributions.map(item => <li>{item}</li>)}
+          </ol>
+        </div>
+
+        <div class="rounded-2xl border border-border bg-background p-5">
+          <h2 class="text-xl font-semibold">实验结果</h2>
+          <ol
+            class="mt-4 list-decimal space-y-3 ps-5 text-base leading-8 text-foreground/80 marker:font-semibold marker:text-accent"
+          >
+            {publication.results.map(item => <li>{item}</li>)}
+          </ol>
+        </div>
+      </section>
+
+      <section class="space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-xl font-semibold">介绍PPT</h2>
+          <LinkButton href={pdfUrl} target="_blank" rel="noreferrer">
+            打开 PDF
+            <IconArrowRight class="size-4 rtl:-rotate-180" />
+          </LinkButton>
+        </div>
+
+        <div
+          class="overflow-hidden rounded-2xl border border-border bg-background"
+        >
+          <iframe
+            src={pdfUrl}
+            title={`${publication.title} 介绍PPT`}
+            class="h-[72vh] min-h-[32rem] w-full"
+            loading="lazy"></iframe>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>
