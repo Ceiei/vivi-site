@@ -26,10 +26,14 @@ const contacts = [
 
 <Layout title={`关于我 | ${SITE.title}`}>
   <Header />
-  <main id="main-content" data-layout="index" class="app-layout py-12 sm:py-16">
-    <section class="flex flex-col gap-8 sm:flex-row sm:items-center">
+  <main
+    id="main-content"
+    data-layout="index"
+    class="app-layout min-h-[calc(100svh-9rem)] py-12 sm:py-16 lg:py-24"
+  >
+    <section class="grid gap-10 lg:grid-cols-[18rem_1fr] lg:items-center">
       <div
-        class="flex size-36 shrink-0 items-center justify-center rounded-full border border-dashed border-border bg-muted/30 text-sm text-foreground/70"
+        class="flex size-40 shrink-0 items-center justify-center rounded-full border border-dashed border-border bg-muted/30 text-sm text-foreground/70 sm:size-48 lg:size-64"
         aria-label="头像占位区"
       >
         {/* // TODO: 添加头像文件 src/assets/avatar.jpg 后，在这里替换为图片 */}
@@ -38,8 +42,10 @@ const contacts = [
 
       <div>
         <p class="mb-3 text-sm font-medium text-accent">About</p>
-        <h1 class="text-3xl font-bold sm:text-4xl">{SITE.title}</h1>
-        <p class="mt-5 max-w-2xl leading-8">
+        <h1 class="text-4xl font-bold sm:text-5xl lg:text-6xl">
+          {SITE.title}
+        </h1>
+        <p class="mt-6 max-w-4xl text-lg leading-9">
           {/* // TODO: 替换为你的个人介绍 */}
           这里是一段个人介绍占位文案。你可以介绍自己的学习方向、研究兴趣、当前关注的
           AI 主题，以及这个网站希望沉淀的内容。
@@ -47,12 +53,12 @@ const contacts = [
       </div>
     </section>
 
-    <section class="mt-14">
+    <section class="mt-16 lg:mt-24">
       <h2 class="text-xl font-semibold">技能标签</h2>
       <ul class="mt-5 flex flex-wrap gap-3">
         {
           skills.map(skill => (
-            <li class="rounded border border-border px-3 py-1.5 text-sm">
+            <li class="rounded border border-border px-4 py-2 text-sm">
               {skill}
             </li>
           ))
@@ -60,7 +66,7 @@ const contacts = [
       </ul>
     </section>
 
-    <section class="mt-14">
+    <section class="mt-14 lg:mt-20">
       <h2 class="text-xl font-semibold">联系方式</h2>
       <ul class="mt-5 flex flex-wrap gap-4">
         {
