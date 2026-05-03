@@ -1,5 +1,39 @@
 # Your Name
 
+## Quick Start
+
+如果你只是想快速记住“本地修改到推送上线”的流程，按下面这套 SOP 走就行：
+
+1. 切到要修改的分支，或者新建一个功能分支。
+2. 在本地修改文件，改完后先预览或检查效果。
+3. 运行构建确认没有报错。
+4. 查看 Git 状态，把需要提交的文件暂存并提交。
+5. 推送到远端分支。
+6. 如果这个仓库的线上站点只部署 main，就把功能分支合并进 main，再推送 main。
+
+常用命令如下：
+
+```bash
+git checkout -b your-feature-branch
+npm install
+npm run dev
+npm run build
+git status
+git add .
+git commit -m "your message"
+git push origin your-feature-branch
+```
+
+如果需要让 GitHub Pages 更新，最后还要把分支合并到 main 并推送 main：
+
+```bash
+git checkout main
+git merge your-feature-branch
+git push origin main
+```
+
+如果出现冲突，先在本地解决冲突，再重新执行 build 和 push。
+
 这是一个基于 AstroPaper 的个人网站，包含关于我、AI 学习笔记、项目展示和碎碎念四个模块。AI 学习笔记支持把 Notion Database 中已发布的页面同步为 Markdown，并通过 GitHub Actions 自动部署到 GitHub Pages。
 
 ## 本地运行
