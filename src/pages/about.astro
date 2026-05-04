@@ -70,18 +70,8 @@ const internshipItems = [
 ];
 
 const skillGroups = [
-  [
-    "ML/DL",
-    "Diffusion Model",
-    "LLM",
-    "RecSys",
-  ],
-  [
-    "Python",
-    "C/C++",
-    "SQL",
-    "R",
-  ],
+  ["ML/DL", "Diffusion Model", "LLM", "RecSys"],
+  ["Python", "C/C++", "SQL", "R"],
 ];
 
 const aboutNavItems = [
@@ -604,20 +594,56 @@ const aboutNavItems = [
                 {
                   hiking.map(item => {
                     return (
-                      <article class="w-[min(76vw,17rem)] shrink-0 snap-start overflow-hidden rounded-3xl border border-border bg-muted/15">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-amber-100 via-sky-100 to-emerald-100 p-2 dark:from-amber-950/30 dark:via-sky-900/20 dark:to-emerald-900/20">
-                          {item.image && (
-                            <img
-                              src={item.image}
-                              alt={item.location}
-                              class="size-full rounded-2xl bg-background/70 object-contain"
-                              loading="lazy"
-                            />
-                          )}
-                        </div>
-                        <div class="space-y-1 p-4">
-                          <p class="font-medium">{item.location}</p>
-                        </div>
+                      <article class="w-[min(76vw,17rem)] shrink-0 snap-start">
+                        <button
+                          type="button"
+                          class="flip-card group block w-full text-left"
+                          aria-pressed="false"
+                          data-flip-card
+                        >
+                          <span class="flip-card-inner block aspect-[3/4] rounded-3xl">
+                            <span class="flip-card-face overflow-hidden rounded-3xl border border-border bg-muted/15">
+                              <span class="block h-full bg-gradient-to-br from-amber-100 via-sky-100 to-emerald-100 p-2 dark:from-amber-950/30 dark:via-sky-900/20 dark:to-emerald-900/20">
+                                {item.image && (
+                                  <img
+                                    src={item.image}
+                                    alt={item.location}
+                                    class="size-full rounded-2xl bg-background/70 object-contain"
+                                    loading="lazy"
+                                  />
+                                )}
+                              </span>
+                            </span>
+
+                            <span class="flip-card-face flip-card-back flex flex-col justify-between rounded-3xl border border-border bg-background p-5 [font-family:'Songti_SC','SimSun',serif]">
+                              <span>
+                                <span class="block text-xl font-semibold">
+                                  {item.location}
+                                </span>
+                                {item.date && (
+                                  <span class="mt-2 block text-sm text-foreground/60">
+                                    {item.date}
+                                  </span>
+                                )}
+                              </span>
+                              <span class="block text-base leading-8 text-foreground/80">
+                                {item.note}
+                              </span>
+                              <span class="text-xs text-foreground/45">
+                                点击翻回照片
+                              </span>
+                            </span>
+                          </span>
+
+                          <span class="block space-y-1 p-4">
+                            <span class="block font-medium">
+                              {item.location}
+                            </span>
+                            <span class="block text-xs text-foreground/50">
+                              点击查看小记
+                            </span>
+                          </span>
+                        </button>
                       </article>
                     );
                   })
@@ -633,20 +659,56 @@ const aboutNavItems = [
                 {
                   travel.map(item => {
                     return (
-                      <article class="w-[min(76vw,17rem)] shrink-0 snap-start overflow-hidden rounded-3xl border border-border bg-muted/15">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-rose-100 via-orange-100 to-cyan-100 p-2 dark:from-rose-950/30 dark:via-orange-900/20 dark:to-cyan-900/20">
-                          {item.image && (
-                            <img
-                              src={item.image}
-                              alt={item.location}
-                              class="size-full rounded-2xl bg-background/70 object-contain"
-                              loading="lazy"
-                            />
-                          )}
-                        </div>
-                        <div class="space-y-1 p-4">
-                          <p class="font-medium">{item.location}</p>
-                        </div>
+                      <article class="w-[min(76vw,17rem)] shrink-0 snap-start">
+                        <button
+                          type="button"
+                          class="flip-card group block w-full text-left"
+                          aria-pressed="false"
+                          data-flip-card
+                        >
+                          <span class="flip-card-inner block aspect-[3/4] rounded-3xl">
+                            <span class="flip-card-face overflow-hidden rounded-3xl border border-border bg-muted/15">
+                              <span class="block h-full bg-gradient-to-br from-rose-100 via-orange-100 to-cyan-100 p-2 dark:from-rose-950/30 dark:via-orange-900/20 dark:to-cyan-900/20">
+                                {item.image && (
+                                  <img
+                                    src={item.image}
+                                    alt={item.location}
+                                    class="size-full rounded-2xl bg-background/70 object-contain"
+                                    loading="lazy"
+                                  />
+                                )}
+                              </span>
+                            </span>
+
+                            <span class="flip-card-face flip-card-back flex flex-col justify-between rounded-3xl border border-border bg-background p-5 [font-family:'Songti_SC','SimSun',serif]">
+                              <span>
+                                <span class="block text-xl font-semibold">
+                                  {item.location}
+                                </span>
+                                {item.date && (
+                                  <span class="mt-2 block text-sm text-foreground/60">
+                                    {item.date}
+                                  </span>
+                                )}
+                              </span>
+                              <span class="block text-base leading-8 text-foreground/80">
+                                {item.note}
+                              </span>
+                              <span class="text-xs text-foreground/45">
+                                点击翻回照片
+                              </span>
+                            </span>
+                          </span>
+
+                          <span class="block space-y-1 p-4">
+                            <span class="block font-medium">
+                              {item.location}
+                            </span>
+                            <span class="block text-xs text-foreground/50">
+                              点击查看小记
+                            </span>
+                          </span>
+                        </button>
                       </article>
                     );
                   })
@@ -740,4 +802,19 @@ const aboutNavItems = [
       }
     });
   }
+
+  function initFlipCards() {
+    document.querySelectorAll("[data-flip-card]").forEach(card => {
+      if (card.dataset.flipReady === "true") return;
+      card.dataset.flipReady = "true";
+
+      card.addEventListener("click", () => {
+        const isFlipped = card.classList.toggle("is-flipped");
+        card.setAttribute("aria-pressed", String(isFlipped));
+      });
+    });
+  }
+
+  initFlipCards();
+  document.addEventListener("astro:page-load", initFlipCards);
 </script>

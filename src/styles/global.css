@@ -65,6 +65,30 @@ html[data-theme="dark"] {
   @apply underline decoration-wavy decoration-2 underline-offset-8;
 }
 
+.flip-card {
+  perspective: 1200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 520ms ease;
+}
+
+.flip-card.is-flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
 /* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
