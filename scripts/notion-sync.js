@@ -141,6 +141,12 @@ function yamlArray(values) {
   return `[${values.map(value => yamlString(value)).join(", ")}]`;
 }
 
+function markdownBodyToString(markdown) {
+  if (typeof markdown === "string") return markdown;
+  if (typeof markdown?.parent === "string") return markdown.parent;
+  return "";
+}
+
 function toFrontmatter({ title, description, pubDatetime, modDatetime, tags }) {
   const frontmatter = [
     "---",
@@ -236,7 +242,7 @@ async function pageToMarkdown(page) {
 
   const blocks = await n2m.pageToMarkdown(page.id);
   const markdown = n2m.toMarkdownString(blocks);
-  const body = typeof markdown === "string" ? markdown : markdown.parent;
+  const body = markdownBodyToString(markdown);
 
   return {
     fileName: `${slug}.md`,
