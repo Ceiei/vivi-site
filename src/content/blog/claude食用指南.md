@@ -1,11 +1,13 @@
 ---
 title: "Claude食用指南"
 description: "Claude官方教程汉化版"
-pubDatetime: 2026-05-04T02:30:48.333Z
-modDatetime: 2026-05-03T10:59:00.000Z
-tags: ["工具介绍"]
+pubDatetime: 2026-05-05T00:56:32.786Z
+modDatetime: 2026-05-04T04:40:00.000Z
+tags: ["使用教程"]
 draft: false
 ---
+> 官方教程网址：[https://anthropic.skilljar.com/claude-101](https://anthropic.skilljar.com/claude-101)
+
 # 使用常识
 
 
@@ -17,6 +19,89 @@ draft: false
     - 修改地区：通用 - 语言与地区 将地区修改为：新加坡
 2. 提前申请gmail/proton邮箱
     - proton邮箱：添加密保邮箱（常用邮箱）→ 对Claude（anthropic.com）及google官网（google.com)加白
+
+## Token成本优化
+
+
+使用/context命令可以查看各个模块的上下文使用量
+
+
+### 对话管理
+
+1. 频繁使用/clear，完成一个独立任务后立即清理前文开启新对话
+2. 对话轮数达到5·6轮或上下文使用超过70%的时候，主动使用/compact压缩为摘要
+3. 使用/mcp disable <server-name>关闭当前不需要的MCP服务器
+4. 使用skill代替包含大量工具方法的MCP，充分利用skill按需加载的特性
+
+### 上下文管理
+
+1. 创建`.claudeignore`文件，阻止Claude读取相关文件
+
+    ```shell
+    # 依赖和包管理
+    node_modules/
+    .pnp/
+    .yarn/
+    
+    # 构建产物
+    dist/
+    build/
+    out/
+    .next/
+    .nuxt/
+    
+    # 环境变量和密钥（敏感文件用 deny 更保险）
+    .env
+    .env.*
+    *.pem
+    *.key
+    
+    # 日志和缓存
+    *.log
+    *.lock
+    .cache/
+    .parcel-cache/
+    
+    # 测试覆盖率
+    coverage/
+    .nyc_output/
+    
+    # Python
+    __pycache__/
+    *.pyc
+    *.pyo
+    .venv/
+    venv/
+    
+    # IDE 配置
+    .idea/
+    .vscode/
+    *.swp
+    
+    # 历史文档（不想影响当前编码上下文）
+    docs/archive/
+    CHANGELOG.md
+    ```
+
+
+    使用前安装相关工具：
+
+
+    ```shell
+    # 第一步：安装
+    npm install -g claudeignore
+    
+    # 第二步：在项目根目录初始化（自动创建文件 + 写入 Hook）
+    npx claude-ignore init
+    
+    # 第三步：编辑 .claudeignore，把你不想让 Claude 读的路径加进去
+    # 之后正常启动 Claude Code 即可，Hook 自动生效
+    ```
+
+2. 精简claude.md
+    - 控制在150-200行以内
+    - 内容：项目概述、目录结构、关键命令、禁止读取的目录
+    - 避免“探索性”读取：明确项目结构，减少Claude为理解项目自动执行的cat、find、grep的次数
 
 # 常用命令
 
