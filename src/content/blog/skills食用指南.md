@@ -1,7 +1,7 @@
 ---
 title: "Skills食用指南"
 description: "skills是什么、怎么用，推荐和使用技巧"
-pubDatetime: 2026-05-17T01:04:02.253Z
+pubDatetime: 2026-05-18T01:04:37.281Z
 modDatetime: 2026-05-05T06:36:00.000Z
 tags: ["使用教程"]
 draft: false
