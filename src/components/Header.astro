@@ -39,13 +39,13 @@ const isActive = (path: string) => {
     class:list={[
       "py-4 sm:py-6",
       "border-b border-border",
-      "relative w-full bg-background",
+      "relative w-full bg-background/95 backdrop-blur-sm",
       "flex items-baseline justify-between sm:items-center",
     ]}
   >
     <a
       href={withBase("/")}
-      class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
+      class="absolute py-1 font-serif text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
     >
       {SITE.title}
     </a>
@@ -67,7 +67,7 @@ const isActive = (path: string) => {
         id="menu-items"
         class:list={[
           "mt-4 grid w-44 grid-cols-2 place-content-center gap-2",
-          "[&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
+          "[&>li>a]:block [&>li>a]:border-b [&>li>a]:border-transparent [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:text-sm [&>li>a]:font-medium [&>li>a]:tracking-wide [&>li>a]:hover:border-accent [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
           "hidden",
           "sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0",
         ]}

@@ -90,36 +90,56 @@ const aboutNavItems = [
   <Header />
   <SideNav items={aboutNavItems} />
 
-  <main id="main-content" class="app-layout py-12 sm:py-16">
-    <div class="space-y-12">
-      <section id="about-intro" class="scroll-mt-24 space-y-8">
-        <SectionHeader title="关于我" />
-
-        <div class="grid gap-8 lg:grid-cols-[360px_minmax(0,0.86fr)]">
+  <main id="main-content" class="app-layout py-10 sm:py-14">
+    <div class="space-y-14">
+      <section id="about-intro" class="scroll-mt-24">
+        <div
+          class="grid gap-8 border-y border-border py-8 lg:grid-cols-[360px_minmax(0,1fr)_190px] lg:gap-10"
+        >
           <aside
             class="flex flex-col items-center gap-4 text-center lg:items-start lg:text-left"
           >
-            <div
-              class="overflow-hidden rounded-[1.75rem] border border-border bg-muted/30 p-2 shadow-sm"
-            >
+            <div class="overflow-hidden border border-border bg-background p-2">
               <img
                 src={avatarSrc}
                 alt="Vivi 的头像"
-                class="h-[500px] w-[360px] rounded-[1.25rem] object-cover"
+                class="h-[420px] w-[320px] object-cover sm:h-[500px] sm:w-[360px]"
                 loading="eager"
               />
             </div>
-            <div>
-              <h3 class="text-3xl font-bold tracking-tight">{displayName}</h3>
+            <div class="w-full border-t border-border pt-4">
+              <h1
+                class="font-serif text-4xl leading-tight font-semibold tracking-tight"
+              >
+                {displayName}
+              </h1>
+              <p
+                class="mt-2 text-sm tracking-[0.18em] text-foreground/55 uppercase"
+              >
+                Statistics · AI · Data Science
+              </p>
             </div>
           </aside>
 
-          <div class="space-y-6 py-2">
+          <div class="space-y-7 py-1">
+            <div class="space-y-4">
+              <p
+                class="text-sm font-medium tracking-[0.26em] text-accent uppercase"
+              >
+                Personal dossier
+              </p>
+              <h2
+                class="max-w-3xl font-serif text-4xl leading-[1.08] font-semibold tracking-tight sm:text-5xl"
+              >
+                用统计建模和机器学习，把复杂业务问题整理成可验证的答案。
+              </h2>
+            </div>
+
             <p
-              class="max-w-3xl leading-8 text-foreground/85"
+              class="max-w-3xl border-l border-border pl-5 leading-8 text-foreground/82"
               style="font-family: 'Songti SC', 'SimSun', serif;"
             >
-              你好👋，我是 Vivi，<br />
+              你好，我是 Vivi，<br />
               04 年江苏人，ISTJ-A/天蝎座，<br />
               华东师范大学统计学+计算机科学与技术大四本科生，预计于 2026 年 9 月入学上海交通大学攻读应用统计硕士。<br
               />
@@ -127,6 +147,25 @@ const aboutNavItems = [
               />
               我主要关注机器学习、LLM 和 Agent 在业务场景中的落地应用。
             </p>
+
+            <div class="grid gap-3 sm:grid-cols-3">
+              {
+                [
+                  ["2026", "上海交通大学应用统计硕士"],
+                  ["腾讯 IEG", "数据科学实习生"],
+                  ["ICLR 2026", "Accepted publication"],
+                ].map(([value, label]) => (
+                  <div class="border border-border bg-background/85 p-4">
+                    <p class="font-serif text-2xl font-semibold text-accent">
+                      {value}
+                    </p>
+                    <p class="mt-2 text-xs leading-5 text-foreground/60">
+                      {label}
+                    </p>
+                  </div>
+                ))
+              }
+            </div>
 
             <div class="space-y-3">
               <p
@@ -137,7 +176,7 @@ const aboutNavItems = [
               <div class="flex flex-wrap items-center gap-3">
                 <a
                   href="https://github.com/Ceiei"
-                  class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  class="inline-flex items-center gap-2 border border-border bg-background/80 px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -147,7 +186,7 @@ const aboutNavItems = [
 
                 <button
                   type="button"
-                  class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  class="inline-flex items-center gap-2 border border-border bg-background/80 px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                   data-copy-email
                   data-email="18662816018@163.com"
                 >
@@ -157,7 +196,7 @@ const aboutNavItems = [
 
                 <button
                   type="button"
-                  class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                  class="inline-flex items-center gap-2 border border-border bg-background/80 px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                   data-open-wechat
                 >
                   <IconWeChat class="size-4" />
@@ -185,9 +224,7 @@ const aboutNavItems = [
                   skillGroups.map(group => (
                     <div class="flex flex-wrap gap-3">
                       {group.map(skill => (
-                        <span class="rounded-full border border-white/25 bg-[linear-gradient(135deg,rgba(255,255,255,0.30),rgba(255,255,255,0.10))] px-4 py-2 text-sm font-medium text-foreground/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_8px_20px_rgba(0,0,0,0.04)] backdrop-blur-md dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.16),rgba(255,255,255,0.06))] dark:text-foreground">
-                          {skill}
-                        </span>
+                        <span class="resume-pill">{skill}</span>
                       ))}
                     </div>
                   ))
@@ -204,14 +241,23 @@ const aboutNavItems = [
               <div class="flex flex-wrap gap-3">
                 {
                   ["CET-6(611)", "IELTS 7.0"].map(item => (
-                    <span class="rounded-full border border-white/25 bg-[linear-gradient(135deg,rgba(255,255,255,0.30),rgba(255,255,255,0.10))] px-4 py-2 text-sm font-medium text-foreground/90 shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_8px_20px_rgba(0,0,0,0.04)] backdrop-blur-md dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.16),rgba(255,255,255,0.06))] dark:text-foreground">
-                      {item}
-                    </span>
+                    <span class="resume-pill">{item}</span>
                   ))
                 }
               </div>
             </div>
           </div>
+
+          <aside
+            class="hidden border-l border-border pl-5 text-sm leading-7 text-foreground/62 lg:block"
+          >
+            <p class="font-serif text-lg text-foreground">Focus</p>
+            <p class="mt-3">
+              机器学习、LLM、Agent 与数据科学在业务场景中的落地。
+            </p>
+            <p class="mt-6 font-serif text-lg text-foreground">Signal</p>
+            <p class="mt-3">以科研、竞赛和实习经历作为证据，而不是堆叠装饰。</p>
+          </aside>
         </div>
       </section>
 
@@ -266,7 +312,7 @@ const aboutNavItems = [
         <div class="grid gap-5 lg:grid-cols-1">
           {
             latestPublications.map(publication => (
-              <article class="rounded-3xl border border-border bg-muted/20 p-5 transition hover:border-accent/50 hover:bg-muted/30">
+              <article class="resume-card p-5">
                 <div class="flex flex-wrap items-start justify-between gap-3">
                   <div class="space-y-2">
                     <a
@@ -283,7 +329,7 @@ const aboutNavItems = [
                   </div>
                   <a
                     href={publication.arxivUrl}
-                    class="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                    class="inline-flex items-center gap-2 border border-border bg-background/80 px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -299,7 +345,7 @@ const aboutNavItems = [
                 <div class="mt-5 flex flex-wrap gap-3">
                   <a
                     href={withBase(`/publications/${publication.slug}`)}
-                    class="inline-flex items-center gap-1 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                    class="inline-flex items-center gap-1 border border-border bg-background/80 px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                   >
                     查看详情
                     <IconArrowRight class="size-4 rtl:-rotate-180" />
@@ -307,7 +353,7 @@ const aboutNavItems = [
                   {publication.openreviewUrl && (
                     <a
                       href={publication.openreviewUrl}
-                      class="inline-flex items-center gap-1 rounded-full border border-border px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
+                      class="inline-flex items-center gap-1 border border-border bg-background/80 px-4 py-2 text-sm font-medium transition hover:border-accent hover:text-accent"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -346,7 +392,7 @@ const aboutNavItems = [
               );
 
               return (
-                <article class="rounded-3xl border border-border bg-muted/20 p-5 transition hover:border-accent/50 hover:bg-muted/30">
+                <article class="resume-card p-5">
                   <div class="flex flex-wrap items-start justify-between gap-4">
                     <div class="space-y-2">
                       <a
@@ -383,9 +429,7 @@ const aboutNavItems = [
 
                   <ul class="mt-5 flex flex-wrap gap-2">
                     {award.tags.map(tag => (
-                      <li class="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
-                        {tag}
-                      </li>
+                      <li class="resume-pill text-accent">{tag}</li>
                     ))}
                   </ul>
                 </article>
@@ -412,7 +456,7 @@ const aboutNavItems = [
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {
             latestProjects.map(project => (
-              <article class="group flex h-full flex-col rounded-3xl border border-border bg-muted/20 p-5 transition hover:border-accent/50 hover:bg-muted/30">
+              <article class="resume-card group flex h-full flex-col p-5">
                 <h3 class="text-lg leading-snug font-semibold transition group-hover:text-accent">
                   <a href={withBase(`/projects/${project.slug}`)}>
                     {project.title}
@@ -423,9 +467,7 @@ const aboutNavItems = [
                 </p>
                 <ul class="mt-4 flex flex-wrap gap-2">
                   {project.tags.map(tag => (
-                    <li class="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
-                      {tag}
-                    </li>
+                    <li class="resume-pill text-accent">{tag}</li>
                   ))}
                 </ul>
                 <a
@@ -458,7 +500,7 @@ const aboutNavItems = [
         <div class="space-y-3">
           {
             latestPosts.map(post => (
-              <article class="rounded-3xl border border-border bg-muted/20 px-5 py-4 transition hover:border-accent/50 hover:bg-muted/30">
+              <article class="resume-card px-5 py-4">
                 <div class="flex flex-wrap items-center justify-between gap-3">
                   <div class="min-w-0">
                     <a
