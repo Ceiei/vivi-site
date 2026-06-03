@@ -20,7 +20,6 @@ import { getPath } from "@/utils/getPath";
 import { projects } from "@/data/projects";
 import { publications } from "@/data/publications";
 import { awards } from "@/data/awards";
-import { running } from "@/data/running";
 import { hiking, travel } from "@/data/hobbies";
 
 const avatarSrc = avatar.src ?? avatar;
@@ -497,106 +496,6 @@ const aboutNavItems = [
         <SectionHeader title="兴趣爱好" />
 
         <div class="space-y-10">
-          <section class="space-y-4">
-            <h3 class="text-2xl font-semibold">跑步</h3>
-            <div class="grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
-              <article
-                class="overflow-hidden rounded-3xl border border-border bg-muted/15 p-5"
-              >
-                <div class="flex items-center justify-between gap-4">
-                  <div>
-                    <p
-                      class="text-sm tracking-[0.24em] text-foreground/55 uppercase"
-                    >
-                      Running Gallery
-                    </p>
-                    <h4 class="mt-2 text-xl font-semibold">本月跑量</h4>
-                  </div>
-                  <div
-                    class="rounded-full bg-accent/10 px-4 py-2 text-sm font-medium text-accent"
-                  >
-                    {running.monthlyKm} km
-                  </div>
-                </div>
-
-                <div
-                  class="mt-5 grid gap-4 sm:grid-cols-[1fr_auto] sm:items-center"
-                >
-                  <div
-                    class="flex justify-center rounded-3xl bg-background/70 p-4"
-                  >
-                    <svg
-                      viewBox="0 0 220 160"
-                      class="h-40 w-full max-w-xs text-accent/75"
-                      aria-hidden="true"
-                    >
-                      <ellipse
-                        cx="110"
-                        cy="80"
-                        rx="74"
-                        ry="50"
-                        class="fill-none stroke-current"
-                        stroke-width="10"
-                        stroke-dasharray="10 8"></ellipse>
-                      <ellipse
-                        cx="110"
-                        cy="80"
-                        rx="50"
-                        ry="28"
-                        class="fill-none stroke-current"
-                        stroke-width="2"
-                        stroke-dasharray="4 6"></ellipse>
-                      <path
-                        d="M68 80h84"
-                        class="stroke-current"
-                        stroke-width="2"
-                        opacity="0.4"></path>
-                      <path
-                        d="M110 30v100"
-                        class="stroke-current"
-                        stroke-width="2"
-                        opacity="0.25"></path>
-                      <circle
-                        cx="164"
-                        cy="80"
-                        r="6"
-                        fill="currentColor"
-                        opacity="0.9"></circle>
-                    </svg>
-                  </div>
-
-                  <div class="space-y-3 text-sm text-foreground/70">
-                    <p>最后更新：{running.lastUpdated}</p>
-                    <p>// TODO: 后续可替换为 Strava API 自动同步</p>
-                  </div>
-                </div>
-              </article>
-
-              <article
-                class="overflow-hidden rounded-3xl border border-border bg-muted/15 p-5"
-              >
-                <h4 class="text-lg font-semibold">跑步记录预览</h4>
-                <div class="mt-4 grid gap-4 sm:grid-cols-2">
-                  {
-                    [
-                      { label: "月跑量", value: `${running.monthlyKm} km` },
-                      { label: "更新月份", value: running.lastUpdated },
-                    ].map(stat => (
-                      <div class="rounded-2xl border border-border bg-background/70 p-4">
-                        <p class="text-sm tracking-[0.2em] text-foreground/55 uppercase">
-                          {stat.label}
-                        </p>
-                        <p class="mt-2 text-2xl font-semibold text-accent">
-                          {stat.value}
-                        </p>
-                      </div>
-                    ))
-                  }
-                </div>
-              </article>
-            </div>
-          </section>
-
           <section class="space-y-4">
             <h3 class="text-2xl font-semibold">徒步</h3>
             <div class="overflow-x-auto pb-2 [scrollbar-width:thin]">
