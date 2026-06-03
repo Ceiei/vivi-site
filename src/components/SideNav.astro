@@ -14,50 +14,41 @@ const { title = "页面导航", items } = Astro.props;
 
 <aside
   class="pointer-events-none fixed top-1/2 z-30 hidden -translate-y-1/2 [@media(min-width:1420px)]:block"
-  style="right: max(1.25rem, calc((100vw - 72rem) / 2 - 9rem));"
+  style="right: max(1rem, calc((100vw - 80rem) / 2 - 7.75rem));"
 >
   <nav
-    class="pointer-events-auto relative pl-8"
+    class="pointer-events-auto relative w-36 border-l border-border bg-background/72 py-4 pr-2 pl-4 backdrop-blur-sm"
     aria-label={title}
     data-side-nav
   >
     <span
-      class="absolute top-4 bottom-4 left-3 border-l border-dashed border-accent/45"
+      class="absolute top-4 bottom-4 left-0 border-l border-border"
       aria-hidden="true"></span>
     <span
-      class="absolute left-0 text-accent transition-transform duration-300 ease-out"
-      style="transform: translateY(var(--plane-y, 0px));"
-      data-side-nav-plane
-      aria-hidden="true"
-    >
-      <svg
-        viewBox="0 0 24 24"
-        class="size-6 -rotate-12 drop-shadow-sm"
-        fill="none"
-      >
-        <path
-          d="M3.5 11.5 20 4l-6.2 16-3-6.7-7.3-1.8Z"
-          class="fill-background stroke-accent"
-          stroke-width="1.7"
-          stroke-linejoin="round"></path>
-        <path
-          d="m10.8 13.3 3.4-3.4"
-          class="stroke-accent"
-          stroke-width="1.7"
-          stroke-linecap="round"></path>
-      </svg>
-    </span>
+      class="absolute left-[-1px] w-px bg-accent transition-[height,transform] duration-300 ease-out"
+      style="height: var(--marker-h, 28px); transform: translateY(var(--marker-y, 0px));"
+      data-side-nav-marker
+      aria-hidden="true"></span>
 
-    <ol class="space-y-3">
+    <p
+      class="mb-3 text-[10px] font-semibold tracking-[0.28em] text-accent uppercase"
+    >
+      Index
+    </p>
+
+    <ol class="space-y-1.5">
       {
-        items.map(item => (
+        items.map((item, index) => (
           <li>
             <a
               href={item.href}
-              class="block py-1 text-sm font-medium text-foreground/55 transition hover:translate-x-1 hover:text-accent aria-current:text-accent"
+              class="group grid grid-cols-[1.35rem_1fr] items-baseline gap-2 py-1.5 text-sm text-foreground/48 transition hover:text-accent aria-current:text-accent"
               data-side-nav-link
             >
-              {item.label}
+              <span class="font-serif text-xs text-foreground/35 tabular-nums transition group-hover:text-accent group-aria-current:text-accent">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <span class="leading-5">{item.label}</span>
             </a>
           </li>
         ))
@@ -72,7 +63,7 @@ const { title = "页面导航", items } = Astro.props;
       if (nav.dataset.sideNavReady === "true") return;
       nav.dataset.sideNavReady = "true";
 
-      const plane = nav.querySelector("[data-side-nav-plane]");
+      const marker = nav.querySelector("[data-side-nav-marker]");
       const links = Array.from(nav.querySelectorAll("[data-side-nav-link]"));
       const sections = links
         .map(link => {
@@ -86,11 +77,12 @@ const { title = "页面导航", items } = Astro.props;
       let clickTimer;
 
       const movePlane = link => {
-        if (!plane || !link) return;
+        if (!marker || !link) return;
         const linkBox = link.getBoundingClientRect();
         const navBox = nav.getBoundingClientRect();
-        const y = linkBox.top - navBox.top + linkBox.height / 2 - 12;
-        nav.style.setProperty("--plane-y", `${y}px`);
+        const y = linkBox.top - navBox.top;
+        nav.style.setProperty("--marker-y", `${y}px`);
+        nav.style.setProperty("--marker-h", `${linkBox.height}px`);
       };
 
       const setActive = link => {
