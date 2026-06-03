@@ -1,7 +1,7 @@
 ---
 title: "Skills食用指南"
 description: "skills是什么、怎么用，推荐和使用技巧"
-pubDatetime: 2026-06-02T01:12:36.736Z
+pubDatetime: 2026-06-03T01:18:47.392Z
 modDatetime: 2026-05-05T06:36:00.000Z
 tags: ["使用教程"]
 draft: false
@@ -22,7 +22,7 @@ draft: false
 
 ### 快速理解
 
-> 文档导航：[搞懂 AI 那些名词，其实只需要一个框架](https://www.notion.so/356d4dcc3c4d808cb55bd76877cdd933) 
+> 文档导航：[搞懂 AI 那些名词，其实只需要一个框架](https://app.notion.com/p/356d4dcc3c4d808cb55bd76877cdd933) 
 
 Skills的官方定义：Agent Skills 是模块化能力，用于扩展 Claude 的功能。每个 Skill 打包了 Claude 自动在相关时使用的指令、元数据和可选资源（脚本、模板）。
 
