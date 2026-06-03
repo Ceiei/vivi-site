@@ -13,11 +13,10 @@ const { title = "页面导航", items } = Astro.props;
 ---
 
 <aside
-  class="pointer-events-none fixed top-1/2 z-30 hidden -translate-y-1/2 [@media(min-width:1420px)]:block"
-  style="right: max(1rem, calc((100vw - 80rem) / 2 - 7.75rem));"
+  class="group pointer-events-none fixed top-1/2 right-0 z-30 hidden -translate-y-1/2 [@media(min-width:1420px)]:block"
 >
   <nav
-    class="pointer-events-auto relative w-36 border-l border-border bg-background/72 py-4 pr-2 pl-4 backdrop-blur-sm"
+    class="pointer-events-auto relative w-40 translate-x-[7.65rem] border-y border-l border-border bg-background/88 py-4 pr-3 pl-4 backdrop-blur-sm transition-transform duration-300 ease-out group-hover:translate-x-0 focus-within:translate-x-0 hover:translate-x-0"
     aria-label={title}
     data-side-nav
   >
@@ -31,7 +30,7 @@ const { title = "页面导航", items } = Astro.props;
       aria-hidden="true"></span>
 
     <p
-      class="mb-3 text-[10px] font-semibold tracking-[0.28em] text-accent uppercase"
+      class="mb-3 text-[10px] font-semibold tracking-[0.28em] text-accent uppercase [writing-mode:horizontal-tb]"
     >
       Index
     </p>
