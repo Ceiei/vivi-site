@@ -3,11 +3,19 @@ type Props = {
   title: string;
   meta: string;
   timeframe: string;
+  href?: string;
   subtitle?: string;
   description?: string[];
 };
 
-const { title, meta, timeframe, subtitle, description = [] } = Astro.props;
+const {
+  title,
+  meta,
+  timeframe,
+  href,
+  subtitle,
+  description = [],
+} = Astro.props;
 ---
 
 <li class="relative pl-7">
@@ -16,29 +24,56 @@ const { title, meta, timeframe, subtitle, description = [] } = Astro.props;
     class="absolute top-5 left-[-3px] size-2.5 rounded-full bg-accent ring-4 ring-background"
   ></span>
 
-  <article class="resume-card p-5">
-    <div class="flex flex-wrap items-start justify-between gap-3">
-      <div>
-        <h3 class="text-lg font-semibold text-foreground">{title}</h3>
-        <p class="mt-1 text-sm font-medium text-accent">{meta}</p>
-      </div>
-      <span class="text-sm text-foreground/55">{timeframe}</span>
-    </div>
-
-    {
-      subtitle && (
-        <p class="mt-3 text-sm font-medium text-foreground/90">{subtitle}</p>
-      )
-    }
-
-    {
-      description.length > 0 && (
-        <div class="mt-3 space-y-2 text-sm leading-7 text-foreground/80">
-          {description.map(line => (
-            <p>{line}</p>
-          ))}
+  {
+    href ? (
+      <a
+        href={href}
+        class="resume-card block p-5 transition-transform hover:-translate-y-0.5 hover:text-foreground focus-visible:no-underline"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div class="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <h3 class="text-lg font-semibold text-foreground">{title}</h3>
+            <p class="mt-1 text-sm font-medium text-accent">{meta}</p>
+          </div>
+          <span class="text-sm text-foreground/55">{timeframe}</span>
         </div>
-      )
-    }
-  </article>
+
+        {subtitle && (
+          <p class="mt-3 text-sm font-medium text-foreground/90">{subtitle}</p>
+        )}
+
+        {description.length > 0 && (
+          <div class="mt-3 space-y-2 text-sm leading-7 text-foreground/80">
+            {description.map(line => (
+              <p>{line}</p>
+            ))}
+          </div>
+        )}
+      </a>
+    ) : (
+      <article class="resume-card p-5">
+        <div class="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <h3 class="text-lg font-semibold text-foreground">{title}</h3>
+            <p class="mt-1 text-sm font-medium text-accent">{meta}</p>
+          </div>
+          <span class="text-sm text-foreground/55">{timeframe}</span>
+        </div>
+
+        {subtitle && (
+          <p class="mt-3 text-sm font-medium text-foreground/90">{subtitle}</p>
+        )}
+
+        {description.length > 0 && (
+          <div class="mt-3 space-y-2 text-sm leading-7 text-foreground/80">
+            {description.map(line => (
+              <p>{line}</p>
+            ))}
+          </div>
+        )}
+      </article>
+    )
+  }
 </li>
