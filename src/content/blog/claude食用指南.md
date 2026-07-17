@@ -1,7 +1,7 @@
 ---
 title: "Claude食用指南"
 description: "Claude官方教程汉化版"
-pubDatetime: 2026-07-16T02:56:55.448Z
+pubDatetime: 2026-07-17T03:13:56.984Z
 modDatetime: 2026-05-04T04:40:00.000Z
 tags: ["使用教程"]
 draft: false
