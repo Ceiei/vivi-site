@@ -1,0 +1,24 @@
+{
+  "sourceName": "AI HOT",
+  "sourceUrl": "https://aihot.virxact.com",
+  "generatedAt": "2026-07-26T06:08:12.826Z",
+  "mode": "hot-topics",
+  "items": [
+    {
+      "id": "cmrz7mrck00gprox8j0j9qfst",
+      "title": "Anthropic 发布 Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "aihotUrl": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst",
+      "summary": "Anthropic 发布 Claude Opus 5，已全量上线，支持 100 万上下文，知识截止至 2026 年 5 月。在 ARC-AGI-3 上得分 30.2%，接近 GPT-5.6 Sol（7.8%）的四倍；输入每百万 Token 5 美元、输出每百万 Token 25 美元，价格与 Opus 4.8 相同，仅为 Fable 5 的一半。",
+      "latestAt": "2026-07-26T05:50:24.644Z"
+    },
+    {
+      "id": "cmrzbx19q0032roqz8nwff6am",
+      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "aihotUrl": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am",
+      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
+      "latestAt": "2026-07-25T06:50:12.497Z"
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+---
+import { withBase } from "@/utils/withBase";
+
+const petSprite = withBase("/pets/anyapet/spritesheet.webp");
+const hotDataUrl = withBase("/data/ai-hot.json");
+---
+
+<div class="ai-hot-pet" data-ai-hot-pet data-hot-url={hotDataUrl}>
+  <section
+    id="ai-hot-panel"
+    class="ai-hot-panel"
+    data-ai-hot-panel
+    role="dialog"
+    aria-label="本周 AI 热点"
+    hidden
+  >
+    <div class="ai-hot-panel__header">
+      <div>
+        <p class="ai-hot-panel__source">数据来自 AI HOT</p>
+        <h2 data-ai-hot-title>当前 AI 热点</h2>
+        <p class="ai-hot-panel__hint" data-ai-hot-meta>
+          来自 AI HOT 当前热点榜单
+        </p>
+      </div>
+      <button
+        class="ai-hot-panel__close"
+        type="button"
+        data-ai-hot-close
+        aria-label="关闭 AI 热点面板"
+      >
+        ×
+      </button>
+    </div>
+
+    <div class="ai-hot-panel__status" data-ai-hot-status aria-live="polite">
+      正在读取热点...
+    </div>
+
+    <div class="ai-hot-panel__list" data-ai-hot-list></div>
+
+    <div class="ai-hot-panel__controls" data-ai-hot-controls hidden>
+      <button
+        class="ai-hot-panel__nav"
+        type="button"
+        data-ai-hot-prev
+        aria-label="查看上一条 AI 热点"
+      >
+        ‹
+      </button>
+      <span class="ai-hot-panel__count" data-ai-hot-count>1 / 1</span>
+      <button
+        class="ai-hot-panel__nav"
+        type="button"
+        data-ai-hot-next
+        aria-label="查看下一条 AI 热点"
+      >
+        ›
+      </button>
+    </div>
+
+    <a
+      class="ai-hot-panel__footer"
+      href="https://aihot.virxact.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      查看 AI HOT 全部信息
+    </a>
+  </section>
+
+  <button
+    class="ai-hot-pet__speech"
+    type="button"
+    data-ai-hot-speech
+    aria-label="查看今天的 AI 热点"
+  >
+    今天有什么AI热点可以探索呢？
+  </button>
+
+  <button
+    class="ai-hot-pet__button"
+    type="button"
+    data-ai-hot-toggle
+    aria-expanded="false"
+    aria-controls="ai-hot-panel"
+    aria-label="查看本周 AI 热点"
+  >
+    <span
+      class="ai-hot-pet__sprite"
+      style={`background-image: url("${petSprite}")`}
+      aria-hidden="true"></span>
+    <span class="ai-hot-pet__bubble" aria-hidden="true">热点</span>
+  </button>
+</div>
+
+<style>
+  .ai-hot-pet {
+    position: fixed;
+    right: max(1rem, env(safe-area-inset-right));
+    bottom: max(5.5rem, env(safe-area-inset-bottom));
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.65rem;
+    pointer-events: none;
+  }
+
+  .ai-hot-pet__button,
+  .ai-hot-panel,
+  .ai-hot-pet__speech {
+    pointer-events: auto;
+  }
+
+  .ai-hot-pet__speech {
+    position: relative;
+    max-width: min(18rem, calc(100vw - 7.5rem));
+    border: 1px solid var(--border);
+    border-radius: 0.9rem 0.9rem 0.25rem 0.9rem;
+    background: color-mix(in srgb, var(--background) 98%, transparent);
+    box-shadow: 0 14px 34px rgb(0 0 0 / 0.14);
+    color: var(--foreground);
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.45;
+    padding: 0.72rem 0.85rem;
+    text-align: left;
+    transition:
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .ai-hot-pet__speech::after {
+    position: absolute;
+    right: 1.05rem;
+    bottom: -0.38rem;
+    width: 0.72rem;
+    height: 0.72rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background: var(--background);
+    content: "";
+    transform: rotate(45deg);
+  }
+
+  .ai-hot-pet__speech:hover {
+    border-color: color-mix(in srgb, var(--accent) 48%, var(--border));
+    color: var(--accent);
+    transform: translateY(-1px);
+  }
+
+  .ai-hot-pet.is-open .ai-hot-pet__speech {
+    display: none;
+  }
+
+  .ai-hot-pet__button {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 5.8rem;
+    height: 6.25rem;
+    border: 0;
+    background: transparent;
+    filter: drop-shadow(0 18px 24px rgb(0 0 0 / 0.22));
+    transition:
+      transform 180ms ease,
+      filter 180ms ease;
+  }
+
+  .ai-hot-pet__button:hover,
+  .ai-hot-pet__button[aria-expanded="true"] {
+    transform: translateY(-0.2rem);
+    filter: drop-shadow(0 20px 28px rgb(0 0 0 / 0.28));
+  }
+
+  .ai-hot-pet__sprite {
+    width: 5.8rem;
+    height: 6.28rem;
+    background-repeat: no-repeat;
+    background-size: 46.4rem 56.52rem;
+    animation: ai-hot-pet-idle 1.1s steps(6) infinite;
+  }
+
+  .ai-hot-pet__bubble {
+    position: absolute;
+    right: 0.05rem;
+    top: 0.15rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--border));
+    border-radius: 999px;
+    background: var(--background);
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0.34rem 0.48rem;
+    box-shadow: 0 8px 18px rgb(0 0 0 / 0.12);
+  }
+
+  .ai-hot-panel {
+    position: relative;
+    width: min(24rem, calc(100vw - 1.5rem));
+    max-height: min(34rem, calc(100vh - 8rem));
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 0.9rem 0.9rem 0.35rem 0.9rem;
+    background: color-mix(in srgb, var(--background) 98%, transparent);
+    box-shadow: 0 18px 50px rgb(0 0 0 / 0.18);
+    font-family: inherit;
+    cursor: pointer;
+    backdrop-filter: blur(14px);
+  }
+
+  .ai-hot-panel::after {
+    position: absolute;
+    right: 2.2rem;
+    bottom: -0.45rem;
+    width: 1rem;
+    height: 1rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background: var(--background);
+    content: "";
+    transform: rotate(45deg);
+  }
+
+  .ai-hot-panel[hidden] {
+    display: none;
+  }
+
+  .ai-hot-panel__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid var(--border);
+    padding: 0.95rem 1rem 0.82rem;
+  }
+
+  .ai-hot-panel__source,
+  .ai-hot-panel__hint {
+    margin: 0;
+    color: color-mix(in srgb, var(--foreground) 62%, transparent);
+    font-size: 0.75rem;
+    line-height: 1.45;
+  }
+
+  .ai-hot-panel__source {
+    color: var(--accent);
+    font-weight: 800;
+  }
+
+  .ai-hot-panel h2 {
+    margin: 0.12rem 0 0.16rem;
+    color: var(--foreground);
+    font-size: 1.12rem;
+    font-weight: 750;
+    line-height: 1.2;
+  }
+
+  .ai-hot-panel__close {
+    display: grid;
+    width: 2rem;
+    height: 2rem;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--background);
+    color: var(--foreground);
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
+  .ai-hot-panel__close:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .ai-hot-panel__status {
+    padding: 1rem 1.05rem;
+    color: color-mix(in srgb, var(--foreground) 70%, transparent);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .ai-hot-panel__status:empty {
+    display: none;
+  }
+
+  .ai-hot-panel__list {
+    display: grid;
+    gap: 0.58rem;
+    max-height: min(21rem, calc(100vh - 15rem));
+    overflow-y: auto;
+    padding: 0.85rem;
+  }
+
+  .ai-hot-panel__item {
+    display: grid;
+    gap: 0.62rem;
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+    background: color-mix(in srgb, var(--background) 88%, var(--muted));
+    color: var(--foreground);
+    padding: 0.9rem;
+    text-decoration: none;
+    transition:
+      border-color 160ms ease,
+      background-color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .ai-hot-panel__item:hover {
+    border-color: color-mix(in srgb, var(--accent) 48%, var(--border));
+    background: color-mix(in srgb, var(--background) 78%, var(--muted));
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .ai-hot-panel__meta {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    gap: 0.45rem;
+    color: color-mix(in srgb, var(--foreground) 62%, transparent);
+    font-size: 0.74rem;
+    line-height: 1.25;
+  }
+
+  .ai-hot-panel__category {
+    flex: 0 0 auto;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .ai-hot-panel__dot {
+    color: color-mix(in srgb, var(--foreground) 36%, transparent);
+  }
+
+  .ai-hot-panel__source-name {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ai-hot-panel__divider {
+    height: 1px;
+    background: color-mix(in srgb, var(--border) 84%, transparent);
+  }
+
+  .ai-hot-panel__summary {
+    display: -webkit-box;
+    overflow: hidden;
+    color: color-mix(in srgb, var(--foreground) 72%, transparent);
+    font-size: 0.84rem;
+    line-height: 1.5;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .ai-hot-panel__controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    border-top: 1px solid var(--border);
+    padding: 0.64rem 1rem;
+  }
+
+  .ai-hot-panel__controls[hidden] {
+    display: none;
+  }
+
+  .ai-hot-panel__nav {
+    display: grid;
+    width: 2rem;
+    height: 2rem;
+    place-items: center;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--background);
+    color: var(--foreground);
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
+  .ai-hot-panel__nav:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .ai-hot-panel__nav:disabled {
+    opacity: 0.38;
+  }
+
+  .ai-hot-panel__count {
+    color: color-mix(in srgb, var(--foreground) 62%, transparent);
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  .ai-hot-panel__footer {
+    display: block;
+    border-top: 1px solid var(--border);
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.72rem 1rem 0.86rem;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .ai-hot-panel__footer:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.22rem;
+  }
+
+  @keyframes ai-hot-pet-idle {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -34.8rem 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .ai-hot-pet {
+      bottom: max(2rem, env(safe-area-inset-bottom));
+    }
+  }
+
+  @media (max-width: 520px) {
+    .ai-hot-pet {
+      right: max(0.75rem, env(safe-area-inset-right));
+      bottom: max(4.8rem, env(safe-area-inset-bottom));
+    }
+
+    .ai-hot-pet__button {
+      width: 4.85rem;
+      height: 5.2rem;
+    }
+
+    .ai-hot-pet__sprite {
+      width: 4.85rem;
+      height: 5.24rem;
+      background-size: 38.8rem 47.16rem;
+      animation-name: ai-hot-pet-idle-mobile;
+    }
+
+    .ai-hot-panel {
+      width: min(23rem, calc(100vw - 1.5rem));
+      max-height: min(33rem, calc(100vh - 7rem));
+    }
+
+    .ai-hot-pet__speech {
+      max-width: min(16rem, calc(100vw - 6rem));
+      font-size: 0.82rem;
+      padding: 0.66rem 0.78rem;
+    }
+
+    .ai-hot-panel__list {
+      max-height: min(23rem, calc(100vh - 14rem));
+    }
+  }
+
+  @keyframes ai-hot-pet-idle-mobile {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -29.1rem 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ai-hot-pet__sprite {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+  type HotItem = {
+    id?: string;
+    title: string;
+    url: string;
+    aihotUrl?: string;
+    summary: string;
+    latestAt?: string;
+  };
+
+  type HotPayload = {
+    generatedAt?: string;
+    windowStart?: string;
+    sourceUrl?: string;
+    mode?: string;
+    items?: HotItem[];
+  };
+
+  type AiHotWindow = Window & {
+    __aiHotPetCleanup?: () => void;
+  };
+
+  function initAiHotPet() {
+    const root = document.querySelector<HTMLElement>("[data-ai-hot-pet]");
+    if (!root || root.dataset.bound === "true") return;
+
+    const appWindow = window as AiHotWindow;
+    appWindow.__aiHotPetCleanup?.();
+    root.dataset.bound = "true";
+    const petRoot = root;
+
+    const toggle = root.querySelector<HTMLButtonElement>(
+      "[data-ai-hot-toggle]"
+    );
+    const close = root.querySelector<HTMLButtonElement>("[data-ai-hot-close]");
+    const speech = root.querySelector<HTMLButtonElement>(
+      "[data-ai-hot-speech]"
+    );
+    const panel = root.querySelector<HTMLElement>("[data-ai-hot-panel]");
+    const status = root.querySelector<HTMLElement>("[data-ai-hot-status]");
+    const list = root.querySelector<HTMLElement>("[data-ai-hot-list]");
+    const title = root.querySelector<HTMLElement>("[data-ai-hot-title]");
+    const meta = root.querySelector<HTMLElement>("[data-ai-hot-meta]");
+    const controls = root.querySelector<HTMLElement>("[data-ai-hot-controls]");
+    const prev = root.querySelector<HTMLButtonElement>("[data-ai-hot-prev]");
+    const next = root.querySelector<HTMLButtonElement>("[data-ai-hot-next]");
+    const count = root.querySelector<HTMLElement>("[data-ai-hot-count]");
+
+    if (
+      !toggle ||
+      !close ||
+      !speech ||
+      !panel ||
+      !status ||
+      !list ||
+      !title ||
+      !meta ||
+      !controls ||
+      !prev ||
+      !next ||
+      !count
+    )
+      return;
+
+    const toggleButton = toggle;
+    const closeButton = close;
+    const speechButton = speech;
+    const hotPanel = panel;
+    const statusRegion = status;
+    const itemList = list;
+    const titleText = title;
+    const metaText = meta;
+    const controlsRow = controls;
+    const prevButton = prev;
+    const nextButton = next;
+    const countText = count;
+    const hotDataUrl = root.dataset.hotUrl || "/data/ai-hot.json";
+    const controller = new AbortController();
+    const listenerOptions = { signal: controller.signal };
+    appWindow.__aiHotPetCleanup = () => {
+      controller.abort();
+    };
+
+    let requested = false;
+    let candidateItems: HotItem[] = [];
+    let currentIndex = 0;
+
+    function setOpen(nextOpen: boolean) {
+      hotPanel.hidden = !nextOpen;
+      petRoot.classList.toggle("is-open", nextOpen);
+      toggleButton.setAttribute("aria-expanded", String(nextOpen));
+      if (nextOpen) void loadHotItems();
+    }
+
+    function renderStatus(message: string) {
+      statusRegion.textContent = message;
+    }
+
+    function renderMeta(payload: HotPayload) {
+      const generated = formatGeneratedAt(payload.generatedAt);
+      metaText.textContent = generated
+        ? `来自 AI HOT 当前热点榜单 · ${generated} 更新`
+        : "来自 AI HOT 当前热点榜单";
+    }
+
+    function renderItem(item: HotItem) {
+      const targetUrl = item.aihotUrl || item.url;
+      const link = document.createElement("a");
+      link.className = "ai-hot-panel__item";
+      link.href = targetUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      const divider = document.createElement("span");
+      divider.className = "ai-hot-panel__divider";
+      divider.setAttribute("aria-hidden", "true");
+
+      const summary = document.createElement("span");
+      summary.className = "ai-hot-panel__summary";
+      summary.textContent = item.summary || "点击查看原文。";
+
+      titleText.textContent = item.title || "未命名热点";
+      link.append(divider, summary);
+      itemList.replaceChildren(link);
+      hotPanel.dataset.currentUrl = targetUrl;
+    }
+
+    function renderCurrentItem() {
+      const item = candidateItems[currentIndex];
+      if (!item) return;
+      renderItem(item);
+
+      const hasMultipleItems = candidateItems.length > 1;
+      controlsRow.hidden = !hasMultipleItems;
+      countText.textContent = `${currentIndex + 1} / ${candidateItems.length}`;
+      prevButton.disabled = !hasMultipleItems;
+      nextButton.disabled = !hasMultipleItems;
+    }
+
+    function showOffset(offset: number) {
+      if (!candidateItems.length) return;
+      currentIndex =
+        (currentIndex + offset + candidateItems.length) % candidateItems.length;
+      renderCurrentItem();
+    }
+
+    async function loadHotItems() {
+      if (requested) return;
+      requested = true;
+      renderStatus("正在读取 AI HOT 精选...");
+
+      try {
+        const response = await fetch(hotDataUrl, {
+          headers: { Accept: "application/json" },
+        });
+        if (!response.ok) throw new Error("AI HOT 数据未同步");
+
+        const payload = (await response.json()) as HotPayload;
+        const items = Array.isArray(payload.items) ? payload.items : [];
+        renderMeta(payload);
+
+        if (!items.length) {
+          renderStatus("暂时没有同步到本周热点。");
+          itemList.replaceChildren();
+          return;
+        }
+
+        candidateItems = items.slice(0, 5);
+        currentIndex = 0;
+        if (!candidateItems.length) {
+          renderStatus("暂时没有匹配到适合展示的 AI 热点。");
+          itemList.replaceChildren();
+          controlsRow.hidden = true;
+          return;
+        }
+
+        renderCurrentItem();
+        renderStatus("");
+      } catch {
+        renderStatus("AI HOT 数据暂时不可用，稍后再来看看。");
+        itemList.replaceChildren();
+        controlsRow.hidden = true;
+      }
+    }
+
+    toggleButton.addEventListener(
+      "click",
+      event => {
+        event.stopPropagation();
+        setOpen(hotPanel.hidden);
+      },
+      listenerOptions
+    );
+
+    speechButton.addEventListener(
+      "click",
+      event => {
+        event.stopPropagation();
+        setOpen(true);
+      },
+      listenerOptions
+    );
+
+    closeButton.addEventListener(
+      "click",
+      event => {
+        event.stopPropagation();
+        setOpen(false);
+        toggleButton.focus();
+      },
+      listenerOptions
+    );
+
+    hotPanel.addEventListener(
+      "click",
+      event => {
+        event.stopPropagation();
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+        if (
+          target.closest("button") ||
+          target.closest("a") ||
+          target.closest(".ai-hot-panel__footer")
+        )
+          return;
+
+        const url = hotPanel.dataset.currentUrl;
+        if (url) {
+          window.open(url, "_blank", "noopener,noreferrer");
+        }
+      },
+      listenerOptions
+    );
+
+    prevButton.addEventListener(
+      "click",
+      event => {
+        event.stopPropagation();
+        showOffset(-1);
+      },
+      listenerOptions
+    );
+
+    nextButton.addEventListener(
+      "click",
+      event => {
+        event.stopPropagation();
+        showOffset(1);
+      },
+      listenerOptions
+    );
+
+    document.addEventListener(
+      "click",
+      () => {
+        if (!hotPanel.hidden) setOpen(false);
+      },
+      listenerOptions
+    );
+
+    document.addEventListener(
+      "keydown",
+      event => {
+        if (event.key === "Escape" && !hotPanel.hidden) {
+          setOpen(false);
+          toggleButton.focus();
+        }
+      },
+      listenerOptions
+    );
+  }
+
+  function formatGeneratedAt(value?: string) {
+    if (!value) return "";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "";
+    return new Intl.DateTimeFormat("zh-CN", {
+      timeZone: "Asia/Shanghai",
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(date);
+  }
+
+  document.addEventListener("astro:page-load", initAiHotPet);
+  initAiHotPet();
+</script>

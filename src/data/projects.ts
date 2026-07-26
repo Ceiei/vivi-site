@@ -2,6 +2,7 @@ export type Project = {
   slug: string;
   title: string;
   description: string;
+  date: string;
   fullDescription: string;
   researchQuestions: string[];
   solution: string[];
@@ -12,12 +13,21 @@ export type Project = {
   coverImage: string;
 };
 
+export type OpenSourceProject = {
+  title: string;
+  description: string;
+  date: string;
+  tags: string[];
+  githubUrl: string;
+};
+
 export const projects: Project[] = [
   {
     slug: "bfrb-multimodal-sensor-classification",
     title: "多模态可穿戴传感器 BFRB 手势识别与分类",
     description:
       "基于 Kaggle CMI 可穿戴传感器数据，比较传统机器学习与深度时序模型在 BFRB 手势二分类和多分类任务中的效果。",
+    date: "2025-07-01",
     fullDescription:
       "项目面向躯体聚焦性重复行为（BFRBs）的自动检测问题，使用 Helios 腕戴设备采集的 IMU、热电堆和 ToF 多模态序列数据，构建从数据预处理、特征工程、传统机器学习到深度学习模型评估的完整建模流程，为心理健康监测场景中的可穿戴设备算法优化提供实证参考。",
     researchQuestions: [
@@ -55,6 +65,7 @@ export const projects: Project[] = [
     title: "基于离散扩散模型的生成式列表推荐方法",
     description:
       "面向页面级 Slate Recommendation，提出基于离散掩码扩散的列表级生成推荐框架 SlateDM。",
+    date: "2026-06-01",
     fullDescription:
       "项目研究推荐系统从单物品排序转向页面级列表推荐后的联合建模问题。针对传统 top-K 聚合难以协同优化相关性、多样性、去重和可投放约束的问题，提出 SlateDM：在离散语义空间中把完整推荐列表作为生成对象，通过并行语义词元化、层级历史编码、离散掩码扩散和约束推理实现列表级联合生成。",
     researchQuestions: [
@@ -87,5 +98,16 @@ export const projects: Project[] = [
     githubUrl: "",
     demoUrl: "",
     coverImage: "",
+  },
+];
+
+export const openSourceProjects: OpenSourceProject[] = [
+  {
+    title: "GeoGebra + AI 智能绘图",
+    description:
+      "一个将 AI 题意理解与 GeoGebra 交互式绘图结合的在线工具，支持输入数学题文字或上传题图后生成绘图方案与可编辑图形。",
+    date: "2026-07-23",
+    tags: ["GeoGebra", "AI", "数学可视化", "题图解析", "Open Source"],
+    githubUrl: "https://github.com/Ceiei/awesome-geogebra-ai",
   },
 ];

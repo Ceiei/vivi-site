@@ -17,14 +17,33 @@ import { SITE } from "@/config";
 import { withBase } from "@/utils/withBase";
 import getSortedPosts from "@/utils/getSortedPosts";
 import { getPath } from "@/utils/getPath";
-import { projects } from "@/data/projects";
+import { openSourceProjects, projects } from "@/data/projects";
 import { publications } from "@/data/publications";
 import { awards } from "@/data/awards";
 import { hiking, travel } from "@/data/hobbies";
 
 const avatarSrc = avatar.src ?? avatar;
 const wechatQrSrc = wechatQr.src ?? wechatQr;
-const latestProjects = projects.slice(0, 3);
+const latestProjects = [
+  ...projects.map(project => ({
+    title: project.title,
+    description: project.description,
+    date: project.date,
+    tags: project.tags,
+    href: withBase(`/projects/${project.slug}`),
+    external: false,
+  })),
+  ...openSourceProjects.map(project => ({
+    title: project.title,
+    description: project.description,
+    date: project.date,
+    tags: project.tags,
+    href: project.githubUrl,
+    external: true,
+  })),
+]
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 3);
 const latestPublications = publications.slice(0, 1);
 const latestAwards = awards;
 const latestPosts = getSortedPosts(await getCollection("blog")).slice(0, 3);
@@ -81,7 +100,7 @@ const aboutNavItems = [
   { href: "#internships", label: "实习经历" },
   { href: "#publications", label: "论文发表" },
   { href: "#awards", label: "获奖情况" },
-  { href: "#project-intro", label: "项目介绍" },
+  { href: "#academic-projects", label: "项目汇总" },
   { href: "#blog", label: "学习博客" },
   { href: "#hobbies", label: "兴趣爱好" },
 ];
@@ -382,12 +401,12 @@ const aboutNavItems = [
           }
         </div>
       </section>
-      <section id="project-intro" class="scroll-mt-24 space-y-8">
-        <SectionHeader title="项目介绍">
+      <section id="academic-projects" class="scroll-mt-24 space-y-8">
+        <SectionHeader title="项目汇总">
           <a
             slot="action"
             class="inline-flex items-center gap-1 text-sm font-medium text-accent transition hover:underline"
-            href={withBase("/projects#project-intro")}
+            href={withBase("/projects")}
           >
             查看全部
             <IconArrowRight class="size-4 rtl:-rotate-180" />
@@ -399,9 +418,11 @@ const aboutNavItems = [
             latestProjects.map(project => (
               <article class="resume-card group relative flex h-full cursor-pointer flex-col p-5">
                 <a
-                  href={withBase(`/projects/${project.slug}`)}
+                  href={project.href}
                   class="absolute inset-0 z-0"
                   aria-label={`查看项目详情：${project.title}`}
+                  target={project.external ? "_blank" : undefined}
+                  rel={project.external ? "noreferrer" : undefined}
                 />
                 <h3 class="text-lg leading-snug font-semibold transition group-hover:text-accent">
                   {project.title}
@@ -433,28 +454,32 @@ const aboutNavItems = [
 
         <div class="space-y-3">
           {
-            latestPosts.map(post => (
-              <article class="resume-card group relative cursor-pointer px-5 py-4">
-                <a
-                  href={getPath(post.id, post.filePath)}
-                  class="absolute inset-0 z-0"
-                  aria-label={`查看博客：${post.data.title}`}
-                />
-                <div class="flex flex-wrap items-center justify-between gap-3">
-                  <div class="min-w-0">
-                    <h3 class="block truncate text-lg font-semibold transition group-hover:text-accent">
-                      {post.data.title}
-                    </h3>
-                    <p class="mt-1 line-clamp-1 text-sm text-foreground/70">
-                      {post.data.description}
+            latestPosts.map(post => {
+              const updatedDate = post.data.modDatetime ?? post.data.pubDatetime;
+
+              return (
+                <article class="resume-card group relative cursor-pointer px-5 py-4">
+                  <a
+                    href={getPath(post.id, post.filePath)}
+                    class="absolute inset-0 z-0"
+                    aria-label={`查看博客：${post.data.title}`}
+                  />
+                  <div class="flex flex-wrap items-center justify-between gap-3">
+                    <div class="min-w-0">
+                      <h3 class="block truncate text-lg font-semibold transition group-hover:text-accent">
+                        {post.data.title}
+                      </h3>
+                      <p class="mt-1 line-clamp-1 text-sm text-foreground/70">
+                        {post.data.description}
+                      </p>
+                    </div>
+                    <p class="shrink-0 text-sm text-foreground/60">
+                      {formatDate(updatedDate)}
                     </p>
                   </div>
-                  <p class="shrink-0 text-sm text-foreground/60">
-                    {formatDate(post.data.pubDatetime)}
-                  </p>
-                </div>
-              </article>
-            ))
+                </article>
+              );
+            })
           }
         </div>
       </section>

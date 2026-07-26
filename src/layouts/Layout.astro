@@ -1,6 +1,7 @@
 ---
 import { ClientRouter } from "astro:transitions";
 import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
+import AiHotPet from "@/components/AiHotPet.astro";
 import { SITE } from "@/config";
 import { withBase } from "@/utils/withBase";
 import "@/styles/global.css";
@@ -163,6 +164,7 @@ const structuredData = {
   </head>
   <body>
     <slot />
+    <AiHotPet />
 
     <!-- Load full theme logic -->
     <script src="../scripts/theme.ts"></script>

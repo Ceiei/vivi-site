@@ -7,17 +7,19 @@ import SideNav from "@/components/SideNav.astro";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconArxiv from "@/assets/icons/IconArxiv.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
-import { projects } from "@/data/projects";
+import { openSourceProjects, projects } from "@/data/projects";
 import { publications } from "@/data/publications";
 import { awards } from "@/data/awards";
 import { SITE } from "@/config";
 import { withBase } from "@/utils/withBase";
 
 const sortedProjects = [...projects];
+const sortedOpenSourceProjects = [...openSourceProjects];
 const sortedPublications = [...publications].sort((a, b) => b.year - a.year);
 const sortedAwards = awards;
 const projectNavItems = [
-  { href: "#project-intro", label: "项目介绍" },
+  { href: "#academic-projects", label: "学术项目" },
+  { href: "#open-source-projects", label: "开源项目" },
   { href: "#publications", label: "论文发表" },
   { href: "#awards", label: "获奖情况" },
 ];
@@ -25,7 +27,7 @@ const projectNavItems = [
 
 <Layout
   title={`项目汇总 | ${SITE.title}`}
-  description="项目介绍、论文发表和获奖情况汇总。"
+  description="学术项目、开源项目、论文发表和获奖情况汇总。"
 >
   <Header />
   <SideNav items={projectNavItems} />
@@ -39,15 +41,15 @@ const projectNavItems = [
         <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">项目汇总</h1>
       </section>
 
-      <section id="project-intro" class="scroll-mt-24 space-y-6">
+      <section id="academic-projects" class="scroll-mt-24 space-y-6">
         <div class="space-y-2">
           <p
             class="text-sm font-medium tracking-[0.24em] text-accent uppercase"
           >
-            Projects
+            Academic Projects
           </p>
           <h2 class="text-2xl font-semibold tracking-tight sm:text-3xl">
-            项目介绍
+            学术项目
           </h2>
         </div>
 
@@ -106,6 +108,64 @@ const projectNavItems = [
                       <IconArrowRight class="size-4 rtl:-rotate-180" />
                     </LinkButton>
                   )}
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <section id="open-source-projects" class="scroll-mt-24 space-y-6">
+        <div class="space-y-2">
+          <p
+            class="text-sm font-medium tracking-[0.24em] text-accent uppercase"
+          >
+            Open Source
+          </p>
+          <h2 class="text-2xl font-semibold tracking-tight sm:text-3xl">
+            开源项目
+          </h2>
+        </div>
+
+        <div class="grid gap-5">
+          {
+            sortedOpenSourceProjects.map(project => (
+              <article class="rounded-3xl border border-border bg-muted/20 p-6 transition hover:border-accent/50 hover:bg-muted/30">
+                <div class="space-y-2">
+                  <a
+                    href={project.githubUrl}
+                    class="text-xl font-semibold transition hover:text-accent"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {project.title}
+                  </a>
+                  <p class="text-sm text-foreground/65">
+                    {project.tags.slice(0, 3).join(" · ")}
+                  </p>
+                </div>
+
+                <p class="mt-3 flex-1 leading-7 text-foreground/80">
+                  {project.description}
+                </p>
+
+                <ul class="mt-4 flex flex-wrap gap-2">
+                  {project.tags.map(tag => (
+                    <li class="rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-medium text-sky-700 dark:border-sky-400/20 dark:bg-sky-400/10 dark:text-sky-200">
+                      {tag}
+                    </li>
+                  ))}
+                </ul>
+
+                <div class="mt-5 flex flex-wrap gap-3">
+                  <LinkButton
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    查看详情
+                    <IconArrowRight class="size-4 rtl:-rotate-180" />
+                  </LinkButton>
                 </div>
               </article>
             ))

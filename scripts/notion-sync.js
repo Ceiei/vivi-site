@@ -71,21 +71,30 @@ function readText(properties, aliases, fallback = "") {
   return fallback;
 }
 
-function readDate(properties) {
+function readDate(properties, page) {
   const property = getProperty(properties, PROPERTY_ALIASES.pubDatetime);
   if (property?.type === "date" && property.date?.start) {
     return new Date(property.date.start).toISOString();
   }
+  if (page?.created_time) {
+    return new Date(page.created_time).toISOString();
+  }
+  if (page?.last_edited_time) {
+    return new Date(page.last_edited_time).toISOString();
+  }
   return new Date().toISOString();
 }
 
-function readOptionalDate(properties, aliases) {
+function readOptionalDate(properties, aliases, page) {
   const property = getProperty(properties, aliases);
   if (property?.type === "date" && property.date?.start) {
     return new Date(property.date.start).toISOString();
   }
   if (property?.type === "last_edited_time" && property.last_edited_time) {
     return new Date(property.last_edited_time).toISOString();
+  }
+  if (page?.last_edited_time) {
+    return new Date(page.last_edited_time).toISOString();
   }
   return undefined;
 }
@@ -231,10 +240,11 @@ async function pageToMarkdown(page) {
     PROPERTY_ALIASES.description,
     "AI 学习笔记"
   );
-  const pubDatetime = readDate(properties);
+  const pubDatetime = readDate(properties, page);
   const modDatetime = readOptionalDate(
     properties,
-    PROPERTY_ALIASES.modDatetime
+    PROPERTY_ALIASES.modDatetime,
+    page
   );
   const tags = readTags(properties);
   const explicitSlug = readText(properties, PROPERTY_ALIASES.slug, "");

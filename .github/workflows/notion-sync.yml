@@ -42,15 +42,18 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
 
-      - name: Commit synced Markdown
+      - name: Sync AIHOT data
+        run: npm run aihot:sync
+
+      - name: Commit synced content
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/content/blog
+          git add src/content/blog public/data/ai-hot.json
           if git diff --cached --quiet; then
-            echo "No Notion content changes."
+            echo "No synced content changes."
           else
-            git commit -m "Sync Notion posts"
+            git commit -m "Sync Notion posts and AI hotspots"
             git push
           fi
 
