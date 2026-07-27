@@ -1,8 +1,8 @@
 ---
 title: "Agent速通——从理论到实践"
 description: ""
-pubDatetime: 2026-07-26T03:27:28.437Z
-modDatetime: 2026-07-25T10:53:00.000Z
+pubDatetime: 2026-07-25T07:58:00.000Z
+modDatetime: 2026-07-26T07:29:00.000Z
 tags: ["最佳实践"]
 draft: false
 ---
@@ -150,6 +150,17 @@ Tools 的定义遵循的是 OpenAI Function Calling 的标准格式（也称 Ope
 <summary>agent_loop代码实现：</summary>
 
 ```python
+import json
+import os
+import subprocess
+import sys
+import tempfile
+
+try:
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None  # type: ignore[assignment]
+
 # ============================================================
 # Agent Loop — 核心
 # ============================================================
@@ -172,7 +183,7 @@ def agent_loop(user_message: str, messages: list, client: OpenAI) -> str:
     for turn in range(1, MAX_TURNS + 1):
         # --- LLM Call调用LLM ---
         response = client.chat.completions.create(
-            model="deepseek-chat",
+            model="deepseek-v4-flash", # 这里可以换成别的模型名称
             messages=messages,
             tools=tool_schemas,
         )
@@ -472,6 +483,9 @@ def main():
         # 调用agent
         reply = agent_loop(user_input, messages, client)
         print(f"\nAgent> {reply}\n")
+        
+if __name__ == "__main__":
+    main()
 ```
 
 
@@ -488,6 +502,7 @@ def main():
 
 - 注册：[ https://platform.deepseek.com](https://platform.deepseek.com/)
 - 获取API Keys：[ https://platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys)
+- 往里面充钱
 <details>
 <summary>终端设置API Key：</summary>
 
@@ -508,6 +523,15 @@ export DEEPSEEK_API_KEY="sk-xxxxx"
 ```python
 python agent.py
 ```
+
+
+### 2.4.3 在终端对话
+
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/dbed4dcc-3c4d-81fe-b5fb-0003f65da37d/f9e9a0d8-7f89-4efc-8143-8256961eeb9b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZQY7FUCA%2F20260727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260727T033613Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJGMEQCIAZ58V1IUm%2F7qcLVZemVRhr3CgEmarieErRXVanItQDPAiAmK948vQKiOH99mxyQSyAfRDsP1LTr9xS%2Fg74XrjQMMyr%2FAwhEEAAaDDYzNzQyMzE4MzgwNSIMOyVQFkBSqLbUjSSAKtwDU9ccnYJRl6ls7JqH1BufmdicmunLjCXyL1Ek9DbK05NKeFAW6drXfMM2EHEAi%2FJz%2B1s9bqzBa5n8Y79hs9j3jhiPl5xCph0iSAgyGs%2F8VBriP6bllU4JtayKoV%2BxgLdOOpvBsUhBFE6s0LxhSH8eWucLf8MydvKWl9YF8pvlkmrBshg%2BjQzU3CWQEnx5ypayl4KJ9S%2F6XIFwU71AzeU%2BX6j8zHOXIjkL6lx3b0Uevu7LkGChElY6%2BwZ8duNSkTGc3m7Zu3gCyFXX3RwVo9mg31ZskxNGDJcEWu5A%2BlP8daZUji%2BAEvBq5xjdCqSgH07IPO%2FYDzFIUqqPf6sC25X1ruSdsKzdNbHRgNibdfecCVsOEj0zfQfFKuDs51LQuX4eP8iVi1UzWRikgB%2FIaCfZC68U4FV8lUQS6VyZGexqRBgUrCw3NLCkt%2FB3nBGmLW8pferhvVgW%2BaOD21v9UOfeDqWGM6cuN0ofVniGSrL8a0tM63h0DzpPz57ipNjcVDLw1sO4NosnkMD6eETuIWfM9HynAG0gjnzUKimggvm571GaGzSIEQ2o1P6fYt1hnjMiNUC22zJ9WJH92lyAqXImK9MbV562lQFbu%2B4cmg34YXOkBNMTQhUQJpjpiNYwm5eb0wY6pgE1g8%2FAM9haUL8DOenW%2BNwdbuaVED%2B40TyNp4OLGNImcfUoqZWyl6cYEBLrT4hZXIoC0JyRxqb8uXOe9Gs%2BSrgM8%2FVQ4WZIddCtvnp8e8s4fVGRRZNePxG%2BVYbVLmRtFNdYwEmTv70MSOeoGa2VZZBPt%2FlorQDB3gCtDiHsOP6AhfG8OELBCgBK7mWLUut5%2B2Ax9mObRN%2BPjcFBub%2F8gNzGWe3jY8bo&X-Amz-Signature=2df7c1e33e56246a254ca1334c85cfbed4ce2fc9131c613b4af254a57d61f078&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+（虽然我这里配置的是Deepseek的API Key，但是agent还是宣称自己是Claude，捕获一名叛徒x
 
 
 # 3 总结和拓展
