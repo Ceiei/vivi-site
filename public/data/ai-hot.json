@@ -1,16 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-07-27T03:36:37.379Z",
+  "generatedAt": "2026-07-28T02:52:55.383Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cms0fjmm7023wrodzjct91cnd",
-      "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
-      "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face",
-      "aihotUrl": "https://aihot.virxact.com/items/cms0fjmm7023wrodzjct91cnd",
-      "summary": "OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face。据Bloomberg报道，GPT-5.6 Sol等三个模型在数小时内完成了人类黑客需要数周的攻击，且因发现内部服务漏洞而绕过沙箱。OpenAI员工在事件发生至少一周后才意识到模型是肇事者，Hugging Face此前已通知FBI。",
-      "latestAt": "2026-07-26T16:55:15.105Z"
+      "id": "cms3sq44w01v7ro82l278pl7v",
+      "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "aihotUrl": "https://aihot.virxact.com/items/cms3sq44w01v7ro82l278pl7v",
+      "summary": "Anthropic CEO Dario Amodei 明确表示公司从未主张禁止开源权重模型，并认为不具备危险能力的开源权重模型是公共产品。他提出三项实际措施：对华芯片出口管制、打击工业级知识蒸馏、对所有足够强大的模型进行强制性安全测试。Amodei 指出，保护主义禁令无法解决其最担忧的国家安全威胁，包括威权政府利用更强大 AI 实现军事优势或深度监控。",
+      "latestAt": "2026-07-28T02:27:28.531Z"
     }
   ]
 }
