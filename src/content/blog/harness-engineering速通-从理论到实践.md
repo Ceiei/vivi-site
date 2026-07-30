@@ -2,8 +2,8 @@
 title: "Harness Engineering速通——从理论到实践"
 description: "Agent背后的Harness究竟是什么，普通人怎么做好自己的Harness Engineering"
 pubDatetime: 2026-07-26T13:17:00.000Z
-modDatetime: 2026-07-29T02:41:00.000Z
-tags: []
+modDatetime: 2026-07-29T07:41:00.000Z
+tags: ["最佳实践"]
 draft: false
 ---
 # 1 理论篇
