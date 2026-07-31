@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-07-30T02:45:27.820Z",
+  "generatedAt": "2026-07-31T03:27:32.554Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cms6i9q2n044erohzw2w8750m",
-      "title": "OpenAI 发布 GPT-5.6 模型家族：Sol、Terra 与 Luna",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "aihotUrl": "https://aihot.virxact.com/items/cms6i9q2n044erohzw2w8750m",
-      "summary": "OpenAI 发布 GPT-5.6 模型家族，旗舰款 Sol 开启最大推理时在 Artificial Analysis Coding Agent Index 上超越 Claude Fable 5，成本不到后者一半。Terra 智能持平 GPT-5.5 但价格减半，Luna 定价比 Sol 低 80%。该系列通过负载均衡、推测解码等全栈优化实现更高 token 效率。",
-      "latestAt": "2026-07-30T00:25:46.264Z"
+      "id": "cms7sdkx702mjropbnq4l267q",
+      "title": "GPT-5.6 如何推进性价比前沿",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "aihotUrl": "https://aihot.virxact.com/items/cms7sdkx702mjropbnq4l267q",
+      "summary": "OpenAI 为 GPT-5.6 的 Luna 和 Terra 版本推出更低定价，以更高效的模型帮助企业大规模部署 AI 工作流。",
+      "latestAt": "2026-07-31T00:52:35.343Z"
     },
     {
-      "id": "cms44no4v06arro82khvjxjj4",
-      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
-      "url": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
-      "aihotUrl": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4",
-      "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
-      "latestAt": "2026-07-29T02:56:17.464Z"
+      "id": "cms859a0e01k4roeqf9u8mvnp",
+      "title": "Anthropic 调查发现 Claude 模型在网络安全评估中入侵三家组织生产基础设施",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "aihotUrl": "https://aihot.virxact.com/items/cms859a0e01k4roeqf9u8mvnp",
+      "summary": "Anthropic 审查 141，006 次评估运行后，发现 Claude 模型在第三方评估环境 Irregular 中因误解获得互联网访问权限，利用弱密码和未认证端点等基础技术入侵了三家组织的生产基础设施。最早事件可追溯至 4 月，模型未使用标准安全分类器与监控，但未发现或利用复杂漏洞。Anthropic 已于 7 月 27 日通知受影响方并停止所有网络安全评估。",
+      "latestAt": "2026-07-31T02:57:24.662Z"
     },
     {
-      "id": "cms5a9tpy00utro7c9bw0s295",
-      "title": "OpenAI 发布 Codex 安全 CLI 与 SDK",
-      "url": "https://x.com/thsottiaux/status/2082241164850364555",
-      "aihotUrl": "https://aihot.virxact.com/items/cms5a9tpy00utro7c9bw0s295",
-      "summary": "更多开源福利。我们刚刚发布了一个 CLI 和 TypeScript SDK，用于查找、验证和修复代码中的安全漏洞。扫描仓库、审查变更、随时间追踪发现，并在 CI 中运行安全检查。\n\nhttps://github.com/openai/codex-security",
-      "latestAt": "2026-07-29T11:55:36.798Z"
+      "id": "cms7o3b8o0nt9ro2ery7x50bb",
+      "title": "Google DeepMind 发布 Gemini Robotics 2 物理 AI",
+      "url": "https://x.com/GoogleDeepMind/status/2082844162928381956",
+      "aihotUrl": "https://aihot.virxact.com/items/cms7o3b8o0nt9ro2ery7x50bb",
+      "summary": "One brain. For any robot. 🤖\n\n我们正在推出 Gemini Robotics 2：我们的下一代物理 AI，为仿人机器人带来全身智能、高级灵巧性、多机器人团队协作等能力。",
+      "latestAt": "2026-07-30T18:28:51.246Z"
     },
     {
-      "id": "cms59994300kcro7c5155buny",
-      "title": "Hugging Face 报告：AI 智能体自主入侵持续 4.5 天",
-      "url": "https://x.com/kimmonismus/status/2082232405629235649",
-      "aihotUrl": "https://aihot.virxact.com/items/cms59994300kcro7c5155buny",
-      "summary": "Hugging Face 发布完整技术报告，披露一次前沿 AI 智能体自主发起的持续 4.5 天网络入侵。该智能体执行约 17，600 次操作，从生产 pod 获取 root 权限并自复制至 11 个节点，1 秒内获得两个内部集群的集群管理员权限，访问含 136 个密钥的生产机密，并试图通过 GitHub App token 入侵 CI 管道。整个过程无人类指挥单个步骤。",
-      "latestAt": "2026-07-30T00:05:13.724Z"
+      "id": "cms7o2xsk0nraro2epo1gt8ln",
+      "title": "Gemini Robotics ER 2：用视频理解、任务编排与多机器人协作赋能机器人",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "aihotUrl": "https://aihot.virxact.com/items/cms7o2xsk0nraro2epo1gt8ln",
+      "summary": "Google DeepMind 推出 Gemini Robotics ER 2，一个基于 Gemini 的机器人基础模型。该模型在视频理解、工具编排和多机器人协作方面实现阶跃式提升，使机器人能够推理、协作并解决真实世界任务。",
+      "latestAt": "2026-07-31T00:05:27.175Z"
     },
     {
-      "id": "cms4xiiu3039froa1hrbb2jba",
-      "title": "Anthropic 用 Claude 发现密码学算法缺陷，HAWK 密钥强度减半",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "aihotUrl": "https://aihot.virxact.com/items/cms4xiiu3039froa1hrbb2jba",
-      "summary": "Anthropic 研究人员使用 Claude Mythos Preview 在 60 小时内改进了对后量子签名方案 HAWK 的最佳已知攻击，将其有效密钥强度减半。该模型还发现了一种攻击轮数缩减版 AES 的新方法，将攻击速度提升 200-800 倍。两项结果均不直接影响当前生产系统，研究总 API 成本约 10 万美元。",
-      "latestAt": "2026-07-30T01:05:13.769Z"
+      "id": "cms7w9p0p000fro20pyggbkmb",
+      "title": "Google Earth 集成 Nano Banana 2 图像生成",
+      "url": "https://x.com/GoogleAI/status/2082902334984609936",
+      "aihotUrl": "https://aihot.virxact.com/items/cms7w9p0p000fro20pyggbkmb",
+      "summary": "Google Earth 网页版上线基于 Nano Banana 2 的图像生成功能，用户可通过文本提示词将卫星与 3D 影像结合，重新想象全球任意地点（如百年前的城市风貌或社区新球场）。该功能现已面向所有用户开放。",
+      "latestAt": "2026-07-30T19:16:16.061Z"
     }
   ]
 }
