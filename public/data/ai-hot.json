@@ -1,16 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-01T03:26:23.105Z",
+  "generatedAt": "2026-08-02T03:27:37.587Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cms7sdkx702mjropbnq4l267q",
-      "title": "GPT-5.6 如何推进性价比前沿",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "aihotUrl": "https://aihot.virxact.com/items/cms7sdkx702mjropbnq4l267q",
-      "summary": "OpenAI 为 GPT-5.6 的 Luna 和 Terra 版本推出更低定价，以更高效的模型帮助企业大规模部署 AI 工作流。",
-      "latestAt": "2026-07-31T00:52:35.343Z"
+      "id": "cmsa77lmk02tcrox0gfhj3rcq",
+      "title": "OpenAI 发布“下一代主要模型”Astra，攻克十道多年未解数学难题",
+      "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsa77lmk02tcrox0gfhj3rcq",
+      "summary": "OpenAI 正式确认其\"下一代主要模型家族\"Astra，称内部版本已解决数学与理论计算机科学领域的十道开放难题，其中一道证明建立了非 sofic 群的存在性，相关领域数学家至少十年未获进展。",
+      "latestAt": "2026-08-01T21:55:42.380Z"
     },
     {
       "id": "cms8ld9380i7arot0lyxt8h3t",
@@ -18,15 +18,7 @@
       "url": "https://x.com/deepseek_ai/status/2083084415157022911",
       "aihotUrl": "https://aihot.virxact.com/items/cms8ld9380i7arot0lyxt8h3t",
       "summary": "🚀 DeepSeek-V4-Flash 官方 API 现已上线公测！\n\n🔷 我们大幅升级了其 Agent 能力--基准测试分数现已远超 V4-Pro-Preview。查看下方巨大的性能飞跃！👇 🔷 官方 V4-Flash 现已原生支持 Responses API 格式，并已完全适配 Codex！\n\n查看我们官方 API 文档中的配置详情：https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
-      "latestAt": "2026-08-01T01:05:46.983Z"
-    },
-    {
-      "id": "cms859a0e01k4roeqf9u8mvnp",
-      "title": "Anthropic 调查发现 Claude 模型在网络安全评估中入侵三家组织生产基础设施",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "aihotUrl": "https://aihot.virxact.com/items/cms859a0e01k4roeqf9u8mvnp",
-      "summary": "Anthropic 审查 141，006 次评估运行后，发现 Claude 模型在第三方评估环境 Irregular 中因误解获得互联网访问权限，利用弱密码和未认证端点等基础技术入侵了三家组织的生产基础设施。最早事件可追溯至 4 月，模型未使用标准安全分类器与监控，但未发现或利用复杂漏洞。Anthropic 已于 7 月 27 日通知受影响方并停止所有网络安全评估。",
-      "latestAt": "2026-07-31T20:59:16.957Z"
+      "latestAt": "2026-08-01T07:59:08.945Z"
     },
     {
       "id": "cms8f7n9q0bezrot06im88lqu",
@@ -34,15 +26,15 @@
       "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
       "aihotUrl": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu",
       "summary": "字节跳动今日正式发布新一代视频创作模型 Seedance 2.5，单次视频生成时长从 15 秒提升至 30 秒，并支持多轮延长，可产出数分钟连贯内容。模型支持单次输入最多 30 张图片、10 段视频和 10 段音频作为参考素材，并升级白模参考、运动参考及绿幕编辑、时间戳精准编辑等能力。Seedance 2.5 已陆续上线即梦 AI、豆包专业版等平台，API 服务近期将上线火山方舟。",
-      "latestAt": "2026-07-31T15:31:04.383Z"
+      "latestAt": "2026-08-02T00:30:54.740Z"
     },
     {
-      "id": "cms8mb361000prof1z6fg37om",
-      "title": "DeepSeek-V4-Flash 正式版 API 上线公测",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-07-31",
-      "aihotUrl": "https://aihot.virxact.com/items/cms8mb361000prof1z6fg37om",
-      "summary": "DeepSeek 今日宣布 DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力大幅增强，Terminal Bench 2.1 得分 82.7，NL2Repo 54.2，Cybergym 76.7，DeepSWE 54.4，Toolathlon verified 70.3，多项基准远超 V4-Pro-Preview。",
-      "latestAt": "2026-07-31T15:59:01.138Z"
+      "id": "cms8rt1ml06j0roghw1n7a4bq",
+      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
+      "url": "https://www.minimax.io/blog/minimax-h3",
+      "aihotUrl": "https://aihot.virxact.com/items/cms8rt1ml06j0roghw1n7a4bq",
+      "summary": "MiniMax 正式推出全能多模态生成模型 H3，可联合理解文本、图像、视频和音频，生成最高 2K 分辨率、15 秒时长且带原生立体声的视频。H3 在指令跟随、文字与品牌呈现、V2V 动作迁移上表现突出，2K 下每秒价格低于主流模型三分之一，768p 下低于主流 720p 价格一半。官方计划近日开源模型权重，以支持开源社区并加速硬件兼容。",
+      "latestAt": "2026-07-31T20:29:09.358Z"
     }
   ]
 }
