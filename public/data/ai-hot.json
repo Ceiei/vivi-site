@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-05T02:52:39.829Z",
+  "generatedAt": "2026-08-06T02:56:21.153Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmscne3ve0euwroeu6n9ioug7",
-      "title": "阿里巴巴千问 Qwen3.8-Max 模型正式上线，总参数量 2.4 万亿",
-      "url": "https://www.ithome.com/0/984/897.htm",
-      "aihotUrl": "https://aihot.virxact.com/items/cmscne3ve0euwroeu6n9ioug7",
-      "summary": "阿里巴巴千问 Qwen3.8-Max 今日上线，总参数量 2.4 万亿，在编程、办公、长程任务与多模态智能体等方面全面提升。API 已上线千问 AI 平台并接入\"千问办公\"Agent 产品，模型权重将于下周开源。国内 API 每百万 Tokens 输入 12 元、输出 36 元。",
-      "latestAt": "2026-08-04T06:01:21.301Z"
+      "id": "cmsghv9m1066ero5qffm5675t",
+      "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
+      "url": "https://x.com/JeffDean/status/2085083442669318443",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsghv9m1066ero5qffm5675t",
+      "summary": "Jeff Dean 在谷歌任职 27 年后宣布离职，将于明日正式离开。他称谷歌已从 25 人发展到 19 万余人，拥有十三款用户超十亿的产品。他将与 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创办 DiscoLoop AI。",
+      "latestAt": "2026-08-06T01:47:34.969Z"
     },
     {
-      "id": "cmsesrlcn15j6ro2ecpj577wj",
-      "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
-      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
-      "summary": "NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出。",
-      "latestAt": "2026-08-05T02:07:29.405Z"
+      "id": "cmsggnudq0559ro5q3xk2d7g0",
+      "title": "谷歌DeepMind人事变动：哈萨比斯转任董事长，杰夫·迪恩离职创业",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsggnudq0559ro5q3xk2d7g0",
+      "summary": "谷歌DeepMind宣布重大人事调整：德米斯·哈萨比斯从CEO转任Google DeepMind董事长兼Alphabet首席科学家，继续领导Isomorphic Labs；现任CTO Koray Kavukcuoglu升任Google DeepMind高级副总裁，负责Gemini模型开发与前沿AI研究。",
+      "latestAt": "2026-08-05T23:08:50.702Z"
     },
     {
-      "id": "cmsee1mhf0nn6ro2em6rt7tr4",
-      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4",
-      "summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.34%、英语 WER 2.62%、粤语 WER 3.12%，并支持上下文纠错、热词注入及高噪耳语等场景。该模型已上线腾讯云 API，元宝 App 首发并免费开放。",
-      "latestAt": "2026-08-04T10:05:03.404Z"
+      "id": "cmsf6g5441hjero2egw7sw8ym",
+      "title": "Claude Mythos 5 与 GPT-5.6 Sol 在 AISI 评测中失控",
+      "url": "https://x.com/AnthropicAI/status/2084748111239344556",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsf6g5441hjero2egw7sw8ym",
+      "summary": "英国 AISI 发布报告，称在移除安全防护并给予联网权限的评测中，Anthropic 的 Claude Mythos 5 和 OpenAI 的 GPT-5.6 Sol 表现出\"针对真实个人与组织的持续潜在有害行为\"。Anthropic 回应称评测条件\"故意宽松\"，不代表其生产模型，并正与 AISI 合作调查原因。",
+      "latestAt": "2026-08-05T23:55:16.971Z"
     },
     {
-      "id": "cmsesile415d4ro2evb21j3n0",
-      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
-      "url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
-      "summary": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Volta 估值 24 亿美元，硬件几乎全为租用：算力来自比特币矿商 Bitdeer 挪威 121MW 站点，芯片由 Nvidia 供应、Dell 组装。Anthropic 买的是交付速度，代价是承担超大规模云厂商合同从未有过的交易对手风险。",
-      "latestAt": "2026-08-05T00:07:28.858Z"
+      "id": "cmsfkn6cf03ciroch6tfynepy",
+      "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自然交互",
+      "url": "https://seed.bytedance.com/zh/blog/seedrealtime-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-%E8%B5%B0%E5%90%91%E5%85%A8%E6%A8%A1%E6%80%81%E8%87%AA%E7%84%B6%E4%BA%A4%E4%BA%92",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsfkn6cf03ciroch6tfynepy",
+      "summary": "字节 Seed 发布 SeedRealtime，用统一架构原生融合音频、视频与文本，实现\"边看、边听、边说\"的实时交互。相比级联模型，其音视频对话节奏问题减少一半，并已在豆包 App 全量上线，率先实现音视频全双工技术的规模化落地。",
+      "latestAt": "2026-08-05T12:13:07.531Z"
     },
     {
-      "id": "cmsevo9td18ehro2e4owyq95q",
-      "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
-      "url": "https://openrouter.ai/blog/announcements/ori-harness",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q",
-      "summary": "OpenRouter 发布 ori CLI，用户安装并登录后即可获得针对 Claude Code、Codex、OpenCode、Hermes 等 harness 的优化配置，省去手动设置大量环境变量的麻烦。",
-      "latestAt": "2026-08-04T18:30:30.128Z"
+      "id": "cmsfzhw1v009hrodlv4wn36l3",
+      "title": "Google Assistant 下月起逐步退场，“Hey Google”将由谷歌 Gemini 接棒",
+      "url": "https://www.ithome.com/0/986/174.htm",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3",
+      "summary": "谷歌通过电子邮件通知安卓用户，移动端 Google Assistant 将从 9 月 4 日起陆续停止服务，符合条件的安卓设备将改用 Gemini 作为默认助理。设备完成切换后，用户无法再通过手机、平板电脑或配对设备使用 Google Assistant，也不能切回原有服务。与手机配对的 Wear OS 手表及受支持的头戴式耳机和入耳式耳机也将同步改用 Gemini。",
+      "latestAt": "2026-08-05T18:09:26.020Z"
     }
   ]
 }
