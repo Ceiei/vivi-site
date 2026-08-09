@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-08T01:56:46.181Z",
+  "generatedAt": "2026-08-09T02:05:03.355Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -13,12 +13,12 @@
       "latestAt": "2026-08-07T23:12:05.084Z"
     },
     {
-      "id": "cmsi5sy2s1192ronkt3lk2z88",
-      "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
+      "id": "cmshrwaqs0pmuronkuj6r8o4m",
+      "title": "ChatGPT 推出改进版 GPT-5.6 Sol，并扩大免费用户访问权限",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsi5sy2s1192ronkt3lk2z88",
-      "summary": "OpenAI 更新 ChatGPT：Plus 和 Pro 用户的 GPT-5.6 Sol 在事实准确性和回答聚焦度上有所提升，新增滑块可控制模型思考投入。免费用户默认模型升级为 GPT-5.6 Luna，并开放无限文本聊天，新增 Think 按钮以处理更复杂问题。",
-      "latestAt": "2026-08-06T23:40:53.940Z"
+      "aihotUrl": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m",
+      "summary": "ChatGPT 推出改进版 GPT-5.6 Sol，提升准确性与一致性，同时扩大免费用户访问权限。免费用户还可无限次使用 GPT-5.6 Luna 进行日常对话。",
+      "latestAt": "2026-08-08T01:42:19.153Z"
     },
     {
       "id": "cmsjlolmo0d0uroo530budv94",
@@ -29,20 +29,20 @@
       "latestAt": "2026-08-08T00:55:57.047Z"
     },
     {
-      "id": "cmsixbbry1x0qronkhbbjukhr",
-      "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr",
-      "summary": "蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本。",
-      "latestAt": "2026-08-08T00:12:10.250Z"
+      "id": "cmsjbn0pq058vroo55qpgw1si",
+      "title": "OpenAI 将 Astra 列为首个“关键”网络安全模型",
+      "url": "https://x.com/OpenAI/status/2085801349866729975",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si",
+      "summary": "OpenAI 在评估其即将推出的模型 Astra 后，依据\"准备框架\"将其列为首个\"关键\"网络安全模型。OpenAI 表示已为此情景做好规划，并将实施额外控制措施以确保 Astra 后续开发的安全。该公司正努力让 Astra 广泛可用，并将其先进网络能力交到防御者手中。",
+      "latestAt": "2026-08-07T19:12:17.160Z"
     },
     {
-      "id": "cmshjzc390h6cronkkgtujtis",
-      "title": "千问全网首发公测，全新 Wan3.0 来了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-      "aihotUrl": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis",
-      "summary": "阿里千问全网首发公测视频生成模型 Wan3.0，在生成时长、镜头语言、角色真实感及一致性保持等维度全面升级。该模型支持稳定直出 30 秒一镜到底视频，具备导演级镜头与蒙太奇叙事，并强调角色、道具、场景高一致性保持。Wan3.0 主打超高性价比，现已在千问创作（c.qianwen.com）开放体验，千问 app 也将陆续开启。",
-      "latestAt": "2026-08-06T13:41:00.234Z"
+      "id": "cmsjdsk6p076rroo561c8askl",
+      "title": "Claude Code 会话间可互发消息",
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
+      "summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
+      "latestAt": "2026-08-08T02:08:44.727Z"
     }
   ]
 }
