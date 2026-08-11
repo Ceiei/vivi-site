@@ -1,16 +1,32 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-10T02:08:58.503Z",
+  "generatedAt": "2026-08-11T02:03:51.336Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmskiiu8u0714ro5evnwtqckh",
-      "title": "Anthropic 将 Claude Code 默认设为 Auto Mode，以防开发者误批准危险操作",
-      "url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals",
-      "aihotUrl": "https://aihot.virxact.com/items/cmskiiu8u0714ro5evnwtqckh",
-      "summary": "Anthropic 宣布自 8 月 14 日起，Claude Code 将对 Pro、Max 和 Team 套餐默认启用 Auto Mode，企业客户仍需手动开启。该模式通过分类器判断操作是否危险或不可逆，仅在必要时请求确认。测试中，Auto Mode 识别出 89% 的危险命令，而人工审查仅发现 13.6%。",
-      "latestAt": "2026-08-09T19:44:12.767Z"
+      "id": "cmsn2u3mt067ero8opidmwvz7",
+      "title": "Meta 发布开源模型 Muse Glimmer",
+      "url": "https://x.com/AIatMeta/status/2086757844544811485",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsn2u3mt067ero8opidmwvz7",
+      "summary": "Meta 发布开源模型 Muse Glimmer，这是其自 Llama 4 以来首个开源权重模型，30B 参数，在 Artificial Analysis 智能指数上得分 35，也是 Meta 首个采用 Apache 2.0 许可的模型。",
+      "latestAt": "2026-08-11T00:58:11.868Z"
+    },
+    {
+      "id": "cmsnix1by08d3rohfftiex1xp",
+      "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsnix1by08d3rohfftiex1xp",
+      "summary": "Anthropic 员工让 Claude 尝试攻克黎曼猜想，虽未成功，但一个未发布的研究版 Claude 在相关问题上取得突破：将满足黎曼猜想的 zeta 函数零点比例下界从 41.6% 提升至 67.2%。",
+      "latestAt": "2026-08-10T20:14:44.112Z"
+    },
+    {
+      "id": "cmsnejv4i042qrohff64pz0jh",
+      "title": "OpenRouter 推出由市场智慧驱动的新版 Auto 路由器",
+      "url": "https://openrouter.ai/blog/announcements/introducing-the-new-auto-router",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsnejv4i042qrohff64pz0jh",
+      "summary": "OpenRouter 基于每周超 55T token 的社区消费数据，推出新版 Auto 路由器（openrouter/auto），其模型选择在多数任务和成本档位上优于旧版。新路由器按约 30 种任务类型匹配近 7 天社区实际消费的模型，支持 cost_tier 参数（low 至 max）并遵循账户隐私设置。在 MMLU Pro 等基准上，新默认档位在多数领域以更低成本达到旧版同等性能。",
+      "latestAt": "2026-08-10T16:56:27.775Z"
     },
     {
       "id": "cmsmf2q0t030sroadf0o5jwoa",
@@ -18,15 +34,15 @@
       "url": "https://www.ithome.com/0/987/649.htm",
       "aihotUrl": "https://aihot.virxact.com/items/cmsmf2q0t030sroadf0o5jwoa",
       "summary": "宇树科技8月10日正式启动申购，发行价150.80元/股，对应市值约609.93亿元，拟公开发行4044.64万股，预计募资总额约60.99亿元。发行市盈率219.23倍，战略配售获配808.9286万股，包括社保基金、深度求索、中国石油集团等。2023年至2025年营收分别为1.59亿元、3.93亿元和16.99亿元，净利润于2025年达2.78亿元。",
-      "latestAt": "2026-08-09T23:11:30.654Z"
+      "latestAt": "2026-08-10T13:11:37.460Z"
     },
     {
-      "id": "cmsklqt1907v8royz2pbppkk1",
-      "title": "Grok Imagine 图像编辑迎来重大升级",
-      "url": "https://x.com/elonmusk/status/2086127247077843282",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1",
-      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
-      "latestAt": "2026-08-08T16:42:40.454Z"
+      "id": "cmsnrwnsb0i1erohfuhfjc4q6",
+      "title": "英伟达联合六大机构融资5000亿美元建AI工厂",
+      "url": "https://x.com/JensenHuang/status/2086934705207959965",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsnrwnsb0i1erohfuhfjc4q6",
+      "summary": "英伟达宣布与Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR合作，建立独立融资平台，动员超5000亿美元第三方资本支持AI基础设施建设。",
+      "latestAt": "2026-08-11T01:11:42.547Z"
     }
   ]
 }
