@@ -1,9 +1,33 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-12T02:20:55.354Z",
+  "generatedAt": "2026-08-13T02:22:41.952Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmsqq3bc001snro7vo8picfbp",
+      "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsqq3bc001snro7vo8picfbp",
+      "summary": "DeepSeek V4 Pro正式版与Grok 4.6在2小时内先后发布，均为1.6T/1.5T参数模型，逼近Claude Fable 5体验。",
+      "latestAt": "2026-08-12T23:30:59.607Z"
+    },
+    {
+      "id": "cmsqf39o0015groxvnc7oiwop",
+      "title": "Cursor 与 SpaceXAI 联合发布 Grok 4.6",
+      "url": "https://cursor.com/blog/grok-4-6",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsqf39o0015groxvnc7oiwop",
+      "summary": "Cursor 与 SpaceXAI 今日发布 Grok 4.6，重点强化长时运行智能体与交互式视觉任务，在多项智能体编程与知识工作基准上达到前沿水平，并在 Artificial Analysis Intelligence Index 上追平 GPT-5.6 Sol。",
+      "latestAt": "2026-08-12T18:45:53.185Z"
+    },
+    {
+      "id": "cmsoolxde07isrop2eb5rrtvq",
+      "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
+      "summary": "NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计。相比同类开源模型，其 token 生成速度最高提升 4 倍，任务完成时间缩短 30%。该模型采用开放权重，支持用户微调以匹配特定任务，并可在 RTX PC、DGX Spark 及 Jetson 等设备上运行。",
+      "latestAt": "2026-08-12T07:18:08.367Z"
+    },
     {
       "id": "cmsp2ogsx044frorth62oy70c",
       "title": "Gemini月活10亿，Gemma下载破10亿",
@@ -13,36 +37,12 @@
       "latestAt": "2026-08-11T23:13:33.712Z"
     },
     {
-      "id": "cmsn2u3mt067ero8opidmwvz7",
-      "title": "Meta 发布开源模型 Muse Glimmer",
-      "url": "https://x.com/AIatMeta/status/2086757844544811485",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsn2u3mt067ero8opidmwvz7",
-      "summary": "Meta 发布开源模型 Muse Glimmer，这是其自 Llama 4 以来首个开源权重模型，30B 参数，在 Artificial Analysis 智能指数上得分 35，也是 Meta 首个采用 Apache 2.0 许可的模型。",
-      "latestAt": "2026-08-11T00:58:11.868Z"
-    },
-    {
-      "id": "cmsoolxde07isrop2eb5rrtvq",
-      "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
-      "summary": "NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计。相比同类开源模型，其 token 生成速度最高提升 4 倍，任务完成时间缩短 30%。该模型采用开放权重，支持用户微调以匹配特定任务，并可在 RTX PC、DGX Spark 及 Jetson 等设备上运行。",
-      "latestAt": "2026-08-12T00:04:10.874Z"
-    },
-    {
-      "id": "cmsnix1by08d3rohfftiex1xp",
-      "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
-      "url": "https://www.anthropic.com/research/riemann-zeta",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsnix1by08d3rohfftiex1xp",
-      "summary": "Anthropic 员工让 Claude 尝试攻克黎曼猜想，虽未成功，但一个未发布的研究版 Claude 在相关问题上取得突破：将满足黎曼猜想的 zeta 函数零点比例下界从 41.6% 提升至 67.2%。",
-      "latestAt": "2026-08-11T19:10:09.963Z"
-    },
-    {
-      "id": "cmspeby640gglrorthm2cj8os",
-      "title": "NVIDIA 携手 Apollo、BlackRock 等成立融资平台，AI 工厂算力成为可投资资产类别",
-      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute",
-      "aihotUrl": "https://aihot.virxact.com/items/cmspeby640gglrorthm2cj8os",
-      "summary": "NVIDIA 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 合作，建立独立融资平台，旨在长期动员超过 5000 亿美元第三方资本，支持 AI 基础设施建设。",
-      "latestAt": "2026-08-12T01:14:00.619Z"
+      "id": "cmsqagyyz00yuroucf55e5fue",
+      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+      "url": "https://www.ithome.com/0/989/001.htm",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue",
+      "summary": "阿里 Qwen 团队正式开放 Qwen3.8-2.4T-A95B 模型权重，这是 Qwen-Max 级别模型首次开源。模型总参数 2.4T，每个 Token 激活 95B，原生支持 262，144 Token 上下文并可扩展至 1，010，000 Token。",
+      "latestAt": "2026-08-12T16:13:41.612Z"
     }
   ]
 }
