@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-15T01:28:29.234Z",
+  "generatedAt": "2026-08-16T01:40:00.669Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -13,28 +13,12 @@
       "latestAt": "2026-08-14T22:03:28.360Z"
     },
     {
-      "id": "cmsrscwfn03f7ro0n7qijclds",
-      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsrscwfn03f7ro0n7qijclds",
-      "summary": "Google DeepMind 发布 Gemini 3.7 Flash，距 3.6 Flash 仅三周，主打编程与智能体任务，输入/输出价格分别为每百万 token $0.75 和 $3.75，为原 3.6 Flash 的一半。",
-      "latestAt": "2026-08-14T18:22:41.004Z"
-    },
-    {
       "id": "cmst3joqo03pwro0658o4g1m3",
       "title": "Cursor 正式被 SpaceX 收购",
       "url": "https://cursor.com/blog/joining-spacex",
       "aihotUrl": "https://aihot.virxact.com/items/cmst3joqo03pwro0658o4g1m3",
-      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。合并后 Cursor 将获得全球最大 GPU 集群，以构建更强且运行成本更低的模型，从而以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
-      "latestAt": "2026-08-14T15:33:34.281Z"
-    },
-    {
-      "id": "cmsrfaw5c0xo2roz2s8b4p2sv",
-      "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-13",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsrfaw5c0xo2roz2s8b4p2sv",
-      "summary": "DeepSeek-V4-Pro 正式版已在 APP、网页端和 API 同步上线，模型名设为 deepseek-v4-pro 即可使用。其 Agent 能力显著提升，HLE （wo/w tools） 达 42.7/60.0，Terminal Bench 2.1 为 87.9。",
-      "latestAt": "2026-08-14T13:51:46.541Z"
+      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。借助 SpaceX 全球最大规模的 GPU 集群，Cursor 将构建更强且运行成本更低的模型，并以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
+      "latestAt": "2026-08-15T20:22:17.762Z"
     },
     {
       "id": "cmst3j53e03ncro068tgsr4xn",
@@ -42,7 +26,23 @@
       "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
       "aihotUrl": "https://aihot.virxact.com/items/cmst3j53e03ncro068tgsr4xn",
       "summary": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。",
-      "latestAt": "2026-08-14T17:22:52.053Z"
+      "latestAt": "2026-08-15T03:21:47.056Z"
+    },
+    {
+      "id": "cmstc3u8j02xhro0xf5o1ouas",
+      "title": "Claude 文本水印机制如何运作",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "aihotUrl": "https://aihot.virxact.com/items/cmstc3u8j02xhro0xf5o1ouas",
+      "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
+      "latestAt": "2026-08-14T19:22:48.546Z"
+    },
+    {
+      "id": "cmssi38vn03o9rofffr0z8lyb",
+      "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
+      "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
+      "aihotUrl": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb",
+      "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
+      "latestAt": "2026-08-14T13:51:46.541Z"
     }
   ]
 }
