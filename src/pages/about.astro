@@ -154,13 +154,14 @@ const aboutNavItems = [
               class="max-w-3xl border-l border-border pl-5 leading-8 text-foreground/82"
               style="font-family: 'Songti SC', 'SimSun', serif;"
             >
-              你好，我是 Vivi，<br />
-              04 年江苏人，ISTJ-A/天蝎座，<br />
-              华东师范大学统计学+计算机科学与技术大四本科生，预计于 2026 年 9 月入学上海交通大学攻读应用统计硕士。<br
+              你好👋 我是 Vivi<br />
+              来自江苏南通，04年/ISTJ-A/天蝎座<br />
+              本科就读于华东师范大学统计学+计算机科学与技术双学位<br />
+              上海交通大学应用统计硕士在读，预计28年6月毕业<br />
+              先后在字节跳动、莉莉丝游戏和腾讯进行实习，参与策略分析、数据风控和数据科学相关工作<br
               />
-              28 届应届毕业生，先后在字节跳动、莉莉丝游戏和腾讯进行实习，分别参与策略分析、数据风控和数据科学相关工作。<br
-              />
-              我主要关注机器学习、LLM 和 Agent 在业务场景中的落地应用。
+              感兴趣的业务：Agent算法/应用、Auto Research<br />
+              感兴趣的研究方向：时间序列预测TSF、扩散模型Diffusion、强化学习RL
             </p>
 
             <div class="space-y-3">
@@ -455,7 +456,8 @@ const aboutNavItems = [
         <div class="space-y-3">
           {
             latestPosts.map(post => {
-              const updatedDate = post.data.modDatetime ?? post.data.pubDatetime;
+              const updatedDate =
+                post.data.modDatetime ?? post.data.pubDatetime;
 
               return (
                 <article class="resume-card group relative cursor-pointer px-5 py-4">

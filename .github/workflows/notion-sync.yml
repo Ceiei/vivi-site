@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/content/blog public/data/ai-hot.json
+          git add src/content/blog public/notion-assets public/data/ai-hot.json
           if git diff --cached --quiet; then
             echo "No synced content changes."
           else
