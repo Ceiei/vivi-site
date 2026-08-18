@@ -1,7 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-17T01:37:36.121Z",
+  "generatedAt": "2026-08-18T01:27:35.223Z",
   "mode": "hot-topics",
-  "items": []
+  "items": [
+    {
+      "id": "cmsx9jvre05y6romms3bo1umb",
+      "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb",
+      "summary": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+      "latestAt": "2026-08-18T00:22:25.999Z"
+    },
+    {
+      "id": "cmsxld6es03o8roz0jblf3ii9",
+      "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9",
+      "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
+      "latestAt": "2026-08-17T20:53:05.960Z"
+    },
+    {
+      "id": "cmsxsvb5s0a4troz0z2q2nu3h",
+      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+      "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+      "latestAt": "2026-08-17T22:23:07.832Z"
+    },
+    {
+      "id": "cmsx9jy2a05yerommy1e0jc6t",
+      "title": "A 股迎来“人形机器人第一股”，宇树科技官宣 8 月 19 日科创板上市",
+      "url": "https://www.ithome.com/0/990/812.htm",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t",
+      "summary": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通用机器人公司。",
+      "latestAt": "2026-08-17T13:22:19.094Z"
+    }
+  ]
 }
