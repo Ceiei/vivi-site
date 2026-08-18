@@ -152,7 +152,7 @@ export const awards: Award[] = [
     certificateUrl: "/awards/neccs-certificate.pdf",
     tags: ["English", "Writing", "Translation"],
   },
-    {
+  {
     slug: "icbc-cup-fintech-innovation",
     competitionName: "“工行杯”全国大学生金融科技创新大赛",
     projectTitle:
@@ -178,5 +178,4 @@ export const awards: Award[] = [
     certificateUrl: "/awards/statistics-excellence-scholarship-certificate.pdf",
     tags: ["Statistics", "Scholarship", "Academic"],
   },
-
 ];
