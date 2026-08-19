@@ -6,12 +6,14 @@ modDatetime: 2026-07-29T02:40:00.000Z
 tags: ["最佳实践"]
 draft: false
 ---
-
 # 1 理论篇
+
 
 ## 1.1 理论基础
 
+
 ReAct框架：[https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
+
 
 ReAct智能体核心是**将推理与执行结合起来**，它的运作基于一个循环过程（不断迭代更新），包括以下三个步骤：
 
@@ -20,6 +22,7 @@ ReAct智能体核心是**将推理与执行结合起来**，它的运作基于�
 - 观察（Observation）：观察行动的结果，将反馈用于下一轮的思考；或者观察到已经判断是最终的答案，则整理输出结果
 
 ## 1.2 框架核心
+
 
 所有Agent框架在工程实现上都可以拆分为以下三部分：
 
@@ -34,29 +37,36 @@ ReAct智能体核心是**将推理与执行结合起来**，它的运作基于�
 
 上下文工程的核心引擎：Agent Loop，本质是一个While循环，每一次迭代是一次LLM推理外加工具调用和上下文处理，典型的工作流程：
 
+
 ```markdown
 初始上下文（系统提示词+用户请求）
-↓
+    ↓
 [agent loop开始]
-↓
+    ↓
 agent读取上下文 → 思考 → 决定行动
-↓
+    ↓
 执行工具/行动 → 获得结果
-↓
+    ↓
 结果追加到上下文
-↓
+    ↓
 [loop继续或结束]
 ```
 
+
 一句话总结：**Agent框架设计的核心就是在Agent Loop这个While循环中设计如何管理上下文**。
+
 
 # 2 实践篇——Coding Copilot Agent 设计与实现
 
+
 ## 2.1 整体架构
+
 
 ## 2.2 框架三要素设计
 
+
 ### 2.2.1 LLM Call
+
 
 本项目采用极简设计，以 DeepSeek 模型为例：
 
@@ -100,9 +110,12 @@ messages = [
 }
 ```
 
+
 ### 2.2.2 Tools Call
 
+
 采用极简的工具集，操作对象包含文件、Shell和Python代码执行
+
 
 1）Tools 实现：总共支持4个工具函数
 
@@ -113,7 +126,9 @@ messages = [
 
 2）Tools 注册：这里选择的是手动维护字典映射的方式 name → (function, OpenAI function schema) ，这一步是为了解析llm call 的response时可以根据name匹配需要具体执行哪个tool
 
+
 Tools 的定义遵循的是 OpenAI Function Calling 的标准格式（也称 OpenAI Tools API schema）
+
 
 ### 2.2.3 Context Engineering
 
@@ -122,11 +137,15 @@ Tools 的定义遵循的是 OpenAI Function Calling 的标准格式（也称 Ope
 
 ## 2.3 代码实现
 
+
 ### 2.3.1 第一部分：Agent Loop与上下文
 
 - 基础流程： LLM call → parse tool_calls → execute → append results to messages → loop or exit
 - 使用全局变量message作为上下文的载体，累积系统提示词、用户消息、助手响应和工具结果
-- 其中，变量message按如下规则更新 - 使用System Prompt初始化：{"role": "system", "content": system_prompt} - 追增User Message：{"role": "user", "content": user_message} - 追加Tool Results：{"role": "tool", "content": result}
+- 其中，变量message按如下规则更新
+    - 使用System Prompt初始化：{"role": "system", "content": system_prompt}
+    - 追增User Message：{"role": "user", "content": user_message}
+    - 追加Tool Results：{"role": "tool", "content": result}
 <details>
 <summary>agent_loop代码实现：</summary>
 
@@ -201,7 +220,9 @@ def agent_loop(user_message: str, messages: list, client: OpenAI) -> str:
     return "[agent] reached maximum turns, stopping."
 ```
 
+
 </details>
+
 
 ### 2.3.2 第二部分：Tools实现与注册
 
@@ -276,6 +297,7 @@ def python_exec(code: str) -> str:
         except OSError:
             pass
 ```
+
 
 </details>
 
@@ -390,8 +412,11 @@ TOOLS = {
 >       },
 >   }
 > ```
+>
+>
 
 </details>
+
 
 ### 2.3.3 第三部分：System Prompt
 
@@ -412,11 +437,15 @@ run commands, or execute code. When the task is complete, respond directly \
 without calling any tool."""
 ```
 
+
 </details>
+
 
 至此一个极简的Agent框架就此实现完成，单文件搞定，全部代码279行。
 
+
 ### 2.3.4 第四部分：终端交互入口
+
 
 框架实现完成之后，距离Agent应用就剩下最后一个用户交互界面了。
 
@@ -454,16 +483,20 @@ def main():
         # 调用agent
         reply = agent_loop(user_input, messages, client)
         print(f"\nAgent> {reply}\n")
-
+        
 if __name__ == "__main__":
     main()
 ```
 
+
 </details>
+
 
 ## 2.4 使用指南
 
+
 ### 2.4.1 获取API Key
+
 
 由于本文Agent框架的LLM Provider是基于DeepSeek实现的，所以需要获取DeepSeek模型（deepseek-chat模型）的API key才能使用。
 
@@ -477,24 +510,34 @@ if __name__ == "__main__":
 export DEEPSEEK_API_KEY="sk-xxxxx"
 ```
 
+
 </details>
+
 
 ### 2.4.2 运行agent.py
 
+
 终端输入命令激活agent：
+
 
 ```python
 python agent.py
 ```
 
+
 ### 2.4.3 在终端对话
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/dbed4dcc-3c4d-81fe-b5fb-0003f65da37d/f9e9a0d8-7f89-4efc-8143-8256961eeb9b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667YGTXYDF%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T012707Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDMkwqU1hEsdM%2B4FxWzWprHoHFb%2BF2AwdH41wloxiMv2AIhALdu1jh1WGrEQV2LQXKTsJFCT6UR0dVpV8%2FVAeEvjeQjKv8DCFIQABoMNjM3NDIzMTgzODA1IgyB4q4lSutxy3XtYpEq3AO1usNwUMlTBF5XSPA243dK%2BafGagxgMSxJSGsDD6QQ9emVphoCZ7qWwLu9XkZ%2FSeDbFK%2BD1TlUrMJqYD4bQmHmpkqd2lUJXcTowtlXXyhSCLhdLCNguwt5RJoMZaEEZMPfmTxz5hPlUJtnUqpKy7jp6EbX1Mjb7qKBJPlA8Oh2IidFg%2Bd%2BDzkZM5has9pXqW8Tspkllry1QgsfIxF0u3GF5N6NYN8NzbmclWWQJJ8hKJR9WI7CcCVU8Z%2BJeyAZ7MKK%2B7JMTqb0WyLp1dvtD9IvTT5EO%2Fe%2B6UEMV9ACmeDr6etMtVuQzC2Hvi%2BoiBa0OrZGgv5vNhY1T9HmPpOMFdTZO8cuWj2JgZdXJol5d8Z1MyVc3WWEopXKpVwnMqVPWC3gFQzQyxy5eWWVtD7FCPPSQMyTOWKbtUb4JHLv7tK%2BYJ4ix4jD3qPVAcVQzTZkti9UkBT7A0S12%2FCUEZH7m6ImuMQoFycClYVFN7e5hsS9Eyt2BycA1zDW%2FTXQs9eZNNqTzVU6Emhydia9YGJqxKzeFwBVbXxgjf9%2FCzjEgb%2BLizF1EmvV1U6wC88hPr%2B4F2WOCbav9jY5bGGCRgHPQPVitbkXT6zOKjTDdOkRPwrAEUXCkvcigiz1KcQAJjCW2I7UBjqkAYCpKYyza5SD%2BhOEDxgJ08CyxfzoMZxR1zPGBsU0DSy%2BQB5FTxia2oRS4sspghii2YPM0KPDNDucZKvSTcXQXLI1yPE26qgCeIDxZQTTcXLM9FLukxCny%2BfDizszG%2B0jDvKYVutXm%2BCOpL9MabthoibHjYcpGIz7VmMnIPXagjRLvvjPB6MEzdvg21i8%2FcylOQxrm3fL%2BtgfjQcBh%2BGwmAkhQd%2FX&X-Amz-Signature=cbd2fc5e96719ddb26cf596083637ab2e8db1156a71ac788aea2e7093fa8155f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+![image.png](/vivi-site/notion-assets/agent%E9%80%9F%E9%80%9A-%E4%BB%8E%E7%90%86%E8%AE%BA%E5%88%B0%E5%AE%9E%E8%B7%B5/205cf5f6f111c3d1.png)
+
 
 （虽然我这里配置的是Deepseek的API Key，但是agent还是宣称自己是Claude，捕获一名叛徒x
 
+
 # 3 总结和拓展
 
+
 可以看到实现的Agent应用，虽然实现极简，但是功能可以一点不简单（当Agent拥有文件读写权限，外加Shell工具以及代码生成与执行权限，它在本机上真的可以**"为所欲为"**)。要知道OpenClaw的[底层Agent Core（Pi Agent）](https://lucumr.pocoo.org/2026/1/31/pi/)的Tools层也是有且仅包含四个工具方法：读文件（Read）、写文件（Write）、编辑文件（Edit）、命令行（Shell），其他的丰富且强大能力均靠事件机制及Skills扩展而来。
+
 
 目前实现的是非常极简版本的单个代码文件定义agent，代码库本质上也是上下文工程的一部分，代码库越简单上下文越清晰（信息噪声越少），Agent则越智能。当然对于功能更复杂的agent，还需要更多的上下文设计来给它赋能。
