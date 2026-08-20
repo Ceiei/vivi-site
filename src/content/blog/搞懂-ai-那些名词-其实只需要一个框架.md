@@ -38,7 +38,7 @@ draft: false
 这三个主体，两两之间都有交互。而几乎所有的 AI 名词，本质上都是在描述"某两个主体之间的交互方式"。（让Claude给画了个示意图）
 
 
-![human_agent_model_interaction_map.svg](/vivi-site/notion-assets/%E6%90%9E%E6%87%82-ai-%E9%82%A3%E4%BA%9B%E5%90%8D%E8%AF%8D-%E5%85%B6%E5%AE%9E%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6/e48eb739f4979c93.svg)
+![human_agent_model_interaction_map.svg](/vivi-site/notion-assets/%E6%90%9E%E6%87%82-ai-%E9%82%A3%E4%BA%9B%E5%90%8D%E8%AF%8D-%E5%85%B6%E5%AE%9E%E5%8F%AA%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6/48050fa5611bd9f4.svg)
 
 
 **人类 ↔ Agent（绿色）**：Prompt、Workflow、Skills、Memory。这层的本质是人类表达意图，Agent 理解并执行。Skills 在这里的角色是"给 Agent 装上领域知识"，让人类不需要每次重复解释。

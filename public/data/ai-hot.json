@@ -1,24 +1,24 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-19T01:35:07.768Z",
+  "generatedAt": "2026-08-20T01:28:45.617Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmt0d2tsl1961rodpnvzxo4cc",
+      "title": "OpenRouter 宣布加入 Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "aihotUrl": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc",
+      "summary": "OpenRouter 宣布与 Stripe 合并，以推动全球下一波 GDP 增长。OpenRouter 目前每天处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，推理量自成立以来每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，路由决策仍以用户利益为唯一标准，交易预计在未来数周内完成。",
+      "latestAt": "2026-08-19T23:54:21.967Z"
+    },
     {
       "id": "cmsz0hbsg05l0ro204080cotv",
       "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "aihotUrl": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
       "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
-      "latestAt": "2026-08-18T19:59:44.558Z"
-    },
-    {
-      "id": "cmsz8gh3n06e4rodpl8l2syek",
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
-      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
-      "latestAt": "2026-08-18T23:18:18.849Z"
+      "latestAt": "2026-08-19T12:48:18.430Z"
     },
     {
       "id": "cmszeb2mx0b3srodpef1ub0j0",
@@ -26,15 +26,15 @@
       "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
       "aihotUrl": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0",
       "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
-      "latestAt": "2026-08-19T01:11:01.484Z"
+      "latestAt": "2026-08-19T13:55:06.096Z"
     },
     {
-      "id": "cmsx9jvre05y6romms3bo1umb",
-      "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
-      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb",
-      "summary": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
-      "latestAt": "2026-08-18T00:22:25.999Z"
+      "id": "cmsz8gh3n06e4rodpl8l2syek",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "aihotUrl": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+      "latestAt": "2026-08-19T04:48:18.687Z"
     },
     {
       "id": "cmsyqip4o14umroz0ch5iv0iv",
