@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-20T01:28:45.617Z",
+  "generatedAt": "2026-08-21T01:39:08.465Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,39 +10,23 @@
       "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
       "aihotUrl": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc",
       "summary": "OpenRouter 宣布与 Stripe 合并，以推动全球下一波 GDP 增长。OpenRouter 目前每天处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，推理量自成立以来每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，路由决策仍以用户利益为唯一标准，交易预计在未来数周内完成。",
-      "latestAt": "2026-08-19T23:54:21.967Z"
+      "latestAt": "2026-08-20T10:11:40.364Z"
     },
     {
-      "id": "cmsz0hbsg05l0ro204080cotv",
-      "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
-      "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
-      "latestAt": "2026-08-19T12:48:18.430Z"
+      "id": "cmt1tonwa07i9roovrze0ll65",
+      "title": "Anthropic 如何开展 AI 教学",
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "aihotUrl": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65",
+      "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
+      "latestAt": "2026-08-20T19:30:00.807Z"
     },
     {
-      "id": "cmszeb2mx0b3srodpef1ub0j0",
-      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
-      "aihotUrl": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0",
-      "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
-      "latestAt": "2026-08-19T13:55:06.096Z"
-    },
-    {
-      "id": "cmsz8gh3n06e4rodpl8l2syek",
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
-      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
-      "latestAt": "2026-08-19T04:48:18.687Z"
-    },
-    {
-      "id": "cmsyqip4o14umroz0ch5iv0iv",
-      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "aihotUrl": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv",
-      "summary": "Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，可直接加载 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，用于 ColBERT 式晚期交互检索。",
-      "latestAt": "2026-08-18T14:05:05.620Z"
+      "id": "cmt1xbu7q0b7troovffggr2jh",
+      "title": "Grok Build 全面上线网页与移动端，所有套餐可用",
+      "url": "https://x.ai/news/grok-build-for-everyone",
+      "aihotUrl": "https://aihot.virxact.com/items/cmt1xbu7q0b7troovffggr2jh",
+      "summary": "Grok Build 现已面向所有套餐开放，支持网页、iOS 和 Android 端使用。用户描述应用、游戏或网站后，Grok 可在聊天中实时生成可运行版本。该功能自 7 月推出 Early Beta 以来，新增了发布分享、接入 X 及调用 Grok 自身模型等能力，发布的应用可获得 grok.me 链接并支持自定义域名、导出到 GitHub 等。",
+      "latestAt": "2026-08-20T19:38:45.834Z"
     }
   ]
 }
