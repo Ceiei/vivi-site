@@ -1,16 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-21T01:39:08.465Z",
+  "generatedAt": "2026-08-22T01:27:33.422Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmt0d2tsl1961rodpnvzxo4cc",
-      "title": "OpenRouter 宣布加入 Stripe",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-      "aihotUrl": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc",
-      "summary": "OpenRouter 宣布与 Stripe 合并，以推动全球下一波 GDP 增长。OpenRouter 目前每天处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，推理量自成立以来每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，路由决策仍以用户利益为唯一标准，交易预计在未来数周内完成。",
-      "latestAt": "2026-08-20T10:11:40.364Z"
+      "id": "cmt2qvfnj03zxro6tehwcikx4",
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+      "aihotUrl": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4",
+      "summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+      "latestAt": "2026-08-21T19:28:29.571Z"
     },
     {
       "id": "cmt1tonwa07i9roovrze0ll65",
@@ -19,6 +19,14 @@
       "aihotUrl": "https://aihot.virxact.com/items/cmt1tonwa07i9roovrze0ll65",
       "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
       "latestAt": "2026-08-20T19:30:00.807Z"
+    },
+    {
+      "id": "cmt0wcrmz0h64ro2oqisjtcmy",
+      "title": "Stripe 确认 75 亿美元收购 AI 路由平台 OpenRouter",
+      "url": "https://www.ithome.com/0/991/918.htm",
+      "aihotUrl": "https://aihot.virxact.com/items/cmt0wcrmz0h64ro2oqisjtcmy",
+      "summary": "在线支付服务商 Stripe 确认将收购 AI 路由平台 OpenRouter，知情人士称交易价格达 75 亿美元，远高于其今年 5 月融资时 13 亿美元的估值。OpenRouter 可帮助企业根据任务复杂度、价格、速度和可靠性将请求动态路由至最优模型。Stripe 创始人称将 1 月 1 日视为\"奇点\"开始，交易完成后 OpenRouter 仍将独立运营。",
+      "latestAt": "2026-08-21T10:48:18.388Z"
     },
     {
       "id": "cmt1xbu7q0b7troovffggr2jh",
