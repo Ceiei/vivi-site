@@ -528,7 +528,7 @@ python agent.py
 ### 2.4.3 在终端对话
 
 
-![image.png](/vivi-site/notion-assets/agent%E9%80%9F%E9%80%9A-%E4%BB%8E%E7%90%86%E8%AE%BA%E5%88%B0%E5%AE%9E%E8%B7%B5/3edb07ccce3f9a7d.png)
+![image.png](/vivi-site/notion-assets/agent%E9%80%9F%E9%80%9A-%E4%BB%8E%E7%90%86%E8%AE%BA%E5%88%B0%E5%AE%9E%E8%B7%B5/a745a12ee096b8b0.png)
 
 
 （虽然我这里配置的是Deepseek的API Key，但是agent还是宣称自己是Claude，捕获一名叛徒x
