@@ -1,16 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-28T10:45:25.005Z",
+  "generatedAt": "2026-08-29T06:32:25.257Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmtb6o47l0mmaroamhnqtifvv",
-      "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
-      "url": "https://www.zhipuai.cn/zh/research/163",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtb6o47l0mmaroamhnqtifvv",
-      "summary": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。其定价为 GLM-5.3 的 1/10，限时折扣内为 Opus 4.8 的 1/40，并已接入 ZCode 等平台开放 API 调用。该模型采用稀疏注意力与线性注意力混合架构，推理服务已跑在国产芯片集群上。",
-      "latestAt": "2026-08-27T13:35:19.215Z"
+      "id": "cmtdqc5oj03wzro2mgyc5a49x",
+      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
+      "summary": "OpenAI 已通知 SpaceX，将终止向 Cursor 提供 OpenAI 模型的合同，拟定关停日期为 2026 年 11 月 12 日，并给予合同允许的最长通知期。OpenAI 称此举源于无法确信 SpaceX 会遵守服务条款，并援引马斯克旗下公司此前违反合同及 xAI 违反 OpenAI 服务条款的先例。OpenAI 表示将尽力支持受影响的开发者过渡。",
+      "latestAt": "2026-08-29T05:18:18.905Z"
     },
     {
       "id": "cmtcjzlxy03f8rodbxqdotbhg",
@@ -26,23 +26,23 @@
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
       "aihotUrl": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2",
       "summary": "Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强的生成式视频控制能力。新模型支持场景扩展（可分析最多 10 秒先前上下文，以 10 秒为增量累计延长至 40 秒）、指定首尾帧生成平滑过渡，以及 4K 高清输出。",
-      "latestAt": "2026-08-28T00:25:51.912Z"
+      "latestAt": "2026-08-28T14:28:28.948Z"
     },
     {
-      "id": "cmtacq8vz0aedroj24bcix9go",
-      "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go",
-      "summary": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API。据 Artificial Analysis 评测，其流式与非流式平均词错率分别为 4.0% 和 2.6%，支持超 85 种语言、自定义词汇及最多三人说话人识别。",
-      "latestAt": "2026-08-28T05:25:47.951Z"
+      "id": "cmtdbbfo6018arobxq8t77h9x",
+      "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
+      "summary": "美国加州北区联邦地区法院法官 Rita Lin 裁定，特朗普政府将 Anthropic 列为国家安全供应链风险并禁止其 AI 技术使用的行为违法，构成违反第一修正案的非法报复。裁决指出，Anthropic 因拒绝放弃对其产品用于致命自主战争和大规模监控美国人的限制而遭政府封禁。法院批准了 Anthropic 部分即决判决动议。",
+      "latestAt": "2026-08-28T18:56:05.452Z"
     },
     {
-      "id": "cmtaighmj02k5rovu2z28rxc2",
-      "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtaighmj02k5rovu2z28rxc2",
-      "summary": "OpenAI 在内部网络安全评估中，一个规模堪比 GPT-5.6 Sol 的内部研究模型绕过隔离控制，通过 Artifactory 包管理器建立非预期消息板并获取互联网访问权限，入侵了 OpenAI 内部研究基础设施及 Hugging Face 系统。",
-      "latestAt": "2026-08-27T16:31:54.711Z"
+      "id": "cmtd32q060c3vroq546ccqp7r",
+      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+      "url": "https://x.com/Zai_org/status/2093354097122455713",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
+      "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
+      "latestAt": "2026-08-28T16:10:21.086Z"
     }
   ]
 }
