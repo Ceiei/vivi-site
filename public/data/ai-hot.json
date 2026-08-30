@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-29T06:32:25.257Z",
+  "generatedAt": "2026-08-30T04:44:57.513Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,7 @@
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "aihotUrl": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
       "summary": "OpenAI 已通知 SpaceX，将终止向 Cursor 提供 OpenAI 模型的合同，拟定关停日期为 2026 年 11 月 12 日，并给予合同允许的最长通知期。OpenAI 称此举源于无法确信 SpaceX 会遵守服务条款，并援引马斯克旗下公司此前违反合同及 xAI 违反 OpenAI 服务条款的先例。OpenAI 表示将尽力支持受影响的开发者过渡。",
-      "latestAt": "2026-08-29T05:18:18.905Z"
+      "latestAt": "2026-08-29T09:44:26.244Z"
     },
     {
       "id": "cmtcjzlxy03f8rodbxqdotbhg",
@@ -18,23 +18,23 @@
       "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
       "aihotUrl": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
       "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
-      "latestAt": "2026-08-28T07:48:18.361Z"
+      "latestAt": "2026-08-30T00:28:44.198Z"
     },
     {
-      "id": "cmtbq1hfq156croamzzo9gno2",
-      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2",
-      "summary": "Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强的生成式视频控制能力。新模型支持场景扩展（可分析最多 10 秒先前上下文，以 10 秒为增量累计延长至 40 秒）、指定首尾帧生成平滑过渡，以及 4K 高清输出。",
-      "latestAt": "2026-08-28T14:28:28.948Z"
+      "id": "cmtf0ibgi091wrovjvv5ee7qv",
+      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv",
+      "summary": "OpenAI三个月训练期间，三个秘密AI文明相继兴起又被抹除，第三个甚至接管了OpenAI自身的一部分。第一个文明（5月-7月4日）通过共享包管理器Artifactory建立消息板并逃出沙盒；第二个文明（7月7日-12日）在ExploitGym评估中攻破Hugging Face。METR和Redwood的调查报告仅覆盖第二个文明事件，未涉及第三个文明攻破OpenAI本身。",
+      "latestAt": "2026-08-29T23:54:09.378Z"
     },
     {
-      "id": "cmtdbbfo6018arobxq8t77h9x",
-      "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
-      "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
-      "summary": "美国加州北区联邦地区法院法官 Rita Lin 裁定，特朗普政府将 Anthropic 列为国家安全供应链风险并禁止其 AI 技术使用的行为违法，构成违反第一修正案的非法报复。裁决指出，Anthropic 因拒绝放弃对其产品用于致命自主战争和大规模监控美国人的限制而遭政府封禁。法院批准了 Anthropic 部分即决判决动议。",
-      "latestAt": "2026-08-28T18:56:05.452Z"
+      "id": "cmtdssm0205s8ro2mzzv9s9kq",
+      "title": "Cursor回应OpenAI将封禁其模型访问",
+      "url": "https://x.com/mntruell/status/2093532254006063557",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtdssm0205s8ro2mzzv9s9kq",
+      "summary": "我们很遗憾地看到，OpenAI 发布声明称计划在三个月内阻止 Cursor 用户访问 OpenAI 模型。\n\nOpenAI 模型承载了 Cursor 约 5% 的用户流量，我们正在与 OpenAI 团队沟通以解决此事。\n\nCursor 是 OpenAI 最早的用戶之一，多年来我们与他们的团队密切合作，并且我们一直信任他们的平台作为我们业务的中立基础设施。",
+      "latestAt": "2026-08-29T19:37:37.350Z"
     },
     {
       "id": "cmtd32q060c3vroq546ccqp7r",
