@@ -1,24 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-08-30T04:44:57.513Z",
+  "generatedAt": "2026-08-31T04:48:12.488Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmtdqc5oj03wzro2mgyc5a49x",
-      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
-      "summary": "OpenAI 已通知 SpaceX，将终止向 Cursor 提供 OpenAI 模型的合同，拟定关停日期为 2026 年 11 月 12 日，并给予合同允许的最长通知期。OpenAI 称此举源于无法确信 SpaceX 会遵守服务条款，并援引马斯克旗下公司此前违反合同及 xAI 违反 OpenAI 服务条款的先例。OpenAI 表示将尽力支持受影响的开发者过渡。",
-      "latestAt": "2026-08-29T09:44:26.244Z"
-    },
-    {
-      "id": "cmtcjzlxy03f8rodbxqdotbhg",
-      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
-      "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
-      "latestAt": "2026-08-30T00:28:44.198Z"
+      "id": "cmtfkvjwn0by7rou8vil9ysf1",
+      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+      "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
+      "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
+      "latestAt": "2026-08-30T08:59:11.175Z"
     },
     {
       "id": "cmtf0ibgi091wrovjvv5ee7qv",
@@ -29,20 +21,12 @@
       "latestAt": "2026-08-29T23:54:09.378Z"
     },
     {
-      "id": "cmtdssm0205s8ro2mzzv9s9kq",
-      "title": "Cursor回应OpenAI将封禁其模型访问",
-      "url": "https://x.com/mntruell/status/2093532254006063557",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtdssm0205s8ro2mzzv9s9kq",
-      "summary": "我们很遗憾地看到，OpenAI 发布声明称计划在三个月内阻止 Cursor 用户访问 OpenAI 模型。\n\nOpenAI 模型承载了 Cursor 约 5% 的用户流量，我们正在与 OpenAI 团队沟通以解决此事。\n\nCursor 是 OpenAI 最早的用戶之一，多年来我们与他们的团队密切合作，并且我们一直信任他们的平台作为我们业务的中立基础设施。",
+      "id": "cmtes8pol02ikrovjjjkm01n8",
+      "title": "Cursor 回应 OpenAI 断供：5% 流量占比被夸大",
+      "url": "https://x.com/thsottiaux/status/2093784314714657110",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtes8pol02ikrovjjjkm01n8",
+      "summary": "Cursor 联合创始人回应 OpenAI 计划三个月后阻止其用户访问 OpenAI 模型，称 OpenAI 模型仅占 Cursor 用户流量的约 5%，并正与 OpenAI 团队沟通解决。其认为 token 量不能代表收入或价值，OpenAI 模型处于 token 效率前沿，弱模型需更多 token 完成任务，会显著虚增流量占比。",
       "latestAt": "2026-08-29T19:37:37.350Z"
-    },
-    {
-      "id": "cmtd32q060c3vroq546ccqp7r",
-      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
-      "url": "https://x.com/Zai_org/status/2093354097122455713",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
-      "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
-      "latestAt": "2026-08-28T16:10:21.086Z"
     }
   ]
 }
