@@ -28,10 +28,10 @@ draft: false
 
 1. 设置土耳其Shipping Address（让AI帮忙生成一个地址）
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/48b5df9fa5601e38.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/a1b9254f79c2fb2d.png)
 
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/dee00d88e20a9bf3.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/1d5cca400eee030a.png)
 
 
 ## STEP 2 购买礼品卡并充值
@@ -41,33 +41,33 @@ draft: false
 
 1. 找到礼品卡购买界面，选择500里拉面额，点击右侧付款。第一次购买的时候需要补充账单信息，注意选择“非土耳其本国居民”，其他信息填写真实的即可，最后从图1变成图2说明设置成功了
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/16e4f352163266f7.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/0244f3c2c4b7576e.png)
 
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/4879a0636c423928.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/ab08020258fd2245.png)
 
 1. 选择中间的这个信用卡 - Mastercard / Visa 银行卡支付
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/a69dc9bf6d7fdde4.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/3c3f47cf66abc19d.png)
 
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/a4aa4200defa4970.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/463155d4d015a06e.png)
 
 1. 跳转iyzico平台，填写真实的手机号和银行卡号，这里我用的招行万事达，注意持卡人姓名那里要填写完整的姓名大写拼音，例如你叫赵小明，就应该写ZHAO XIAOMING
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/53312fcf108a1ee8.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/9b869eb5c369fde2.png)
 
 1. 购买成功后可以去账号主页找到刚才购买的产品代码，即礼品卡兑换码
 
-![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/722f1748c8e3cc51.png)
+![image.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/1a0594534c4afe55.png)
 
 1. 在手机上打开登陆了土区账号的Apple Store，点击Redeem Gift Card or Code，选择手动输入兑换码，把上面的礼品兑换码输进去
     > 注意：这一步有可能提示需要补全账单信息，说明STEP 1里面没设置成功账单地址，只需要再输入一遍让AI生成的土耳其的地址即可
 
-![cb566e610f9fc35b0aa8b2f8cb36a09d.jpg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/2c7ad9e2f3973467.jpg)
+![cb566e610f9fc35b0aa8b2f8cb36a09d.jpg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/75c0535aefe07de1.jpg)
 
 
-![978476a5ef116bbd7b3ad0152970ce65.jpg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/b6cff587ac9b30bc.jpg)
+![978476a5ef116bbd7b3ad0152970ce65.jpg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/b9d99cf538eb44fd.jpg)
 
 
 ## STEP 3 在ChatGPT APP / Apple Store进行充值
@@ -80,15 +80,15 @@ draft: false
 
 1. 打开Apple Store，点击账户头像，进入Purchase History，可以看到上一次充值的历史
 
-![IMG_3249.jpeg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/f5ade5da19b637ef.jpg)
+![IMG_3249.jpeg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/4a580a3ccae2cc10.jpg)
 
 
-![IMG_3244.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/9a9228c5a17936ea.png)
+![IMG_3244.png](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/7fd58f909614c788.png)
 
 1. 点进最近一次充值历史，点击Manage Subscription
 
-![IMG_3245.jpeg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/a5988f4d6235f3f6.jpg)
+![IMG_3245.jpeg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/ed8e9f2036c5bcf8.jpg)
 
 1. 点击See All Plans，选择Plus，会自动跳转付款界面；或者点击Update Payment Method，选择Apple Pay即可
 
-![IMG_3246.jpeg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/7004c3d25fe30f29.jpg)
+![IMG_3246.jpeg](/vivi-site/notion-assets/%E5%9C%9F%E5%8C%BAgpt-plus%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/a2947fa14d3e1d15.jpg)
