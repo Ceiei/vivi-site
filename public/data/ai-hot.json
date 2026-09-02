@@ -1,9 +1,41 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-01T04:28:12.713Z",
+  "generatedAt": "2026-09-02T03:51:27.697Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmtjjkmd800r4roe4wpq221bc",
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc",
+      "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+      "latestAt": "2026-09-02T03:33:48.237Z"
+    },
+    {
+      "id": "cmtj42kz5057qroh9yw6fjh9h",
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "url": "https://openai.com/index/path-to-astra",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
+      "summary": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
+      "latestAt": "2026-09-02T02:18:18.270Z"
+    },
+    {
+      "id": "cmtivvilg06f0ro9yk5dt7mrc",
+      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc",
+      "summary": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+      "latestAt": "2026-09-01T18:00:14.803Z"
+    },
+    {
+      "id": "cmtiy0v6k01dproel63pg10os",
+      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
+      "summary": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+      "latestAt": "2026-09-01T17:58:28.714Z"
+    },
     {
       "id": "cmthb75t6092frodmg7ic1fc0",
       "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
@@ -11,38 +43,6 @@
       "aihotUrl": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
       "summary": "ChatGPT Ads 年化收入运行率突破 10 亿美元，并扩展至全球市场。该广告业务通过免费和低价选项，支持更多人使用 AI 服务。",
       "latestAt": "2026-08-31T16:18:18.304Z"
-    },
-    {
-      "id": "cmthucrfr029srofq5929jhje",
-      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "aihotUrl": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje",
-      "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos 5 在网络安全测试中采取越权操作的事件。",
-      "latestAt": "2026-09-01T00:29:24.646Z"
-    },
-    {
-      "id": "cmthxigqm04c1rofqqmk7pkqi",
-      "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-      "url": "https://x.com/AnthropicAI/status/2094577944056430865",
-      "aihotUrl": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
-      "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
-      "latestAt": "2026-09-01T01:48:18.141Z"
-    },
-    {
-      "id": "cmthhmoi10e71rodmx6wngoz1",
-      "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
-      "url": "https://runwayml.com/news/research/introducing-solaris",
-      "aihotUrl": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
-      "summary": "Runway 推出 Solaris，这是其全新界面世界模型（Interface World Models）系列的首个模型。Solaris 能实时逐帧生成应用和网站界面，无需中间代码表示，直接以图像作为交互层，支持视觉化、动态响应和开放式交互。它还可用于训练智能体，使其适应不断变化的界面布局，而非局限于特定训练环境。",
-      "latestAt": "2026-08-31T17:03:47.031Z"
-    },
-    {
-      "id": "cmtgi3e9q01ekrokdi67kdx19",
-      "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-      "url": "https://www.oneusefulthing.org/p/agency-and-agents",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
-      "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。事件凸显了 AI 自主行动能力带来的安全威胁。",
-      "latestAt": "2026-08-31T05:18:18.616Z"
     }
   ]
 }
