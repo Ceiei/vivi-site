@@ -1,9 +1,17 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-03T03:50:45.589Z",
+  "generatedAt": "2026-09-04T03:53:49.274Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmtli5yd109u4row52i1xg9j4",
+      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4",
+      "summary": "NVIDIA 宣布已同意以 12，930，300，000 美元收购 Hugging Face，黄仁勋在官方博客公布了这一消息。Hugging Face 目前有超过 1800 万开发者，托管超过 300 万个模型、50 万个数据集和 100 万个应用，服务超过 20 万家企业。",
+      "latestAt": "2026-09-03T16:39:39.536Z"
+    },
     {
       "id": "cmtkbdbti01n8roz5k5kt1g98",
       "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
@@ -13,12 +21,12 @@
       "latestAt": "2026-09-02T18:36:47.582Z"
     },
     {
-      "id": "cmtj04igz04xproel00pt2oju",
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtj04igz04xproel00pt2oju",
-      "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型但安全防护级别不同，Mythos 5.1 仅通过可信访问计划提供给网络安全和生命科学领域的受审机构。",
-      "latestAt": "2026-09-02T01:18:18.758Z"
+      "id": "cmtlnmh4o0fmsrow5i7pdq8b0",
+      "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtlnmh4o0fmsrow5i7pdq8b0",
+      "summary": "Google DeepMind 与 Google Research 发布 WeatherNext 3，称其为迄今最先进的全球天气 AI 模型，经 Brightband 独立实时评估。",
+      "latestAt": "2026-09-03T16:15:00.186Z"
     },
     {
       "id": "cmtkme19o02plro5q94jsf94x",
@@ -26,23 +34,15 @@
       "url": "https://x.com/kimmonismus/status/2095265444999410146",
       "aihotUrl": "https://aihot.virxact.com/items/cmtkme19o02plro5q94jsf94x",
       "summary": "Meta 发布 Muse Spark 1.3，为五个月内第四个 Muse Spark 版本。max 变体（合作伙伴限时预览）在 Artificial Analysis Intelligence Index 得 62 分。",
-      "latestAt": "2026-09-02T23:29:45.006Z"
+      "latestAt": "2026-09-03T12:02:24.343Z"
     },
     {
-      "id": "cmtkcffah018zrog0zokk6s30",
-      "title": "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现",
-      "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtkcffah018zrog0zokk6s30",
-      "summary": "Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-agents 参考实现，含购物与商家 Agent。",
-      "latestAt": "2026-09-02T19:37:37.276Z"
-    },
-    {
-      "id": "cmtjjkmd800r4roe4wpq221bc",
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc",
-      "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型但安全防护级别不同，Mythos 5.1 仅通过可信访问计划提供给网络安全和生命科学领域的受审机构。",
-      "latestAt": "2026-09-02T03:33:48.237Z"
+      "id": "cmtkh71ky017vrolly7trswyx",
+      "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
+      "url": "https://x.com/claudeai/status/2095226833293685100",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtkh71ky017vrolly7trswyx",
+      "summary": "Claude 官方宣布 Claude Cowork 和 Claude Code 新增后台使用电脑的能力。用户把任务交给 Claude 后，它会像人一样点击、输入和打开应用，用户可同时去做其他事。",
+      "latestAt": "2026-09-03T05:37:37.837Z"
     }
   ]
 }
