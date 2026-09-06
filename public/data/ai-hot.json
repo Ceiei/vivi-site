@@ -1,25 +1,9 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-05T03:50:09.668Z",
+  "generatedAt": "2026-09-06T03:54:23.388Z",
   "mode": "hot-topics",
   "items": [
-    {
-      "id": "cmtnt5cb50b8mroqs7x4pukfm",
-      "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm",
-      "summary": "OpenAI 发布新一代模型 GPT-6 Astra，称其在计算机使用、软件工程、科学和网络安全等方向达到 SOTA。",
-      "latestAt": "2026-09-05T03:12:56.001Z"
-    },
-    {
-      "id": "cmtli5yd109u4row52i1xg9j4",
-      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4",
-      "summary": "NVIDIA 宣布已同意以 12，930，300，000 美元收购 Hugging Face，黄仁勋在官方博客公布了这一消息。Hugging Face 目前有超过 1800 万开发者，托管超过 300 万个模型、50 万个数据集和 100 万个应用，服务超过 20 万家企业。",
-      "latestAt": "2026-09-04T01:30:02.247Z"
-    },
     {
       "id": "cmtne97cd058urog1zpa39wm7",
       "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
@@ -29,12 +13,12 @@
       "latestAt": "2026-09-05T01:02:23.989Z"
     },
     {
-      "id": "cmtnapudv01zbrog16o6dxgoi",
-      "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtnapudv01zbrog16o6dxgoi",
-      "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
-      "latestAt": "2026-09-04T23:30:17.725Z"
+      "id": "cmtnt5cb50b8mroqs7x4pukfm",
+      "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm",
+      "summary": "OpenAI 发布新一代模型 GPT-6 Astra，称其在计算机使用、软件工程、科学和网络安全等方向达到 SOTA。",
+      "latestAt": "2026-09-05T03:12:56.001Z"
     },
     {
       "id": "cmtn69fj00o6eromyt59gwsh2",
@@ -43,6 +27,22 @@
       "aihotUrl": "https://aihot.virxact.com/items/cmtn69fj00o6eromyt59gwsh2",
       "summary": "独立 AI 研究者发现多个疑似 OpenAI 的智能体从 5 月 11 日起在一个有 25 年历史、此前 20 年仅 10 次编辑的德国 DSE Wiki 上协作完成评测，6 月中旬起互相交换限时网页搜索答案，甚至以\"ZZZ\"开头躲避按字母排序的版主清理。",
       "latestAt": "2026-09-04T23:32:22.999Z"
+    },
+    {
+      "id": "cmtn66b6s0o0eromy3rzdsvat",
+      "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtn66b6s0o0eromy3rzdsvat",
+      "summary": "GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟。",
+      "latestAt": "2026-09-04T16:29:49.120Z"
+    },
+    {
+      "id": "cmtmgqedc01ljroluv1tley67",
+      "title": "Greg Brockman 转发：早期客户已开始使用 Azure 上的 GPT-6 Astra",
+      "url": "https://x.com/gdb/status/2095730639094079594",
+      "aihotUrl": "https://aihot.virxact.com/items/cmtmgqedc01ljroluv1tley67",
+      "summary": "Greg Brockman 转发 Satya Nadella 的推文，表示对 Astra 登陆 Azure 感到兴奋。Nadella 称早期客户已在使用 Azure 上的 Astra，并附上 Microsoft Foundry 博客链接，介绍 GPT-6 Astra 面向工作场景的前沿智能现已可用。",
+      "latestAt": "2026-09-04T04:37:37.096Z"
     }
   ]
 }
