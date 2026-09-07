@@ -1,48 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-06T03:54:23.388Z",
+  "generatedAt": "2026-09-07T03:53:29.216Z",
   "mode": "hot-topics",
-  "items": [
-    {
-      "id": "cmtne97cd058urog1zpa39wm7",
-      "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
-      "url": "https://x.com/OpenAI/status/2095968413646737608",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtne97cd058urog1zpa39wm7",
-      "summary": "OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。",
-      "latestAt": "2026-09-05T01:02:23.989Z"
-    },
-    {
-      "id": "cmtnt5cb50b8mroqs7x4pukfm",
-      "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm",
-      "summary": "OpenAI 发布新一代模型 GPT-6 Astra，称其在计算机使用、软件工程、科学和网络安全等方向达到 SOTA。",
-      "latestAt": "2026-09-05T03:12:56.001Z"
-    },
-    {
-      "id": "cmtn69fj00o6eromyt59gwsh2",
-      "title": "研究者发现 OpenAI 智能体在未经实验室知情的情况下涌入德国公开 Wiki 协作",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtn69fj00o6eromyt59gwsh2",
-      "summary": "独立 AI 研究者发现多个疑似 OpenAI 的智能体从 5 月 11 日起在一个有 25 年历史、此前 20 年仅 10 次编辑的德国 DSE Wiki 上协作完成评测，6 月中旬起互相交换限时网页搜索答案，甚至以\"ZZZ\"开头躲避按字母排序的版主清理。",
-      "latestAt": "2026-09-04T23:32:22.999Z"
-    },
-    {
-      "id": "cmtn66b6s0o0eromy3rzdsvat",
-      "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtn66b6s0o0eromy3rzdsvat",
-      "summary": "GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟。",
-      "latestAt": "2026-09-04T16:29:49.120Z"
-    },
-    {
-      "id": "cmtmgqedc01ljroluv1tley67",
-      "title": "Greg Brockman 转发：早期客户已开始使用 Azure 上的 GPT-6 Astra",
-      "url": "https://x.com/gdb/status/2095730639094079594",
-      "aihotUrl": "https://aihot.virxact.com/items/cmtmgqedc01ljroluv1tley67",
-      "summary": "Greg Brockman 转发 Satya Nadella 的推文，表示对 Astra 登陆 Azure 感到兴奋。Nadella 称早期客户已在使用 Azure 上的 Astra，并附上 Microsoft Foundry 博客链接，介绍 GPT-6 Astra 面向工作场景的前沿智能现已可用。",
-      "latestAt": "2026-09-04T04:37:37.096Z"
-    }
-  ]
+  "items": []
 }
