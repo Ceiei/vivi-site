@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-09T04:01:37.292Z",
+  "generatedAt": "2026-09-10T04:01:02.077Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
       "aihotUrl": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
       "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
-      "latestAt": "2026-09-09T00:07:37.712Z"
+      "latestAt": "2026-09-09T19:34:44.877Z"
     },
     {
       "id": "cmtszna9e04isro5woti0ixg6",
@@ -18,7 +18,23 @@
       "url": "https://openai.com/index/navier-stokes-solution",
       "aihotUrl": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
       "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
-      "latestAt": "2026-09-09T02:09:39.611Z"
+      "latestAt": "2026-09-09T21:57:52.304Z"
+    },
+    {
+      "id": "cmtui33fr1dyvrofphqq514ej",
+      "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
+      "url": "https://x.com/gdb/status/2097769891013280241",
+      "aihotUrl": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej",
+      "summary": "OpenAI 宣布 Alignment Research Center 创始人 Paul Christiano 加入 OpenAI Foundation Board 及其 Safety and Security Committee，该委员会负责 OpenAI 安全与安保实践的治理。",
+      "latestAt": "2026-09-10T01:59:31.749Z"
+    },
+    {
+      "id": "cmtuhr1gr1dmxrofp90rc4c6u",
+      "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "aihotUrl": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+      "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。",
+      "latestAt": "2026-09-09T20:10:23.151Z"
     },
     {
       "id": "cmts9dr2m029hrobq86wrny37",
@@ -27,22 +43,6 @@
       "aihotUrl": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37",
       "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
       "latestAt": "2026-09-08T16:09:39.300Z"
-    },
-    {
-      "id": "cmtt7nvmn02h6romq0xpo0p2w",
-      "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
-      "url": "https://runwayml.com/news/company-news/runway-for-adobe",
-      "aihotUrl": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
-      "summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
-      "latestAt": "2026-09-08T21:58:07.884Z"
-    },
-    {
-      "id": "cmtsz50zn02mtro5w6ywm1xml",
-      "title": "Anthropic 发布 Claude Platform 降本指南：提示词缓存、清理反模式与校准 effort",
-      "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
-      "aihotUrl": "https://aihot.news/items/cmtsz50zn02mtro5w6ywm1xml",
-      "summary": "Anthropic 官方博客介绍用三项手段降低 Claude Platform 成本而不牺牲性能：提高提示词缓存命中率、清除旧模型遗留的提示词反模式、按任务校准 effort。",
-      "latestAt": "2026-09-08T17:59:30.653Z"
     }
   ]
 }
