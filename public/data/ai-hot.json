@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-10T04:01:02.077Z",
+  "generatedAt": "2026-09-11T03:57:10.842Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmtugou9e1cddrofptz3jwh4j",
+      "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo",
+      "aihotUrl": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
+      "summary": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
+      "latestAt": "2026-09-10T14:17:31.967Z"
+    },
+    {
+      "id": "cmtv7kmzk02vdrok9y0y8njiv",
+      "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+      "aihotUrl": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+      "summary": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。",
+      "latestAt": "2026-09-10T23:44:30.000Z"
+    },
+    {
+      "id": "cmtuejpah193urofpj0jmte9i",
+      "title": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch Series 12 和 Ultra 4 主打 readiness 与 Health Age",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence",
+      "aihotUrl": "https://aihot.news/items/cmtuejpah193urofpj0jmte9i",
+      "summary": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
+      "latestAt": "2026-09-10T07:45:13.000Z"
+    },
+    {
+      "id": "cmttxf8n90qovrofp2tiv0g2g",
+      "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
+      "url": "https://www.ithome.com/1/000/353.htm",
+      "aihotUrl": "https://aihot.news/items/cmttxf8n90qovrofp2tiv0g2g",
+      "summary": "纽约大学教授Tristan Buckmaster与Anthropic数学家Levent Alpöge使用Codex和Claude在纳维-斯托克斯存在性与光滑性问题上取得初步进展，随后OpenAI公布了该千禧年大奖难题的完整证明，称其由一个尚未发布的新一代模型发现，研究始于9月1日，总计消耗3000亿个输出Token，按Astra价格计算约2250万美元。",
+      "latestAt": "2026-09-10T23:01:33.373Z"
+    },
     {
       "id": "cmtt0pw2p018pro9owlhpi092",
       "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
       "aihotUrl": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
       "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
-      "latestAt": "2026-09-09T19:34:44.877Z"
-    },
-    {
-      "id": "cmtszna9e04isro5woti0ixg6",
-      "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "aihotUrl": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-      "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
-      "latestAt": "2026-09-09T21:57:52.304Z"
-    },
-    {
-      "id": "cmtui33fr1dyvrofphqq514ej",
-      "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
-      "url": "https://x.com/gdb/status/2097769891013280241",
-      "aihotUrl": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej",
-      "summary": "OpenAI 宣布 Alignment Research Center 创始人 Paul Christiano 加入 OpenAI Foundation Board 及其 Safety and Security Committee，该委员会负责 OpenAI 安全与安保实践的治理。",
-      "latestAt": "2026-09-10T01:59:31.749Z"
-    },
-    {
-      "id": "cmtuhr1gr1dmxrofp90rc4c6u",
-      "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
-      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-      "aihotUrl": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
-      "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。",
-      "latestAt": "2026-09-09T20:10:23.151Z"
-    },
-    {
-      "id": "cmts9dr2m029hrobq86wrny37",
-      "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-      "aihotUrl": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37",
-      "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
-      "latestAt": "2026-09-08T16:09:39.300Z"
+      "latestAt": "2026-09-10T07:20:58.000Z"
     }
   ]
 }
