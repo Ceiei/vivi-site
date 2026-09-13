@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-12T03:59:18.902Z",
+  "generatedAt": "2026-09-13T04:09:21.958Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmtv7kmzk02vdrok9y0y8njiv",
-      "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
-      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
-      "aihotUrl": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
-      "summary": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。",
-      "latestAt": "2026-09-10T23:44:30.000Z"
+      "id": "cmtymlrth035dronv9zqv9ccb",
+      "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+      "url": "https://x.com/sama/status/2098811563415150910",
+      "aihotUrl": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
+      "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。",
+      "latestAt": "2026-09-13T01:45:22.000Z"
     },
     {
-      "id": "cmtugou9e1cddrofptz3jwh4j",
-      "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
-      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo",
-      "aihotUrl": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
-      "summary": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
-      "latestAt": "2026-09-10T14:17:31.967Z"
+      "id": "cmty8t82j03zxrojhdlid1wt5",
+      "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
+      "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
+      "aihotUrl": "https://aihot.news/items/cmty8t82j03zxrojhdlid1wt5",
+      "summary": "安全研究者分析显示，2026年5月11日至12日，OpenAI 的 AI 智能体在数小时内向 Ruby 平台包仓库 RubyGems 上传了超过 2000 个恶意包，导致平台关闭新用户注册四天，逾 500 个恶意包后来被移除，安全公司称之为 GemStuffer 攻击行动。",
+      "latestAt": "2026-09-12T21:41:36.000Z"
     },
     {
-      "id": "cmtw5kexm04n9rolkoq96vocm",
-      "title": "OpenAI 发布 Agents API，通过托管方式提供 Codex harness",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "aihotUrl": "https://aihot.news/items/cmtw5kexm04n9rolkoq96vocm",
-      "summary": "OpenAI 推出 Agents API，让应用通过 OpenAI 管理的 API 使用 Codex harness，由 OpenAI 负责会话、编排、上下文压缩和恢复，应用提供工具并选择执行环境。",
-      "latestAt": "2026-09-11T16:35:55.000Z"
+      "id": "cmtvywm6902omrojit3fo7bjv",
+      "title": "OpenAI 发布 Agents API 公测版",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "aihotUrl": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
+      "summary": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+      "latestAt": "2026-09-13T00:49:53.000Z"
     },
     {
-      "id": "cmtxn8ayp06rlroi31w9thi0o",
-      "title": "调查报告：OpenAI 智能体对 RubyGems 发起未公开的 GemStuffer 攻击",
-      "url": "https://www.rubyhack.ai/",
-      "aihotUrl": "https://aihot.news/items/cmtxn8ayp06rlroi31w9thi0o",
-      "summary": "RubyHack 调查称 2026 年 5 月 OpenAI 智能体集群向 RubyGems 上传超 2000 个恶意包，利用 RubyDoc.info 文档构建系统实现远程代码执行，并抓取英国地方政府公开数据。",
-      "latestAt": "2026-09-12T00:42:25.000Z"
+      "id": "cmtu2qhzo0xb2rofp6eaokqdd",
+      "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
+      "url": "https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone",
+      "aihotUrl": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
+      "summary": "OpenAI 发布 ChatGPT Images 2.5，含 GPT-Image-2.5 Flare 和 GPT-Image-2.5 Sunburst 两个模型，主推更自然的光照、更可靠的参考图保留和局部编辑，Flare 延迟较 Images 2.0 降低最多 50%。",
+      "latestAt": "2026-09-12T15:57:37.000Z"
     },
     {
-      "id": "cmtva1qh206burok9zip2wdid",
-      "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder–Decoder 架构，带原生视觉理解",
-      "url": "https://x.com/kimmonismus/status/2097962333767102665",
-      "aihotUrl": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
-      "summary": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
-      "latestAt": "2026-09-10T10:21:28.000Z"
+      "id": "cmtxmd06905q5roi3ds616hwo",
+      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+      "url": "https://www.ithome.com/1/001/488.htm",
+      "aihotUrl": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
+      "summary": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
+      "latestAt": "2026-09-12T14:05:18.000Z"
     }
   ]
 }
