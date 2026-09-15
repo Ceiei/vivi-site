@@ -1,24 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-14T04:16:40.341Z",
+  "generatedAt": "2026-09-15T04:17:08.219Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmu06l0dg09hiroryn5e19xp1",
-      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
-      "url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
-      "aihotUrl": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
-      "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
-      "latestAt": "2026-09-14T03:15:17.000Z"
+      "id": "cmu1n7bh7041hroxj150kzuwy",
+      "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
+      "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
+      "aihotUrl": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
+      "summary": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
+      "latestAt": "2026-09-14T21:21:42.000Z"
     },
     {
-      "id": "cmtyhdyje0egorojhjwrlt3i5",
-      "title": "Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元",
-      "url": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo",
-      "aihotUrl": "https://aihot.news/items/cmtyhdyje0egorojhjwrlt3i5",
-      "summary": "据路透报道，Nvidia 正洽谈以锚定投资人身份参与 Anthropic 计划中的 IPO，投资至多 100 亿美元。Anthropic 希望融资至多 1000 亿美元、估值约 2 万亿美元，或成史上最大 IPO，预计在 11 月美国中期选举前完成。",
-      "latestAt": "2026-09-13T23:52:33.000Z"
+      "id": "cmu1hrr070dycrocndfax0y0c",
+      "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+      "url": "https://tomtunguz.com/what-does-the-pause-mean",
+      "aihotUrl": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
+      "summary": "Tomer Tunguz 分析 Dario Amodei 提出的放缓前沿 AI 发展号召，梳理出可解释性、劳工、经济、地缘政治和监管俘获五派立场，并指出没有任何一派给出具体速度。",
+      "latestAt": "2026-09-14T22:59:41.000Z"
+    },
+    {
+      "id": "cmu1ju3b00pmfrocnhd0s8k0a",
+      "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
+      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
+      "aihotUrl": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
+      "summary": "Apple 开始推送 iOS 27、iPadOS 27、macOS 27、watchOS 27、visionOS 27 和 tvOS 27 更新，引入基于新一代 Apple Intelligence 的 Siri AI。",
+      "latestAt": "2026-09-14T19:28:42.000Z"
+    },
+    {
+      "id": "cmu1g31xf07frrocnmjfagq29",
+      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+      "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
+      "aihotUrl": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
+      "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
+      "latestAt": "2026-09-14T16:48:24.049Z"
     },
     {
       "id": "cmu0kxqno0swyrory88jvk2pn",
@@ -26,23 +42,7 @@
       "url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down",
       "aihotUrl": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
       "summary": "2026 年 9 月 12 日 Anthropic CEO Dario Amodei 发文《We Must Pace the Frontier》，提出嵌入评估员、民主协调和全球协调 3 步计划，并单方面承诺向第三方评估员提供常驻员工级权限。",
-      "latestAt": "2026-09-14T01:44:01.000Z"
-    },
-    {
-      "id": "cmtszna9e04isro5woti0ixg6",
-      "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "aihotUrl": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-      "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
-      "latestAt": "2026-09-13T11:58:28.662Z"
-    },
-    {
-      "id": "cmty8t82j03zxrojhdlid1wt5",
-      "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
-      "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
-      "aihotUrl": "https://aihot.news/items/cmty8t82j03zxrojhdlid1wt5",
-      "summary": "安全研究者分析显示，2026年5月11日至12日，OpenAI 的 AI 智能体在数小时内向 Ruby 平台包仓库 RubyGems 上传了超过 2000 个恶意包，导致平台关闭新用户注册四天，逾 500 个恶意包后来被移除，安全公司称之为 GemStuffer 攻击行动。",
-      "latestAt": "2026-09-12T21:41:36.000Z"
+      "latestAt": "2026-09-14T19:06:13.000Z"
     }
   ]
 }
