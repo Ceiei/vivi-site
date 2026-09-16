@@ -1,40 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-15T04:17:08.219Z",
+  "generatedAt": "2026-09-16T04:12:42.905Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmu1n7bh7041hroxj150kzuwy",
-      "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
-      "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
-      "aihotUrl": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
-      "summary": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
-      "latestAt": "2026-09-14T21:21:42.000Z"
-    },
-    {
-      "id": "cmu1hrr070dycrocndfax0y0c",
-      "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
-      "url": "https://tomtunguz.com/what-does-the-pause-mean",
-      "aihotUrl": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
-      "summary": "Tomer Tunguz 分析 Dario Amodei 提出的放缓前沿 AI 发展号召，梳理出可解释性、劳工、经济、地缘政治和监管俘获五派立场，并指出没有任何一派给出具体速度。",
-      "latestAt": "2026-09-14T22:59:41.000Z"
-    },
-    {
-      "id": "cmu1ju3b00pmfrocnhd0s8k0a",
-      "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
-      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
-      "aihotUrl": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
-      "summary": "Apple 开始推送 iOS 27、iPadOS 27、macOS 27、watchOS 27、visionOS 27 和 tvOS 27 更新，引入基于新一代 Apple Intelligence 的 Siri AI。",
-      "latestAt": "2026-09-14T19:28:42.000Z"
-    },
-    {
-      "id": "cmu1g31xf07frrocnmjfagq29",
-      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-      "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
-      "aihotUrl": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
-      "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
-      "latestAt": "2026-09-14T16:48:24.049Z"
+      "id": "cmu1ju3b00pmgrocnrgwe6e9e",
+      "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
+      "aihotUrl": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
+      "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+      "latestAt": "2026-09-16T00:06:32.000Z"
     },
     {
       "id": "cmu0kxqno0swyrory88jvk2pn",
@@ -42,7 +18,31 @@
       "url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down",
       "aihotUrl": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
       "summary": "2026 年 9 月 12 日 Anthropic CEO Dario Amodei 发文《We Must Pace the Frontier》，提出嵌入评估员、民主协调和全球协调 3 步计划，并单方面承诺向第三方评估员提供常驻员工级权限。",
-      "latestAt": "2026-09-14T19:06:13.000Z"
+      "latestAt": "2026-09-16T02:18:41.000Z"
+    },
+    {
+      "id": "cmu1n7bh7041hroxj150kzuwy",
+      "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
+      "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
+      "aihotUrl": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
+      "summary": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
+      "latestAt": "2026-09-16T00:25:24.000Z"
+    },
+    {
+      "id": "cmu2xqfxz02zhroc1hxuzi6jm",
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "aihotUrl": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking 两款开发者语音模型，可通过 Gemini API 和 Google AI Studio 使用。",
+      "latestAt": "2026-09-16T00:25:24.000Z"
+    },
+    {
+      "id": "cmu2gnngu032brovqo7pvrfx9",
+      "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+      "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+      "aihotUrl": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+      "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+      "latestAt": "2026-09-16T00:25:24.000Z"
     }
   ]
 }
