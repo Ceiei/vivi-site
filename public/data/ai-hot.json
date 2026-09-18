@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-17T04:19:35.584Z",
+  "generatedAt": "2026-09-18T04:03:38.485Z",
   "mode": "hot-topics",
   "items": [
-    {
-      "id": "cmu46kvju0bdsro4w0sonrv7q",
-      "title": "微软 AI CEO 警告“模型福利”论调",
-      "url": "https://x.com/mustafasuleyman/status/2100223594534150428",
-      "aihotUrl": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
-      "summary": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
-      "latestAt": "2026-09-16T19:00:46.319Z"
-    },
-    {
-      "id": "cmu2xqfxz02zhroc1hxuzi6jm",
-      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-      "aihotUrl": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
-      "summary": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking 两款开发者语音模型，可通过 Gemini API 和 Google AI Studio 使用。",
-      "latestAt": "2026-09-16T14:30:05.000Z"
-    },
-    {
-      "id": "cmu4c8qar0hzero4w3b6n1jyf",
-      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-      "url": "https://claude.com/blog/cowork-is-now-claude",
-      "aihotUrl": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
-      "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，未来几周内向 Pro 和 Max 计划推出。",
-      "latestAt": "2026-09-16T19:12:46.000Z"
-    },
     {
       "id": "cmu4nyoxd07n9rodcxgc06f52",
       "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
       "aihotUrl": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
       "summary": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。",
-      "latestAt": "2026-09-17T01:46:19.000Z"
+      "latestAt": "2026-09-18T02:54:34.222Z"
     },
     {
-      "id": "cmu2gnngu032brovqo7pvrfx9",
-      "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
-      "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
-      "aihotUrl": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
-      "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
-      "latestAt": "2026-09-16T23:30:13.000Z"
+      "id": "cmu4e3eba0k1oro4wqa10kw30",
+      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一 Claude，并推出 Docs、Slides",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "aihotUrl": "https://aihot.news/items/cmu4e3eba0k1oro4wqa10kw30",
+      "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，并沿用已有的上下文、技能和连接器。",
+      "latestAt": "2026-09-17T05:49:56.000Z"
+    },
+    {
+      "id": "cmu5tujnp0jvoroqoq64oqnjr",
+      "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
+      "url": "https://claude.com/blog/projects-redesigned",
+      "aihotUrl": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
+      "summary": "Anthropic 重构 Claude Code 的 Projects，用户设定目标后由 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果，线程本质上是各自独立分支的 Claude Code 云端会话。",
+      "latestAt": "2026-09-17T17:52:08.951Z"
+    },
+    {
+      "id": "cmu605ozy000arok0lxr4x1y8",
+      "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "aihotUrl": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
+      "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
+      "latestAt": "2026-09-17T20:32:14.000Z"
+    },
+    {
+      "id": "cmu648ktv0a7hrofjha0nxsmr",
+      "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程",
+      "url": "https://x.com/alexandr_wang/status/2100714048329580957",
+      "aihotUrl": "https://aihot.news/items/cmu648ktv0a7hrofjha0nxsmr",
+      "summary": "Alexandr Wang 宣布 muse for Mac 上线，智能体可直接在用户电脑上处理文件、消息、日历和笔记等事务。用户可控制其访问权限，执行敏感操作前会先询问。下载地址：https://ai.meta.com/muse/download/",
+      "latestAt": "2026-09-17T22:39:53.000Z"
     }
   ]
 }
