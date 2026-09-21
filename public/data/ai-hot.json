@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-20T04:19:33.277Z",
+  "generatedAt": "2026-09-21T04:16:52.432Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,7 @@
       "url": "https://x.com/OpenRouter/status/2101061688338575739",
       "aihotUrl": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-20T03:20:33.000Z"
+      "latestAt": "2026-09-21T01:44:53.000Z"
     },
     {
       "id": "cmu7jnd0b0fxtrogrch785oud",
@@ -18,31 +18,31 @@
       "url": "https://x.com/rohanpaul_ai/status/2101078460332720372",
       "aihotUrl": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-20T02:16:07.000Z"
+      "latestAt": "2026-09-20T20:20:56.000Z"
     },
     {
-      "id": "cmu7bu9xu04terogr4pz0w6r4",
-      "title": "Claude Code 2.1.277 在无 CLAUDE.md 时读取 AGENTS.md",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "aihotUrl": "https://aihot.news/items/cmu7bu9xu04terogr4pz0w6r4",
+      "id": "cmu99pi3604g2ro8iyt4qb7p7",
+      "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
+      "url": "https://x.com/StepFun_ai/status/2101510462685003786",
+      "aihotUrl": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-19T17:00:12.000Z"
+      "latestAt": "2026-09-21T00:41:27.000Z"
     },
     {
-      "id": "cmu77kvz00tf6rowk9kl5o4k0",
-      "title": "安全研究人员利用Claude模型攻入OpenAI内部系统",
-      "url": "https://garymarcus.substack.com/p/wake-up-people-what-we-should-actually",
-      "aihotUrl": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
+      "id": "cmu9tfhu904turokx2vfjy34f",
+      "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "aihotUrl": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-20T01:23:27.833Z"
+      "latestAt": "2026-09-20T23:07:42.000Z"
     },
     {
-      "id": "cmu7mv3mi0j8brogr1ktcfhb6",
-      "title": "FT报道：OpenAI预计支出将远超收入，2030年营收或达3500亿美元",
-      "url": "https://x.com/rohanpaul_ai/status/2101095915654463533",
-      "aihotUrl": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
+      "id": "cmu7vvrzj0snnrogr298gqllj",
+      "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
+      "url": "https://www.ithome.com/1/004/423.htm",
+      "aihotUrl": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-19T23:54:09.000Z"
+      "latestAt": "2026-09-20T17:17:56.918Z"
     }
   ]
 }
