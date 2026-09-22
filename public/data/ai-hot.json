@@ -1,24 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-21T04:16:52.432Z",
+  "generatedAt": "2026-09-22T04:12:57.251Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmubfarpy0xtirolnplntl9p1",
+      "title": "Grok 4.7 今日正式推出，已开始滚动发布",
+      "url": "https://x.ai/news/grok-4-7",
+      "aihotUrl": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-22T00:09:21.000Z"
+    },
+    {
+      "id": "cmubox8pl0510ro4vw01ibnin",
+      "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
+      "url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
+      "aihotUrl": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-21T23:05:45.000Z"
+    },
+    {
+      "id": "cmubkgdje000yro3d0t731ihz",
+      "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展",
+      "url": "https://x.com/OpenAI/status/2102093145051943229",
+      "aihotUrl": "https://aihot.news/items/cmubkgdje000yro3d0t731ihz",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-21T23:27:23.000Z"
+    },
     {
       "id": "cmu7hc2e80aavrogr7vbwhcjm",
       "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
       "url": "https://x.com/OpenRouter/status/2101061688338575739",
       "aihotUrl": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-21T01:44:53.000Z"
-    },
-    {
-      "id": "cmu7jnd0b0fxtrogrch785oud",
-      "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
-      "url": "https://x.com/rohanpaul_ai/status/2101078460332720372",
-      "aihotUrl": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-20T20:20:56.000Z"
+      "latestAt": "2026-09-22T01:21:27.000Z"
     },
     {
       "id": "cmu99pi3604g2ro8iyt4qb7p7",
@@ -26,23 +42,7 @@
       "url": "https://x.com/StepFun_ai/status/2101510462685003786",
       "aihotUrl": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-21T00:41:27.000Z"
-    },
-    {
-      "id": "cmu9tfhu904turokx2vfjy34f",
-      "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "aihotUrl": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-20T23:07:42.000Z"
-    },
-    {
-      "id": "cmu7vvrzj0snnrogr298gqllj",
-      "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
-      "url": "https://www.ithome.com/1/004/423.htm",
-      "aihotUrl": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-20T17:17:56.918Z"
+      "latestAt": "2026-09-22T02:59:59.000Z"
     }
   ]
 }
