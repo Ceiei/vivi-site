@@ -1,16 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-22T04:12:57.251Z",
+  "generatedAt": "2026-09-23T04:09:39.545Z",
   "mode": "hot-topics",
   "items": [
     {
+      "id": "cmucwpqty0rj8roedzxz1496u",
+      "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
+      "url": "https://x.com/claudeai/status/2102435511222890900",
+      "aihotUrl": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-22T22:21:40.000Z"
+    },
+    {
+      "id": "cmuczxsyt03k4ro7nep4vsmez",
+      "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%",
+      "url": "https://x.com/OpenAI/status/2102460975790137662",
+      "aihotUrl": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-22T22:38:23.000Z"
+    },
+    {
       "id": "cmubfarpy0xtirolnplntl9p1",
-      "title": "Grok 4.7 今日正式推出，已开始滚动发布",
+      "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本",
       "url": "https://x.ai/news/grok-4-7",
       "aihotUrl": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T00:09:21.000Z"
+      "latestAt": "2026-09-22T20:35:40.000Z"
+    },
+    {
+      "id": "cmuczxsyt03k4ro7nep4vsmez",
+      "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放",
+      "url": "https://x.com/OpenAI/status/2102460975790137662",
+      "aihotUrl": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-22T21:25:18.000Z"
     },
     {
       "id": "cmubox8pl0510ro4vw01ibnin",
@@ -18,31 +42,7 @@
       "url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
       "aihotUrl": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-21T23:05:45.000Z"
-    },
-    {
-      "id": "cmubkgdje000yro3d0t731ihz",
-      "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展",
-      "url": "https://x.com/OpenAI/status/2102093145051943229",
-      "aihotUrl": "https://aihot.news/items/cmubkgdje000yro3d0t731ihz",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-21T23:27:23.000Z"
-    },
-    {
-      "id": "cmu7hc2e80aavrogr7vbwhcjm",
-      "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
-      "url": "https://x.com/OpenRouter/status/2101061688338575739",
-      "aihotUrl": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T01:21:27.000Z"
-    },
-    {
-      "id": "cmu99pi3604g2ro8iyt4qb7p7",
-      "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
-      "url": "https://x.com/StepFun_ai/status/2101510462685003786",
-      "aihotUrl": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T02:59:59.000Z"
+      "latestAt": "2026-09-22T16:00:37.000Z"
     }
   ]
 }
