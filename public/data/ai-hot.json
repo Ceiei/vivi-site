@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-23T04:09:39.545Z",
+  "generatedAt": "2026-09-24T04:05:21.710Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmucwpqty0rj8roedzxz1496u",
+      "id": "cmucyny580521roni2aiyh9xj",
       "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-      "url": "https://x.com/claudeai/status/2102435511222890900",
-      "aihotUrl": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u",
+      "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
+      "aihotUrl": "https://aihot.news/items/cmucyny580521roni2aiyh9xj",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T22:21:40.000Z"
+      "latestAt": "2026-09-24T02:46:25.000Z"
     },
     {
-      "id": "cmuczxsyt03k4ro7nep4vsmez",
+      "id": "cmuexzypj03j9roow55c4teir",
+      "title": "Anthropic分享早期研究结果：Claude自主发现与CRISPR样重复阵列相关的新型酶系统ART",
+      "url": "https://x.com/AnthropicAI/status/2102824959827742916",
+      "aihotUrl": "https://aihot.news/items/cmuexzypj03j9roow55c4teir",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-24T03:19:29.000Z"
+    },
+    {
+      "id": "cmuea8xrm0t1nroghhxj2y3eg",
+      "title": "Google发布Gemini 3.8 Flash TTS语音合成模型",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "aihotUrl": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-09-24T00:50:44.000Z"
+    },
+    {
+      "id": "cmud2ya2c03wnrov6lnmiq2dv",
       "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%",
-      "url": "https://x.com/OpenAI/status/2102460975790137662",
-      "aihotUrl": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
+      "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+      "aihotUrl": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T22:38:23.000Z"
+      "latestAt": "2026-09-23T18:54:11.000Z"
     },
     {
-      "id": "cmubfarpy0xtirolnplntl9p1",
-      "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本",
-      "url": "https://x.ai/news/grok-4-7",
-      "aihotUrl": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
+      "id": "cmueup7f003m7royq61z93ftn",
+      "title": "ChatGPT Voice升级为运行GPT-6 Astra、Sol、Luna模型并首次可访问邮件、日历和Slack插件",
+      "url": "https://x.com/OpenAI/status/2102808325742322002",
+      "aihotUrl": "https://aihot.news/items/cmueup7f003m7royq61z93ftn",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T20:35:40.000Z"
-    },
-    {
-      "id": "cmuczxsyt03k4ro7nep4vsmez",
-      "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放",
-      "url": "https://x.com/OpenAI/status/2102460975790137662",
-      "aihotUrl": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T21:25:18.000Z"
-    },
-    {
-      "id": "cmubox8pl0510ro4vw01ibnin",
-      "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
-      "url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
-      "aihotUrl": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-22T16:00:37.000Z"
+      "latestAt": "2026-09-23T23:34:00.000Z"
     }
   ]
 }
