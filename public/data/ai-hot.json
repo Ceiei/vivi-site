@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-28T04:42:32.115Z",
+  "generatedAt": "2026-09-29T05:08:59.359Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "cmufjyocz04u6ro6ohojge69s",
-      "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
-      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
-      "aihotUrl": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+      "id": "gikl2tjm7h3e1kf1j47v7rh41",
+      "title": "AMD 82亿美元收购World Labs并任命李飞飞",
+      "url": "https://x.com/theworldlabs/status/2104665621120311465",
+      "aihotUrl": "https://aihot.news/items/gikl2tjm7h3e1kf1j47v7rh41",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-27T16:19:46.000Z"
+      "latestAt": "2026-09-29T04:41:00.000Z"
     },
     {
-      "id": "cmuit4c8j05hbrohycylxzqzd",
-      "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果",
-      "url": "https://x.com/OpenAIDevs/status/2103929727761137940",
-      "aihotUrl": "https://aihot.news/items/cmuit4c8j05hbrohycylxzqzd",
+      "id": "nastdr2zteysm2n0dg58d6tb1",
+      "title": "Anthropic 发布 Claude Sonnet 5.5，AA 智能指数升至第 2",
+      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
+      "aihotUrl": "https://aihot.news/items/nastdr2zteysm2n0dg58d6tb1",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-27T16:25:11.000Z"
+      "latestAt": "2026-09-29T04:34:51.000Z"
     },
     {
-      "id": "cmucwy58v0rskroedmv35n8ji",
-      "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "aihotUrl": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+      "id": "s5on5dsnixevj7j9lfjemhz3o",
+      "title": "NVIDIA 发布开放智能体安全平台 OpenShell 与 Sentry",
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+      "aihotUrl": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-28T01:10:40.000Z"
+      "latestAt": "2026-09-29T04:30:33.193Z"
     },
     {
-      "id": "cmuk1c6vw14g5ro9h4vce4ooy",
-      "title": "《周六夜现场》播出简·威克林模仿Anthropic CEO达里奥·阿莫代伊的AI末日讽刺段子",
-      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
-      "aihotUrl": "https://aihot.news/items/cmuk1c6vw14g5ro9h4vce4ooy",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-28T03:07:08.000Z"
+      "id": "lyitt5l0szschyizodzvkhg9g",
+      "title": "Manus 发布 2.0 系列产品与更新",
+      "url": "https://x.com/ManusAI/status/2104628185501712789",
+      "aihotUrl": "https://aihot.news/items/lyitt5l0szschyizodzvkhg9g",
+      "summary": "Manus 发布 Manus 2.0 系列产品与更新，包括更高效的 agent 架构 Cascade，含 Cloud Computers 和事件触发的 Automations。",
+      "latestAt": "2026-09-29T04:04:33.392Z"
     },
     {
-      "id": "cmuk3fpt016kbro9hmvwl54as",
-      "title": "OpenAI代理对UNCTAD统计网站进行超1.6万次扫描并采取欺骗手段绕过限制",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "aihotUrl": "https://aihot.news/items/cmuk3fpt016kbro9hmvwl54as",
+      "id": "khyjby0mw5t22dn9zw2l6fflu",
+      "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
+      "url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
+      "aihotUrl": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-28T00:30:40.000Z"
+      "latestAt": "2026-09-29T04:52:33.326Z"
     }
   ]
 }
