@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-09-29T05:08:59.359Z",
+  "generatedAt": "2026-09-30T04:56:19.871Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "gikl2tjm7h3e1kf1j47v7rh41",
-      "title": "AMD 82亿美元收购World Labs并任命李飞飞",
-      "url": "https://x.com/theworldlabs/status/2104665621120311465",
-      "aihotUrl": "https://aihot.news/items/gikl2tjm7h3e1kf1j47v7rh41",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-29T04:41:00.000Z"
+      "id": "cmui8zcbu0a1arov03inxuwup",
+      "title": "OpenAI 常驻助手 \"o\" 曝光，DevDay 下周揭晓",
+      "url": "https://x.com/testingcatalog/status/2103787365986623925",
+      "aihotUrl": "https://aihot.news/items/cmui8zcbu0a1arov03inxuwup",
+      "summary": "OpenAI 即将推出的常驻助手将命名为 \"o\"，其引用已短暂出现在部分用户的 ChatGPT 升级界面中。内部配置显示 \"o\" 为显示名、\"-o\" 为邮箱后缀，意味着它将支持邮件处理。OpenAI 下周举办 DevDay，传闻中的 \"Aeon\" 实为 ChatGPT Workspace 现有自定义 Agents 的内部名称，\"o\" 或将基于此构建面向消费者的助手。",
+      "latestAt": "2026-09-30T03:11:53.000Z"
     },
     {
-      "id": "nastdr2zteysm2n0dg58d6tb1",
-      "title": "Anthropic 发布 Claude Sonnet 5.5，AA 智能指数升至第 2",
-      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
-      "aihotUrl": "https://aihot.news/items/nastdr2zteysm2n0dg58d6tb1",
+      "id": "mzrr47eq951b8nzpqg3oi0gtp",
+      "title": "OpenAI推出Ultrafast高速层级",
+      "url": "https://x.com/OpenAIDevs/status/2105073608586670412",
+      "aihotUrl": "https://aihot.news/items/mzrr47eq951b8nzpqg3oi0gtp",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-29T04:34:51.000Z"
+      "latestAt": "2026-09-30T04:00:00.000Z"
     },
     {
-      "id": "s5on5dsnixevj7j9lfjemhz3o",
-      "title": "NVIDIA 发布开放智能体安全平台 OpenShell 与 Sentry",
-      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
-      "aihotUrl": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o",
+      "id": "ukbm1pni8gdc5ciwwuywzkhwb",
+      "title": "AMD收购World Labs并任命李飞飞为首席科学家",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "aihotUrl": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-29T04:30:33.193Z"
+      "latestAt": "2026-09-30T03:00:36.196Z"
     },
     {
-      "id": "lyitt5l0szschyizodzvkhg9g",
-      "title": "Manus 发布 2.0 系列产品与更新",
-      "url": "https://x.com/ManusAI/status/2104628185501712789",
-      "aihotUrl": "https://aihot.news/items/lyitt5l0szschyizodzvkhg9g",
-      "summary": "Manus 发布 Manus 2.0 系列产品与更新，包括更高效的 agent 架构 Cascade，含 Cloud Computers 和事件触发的 Automations。",
-      "latestAt": "2026-09-29T04:04:33.392Z"
+      "id": "cmukkk6ag1ux6ro9hvmv7r7n6",
+      "title": "Claude Sonnet 5.5 疑似泄露，配置标识符现身并开启灰度测试",
+      "url": "https://www.ithome.com/1/007/650.htm",
+      "aihotUrl": "https://aihot.news/items/cmukkk6ag1ux6ro9hvmv7r7n6",
+      "summary": "新智元转述多位开发者在 X 上的爆料称，Claude Sonnet 5.5 已出现在 Anthropic 官方配置中，标识符为「claude-sonnet-5-5」，并在 Claude Code 中开启灰度测试。",
+      "latestAt": "2026-09-30T01:44:00.000Z"
     },
     {
-      "id": "khyjby0mw5t22dn9zw2l6fflu",
-      "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
-      "url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
-      "aihotUrl": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
+      "id": "cmu7nb3bm0jugrogroyv3fm5h",
+      "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
+      "url": "https://www.ithome.com/1/004/369.htm",
+      "aihotUrl": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-29T04:52:33.326Z"
+      "latestAt": "2026-09-30T02:38:46.009Z"
     }
   ]
 }
