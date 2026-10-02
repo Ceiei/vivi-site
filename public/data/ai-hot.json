@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-01T05:09:35.505Z",
+  "generatedAt": "2026-10-02T04:58:28.668Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,7 @@
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "aihotUrl": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
       "summary": "谷歌于 9 月 30 日发布 Gemini 4 Argon，称其为迄今最先进的 AI 模型，主打长流程软件工程、企业知识工作和网络安全防御，单次输出上限约 100 万 tokens。",
-      "latestAt": "2026-10-01T04:55:40.000Z"
+      "latestAt": "2026-10-02T04:41:14.000Z"
     },
     {
       "id": "ewa77zkka92qb5lqukt70bfu8",
@@ -18,15 +18,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
       "aihotUrl": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-01T03:47:56.000Z"
-    },
-    {
-      "id": "r9nae38v4x5x29jrec46olsl4",
-      "title": "OpenAI 发布常驻智能体 Dots",
-      "url": "https://openai.com/index/introducing-dots/",
-      "aihotUrl": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-      "summary": "OpenAI 发布名为 dots 的常驻智能体，由 GPT-6 Astra 驱动，拥有自己的云计算机，可 24/7 持续为用户工作，并通过插件生态连接超过 4,000 款应用。",
-      "latestAt": "2026-10-01T01:36:21.000Z"
+      "latestAt": "2026-10-01T15:02:44.000Z"
     },
     {
       "id": "khyjby0mw5t22dn9zw2l6fflu",
@@ -34,15 +26,23 @@
       "url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
       "aihotUrl": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-01T02:48:27.000Z"
+      "latestAt": "2026-10-02T02:24:59.000Z"
     },
     {
-      "id": "gs96clovs726l3b5nd80ofnva",
-      "title": "OpenAI重开Pro 200并新增Pro 500档",
-      "url": "https://x.com/thsottiaux/status/2104823812042940713",
-      "aihotUrl": "https://aihot.news/items/gs96clovs726l3b5nd80ofnva",
+      "id": "r9nae38v4x5x29jrec46olsl4",
+      "title": "OpenAI 发布常驻智能体 Dots",
+      "url": "https://openai.com/index/introducing-dots/",
+      "aihotUrl": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
+      "summary": "OpenAI 发布名为 dots 的常驻智能体，由 GPT-6 Astra 驱动，拥有自己的云计算机，可 24/7 持续为用户工作，并通过插件生态连接超过 4,000 款应用。",
+      "latestAt": "2026-10-01T22:00:57.000Z"
+    },
+    {
+      "id": "cmu6ikvfu04ruro0fnxn9exy4",
+      "title": "赛力斯与华为回应问界专属专营模式调整",
+      "url": "https://www.ithome.com/1/004/058.htm",
+      "aihotUrl": "https://aihot.news/items/cmu6ikvfu04ruro0fnxn9exy4",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-09-30T13:30:05.000Z"
+      "latestAt": "2026-10-02T04:04:23.235Z"
     }
   ]
 }
