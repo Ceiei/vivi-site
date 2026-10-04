@@ -1,16 +1,24 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-03T04:41:53.877Z",
+  "generatedAt": "2026-10-04T05:13:32.555Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "xmlfce496prtvqpqmcupmsssc",
+      "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "aihotUrl": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-04T03:57:32.000Z"
+    },
     {
       "id": "ln6ere28kepk46azfanwaucm2",
       "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备",
       "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
       "aihotUrl": "https://aihot.news/items/ln6ere28kepk46azfanwaucm2",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-03T04:23:37.905Z"
+      "latestAt": "2026-10-03T23:35:30.000Z"
     },
     {
       "id": "gwtipws3qkxm941aqz5iluhdi",
@@ -18,31 +26,23 @@
       "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
       "aihotUrl": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-03T04:23:37.942Z"
+      "latestAt": "2026-10-04T01:43:16.000Z"
     },
     {
-      "id": "wx18gjj92zgt5rt0rtj1wy5cc",
-      "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "aihotUrl": "https://aihot.news/items/wx18gjj92zgt5rt0rtj1wy5cc",
-      "summary": "Cloudflare 发布两款决策模型 Clef 和 Clef-flash，托管在 Workers AI 上，并以 Apache 2.0 许可证在 Hugging Face 完全开源。",
-      "latestAt": "2026-10-02T20:21:32.000Z"
+      "id": "jak6gxsz68wsqdq6n9504d36o",
+      "title": "Sam Altman 谈 AI 模型安全",
+      "url": "https://x.com/Yuchenj_UW/status/2106395374923796759",
+      "aihotUrl": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
+      "summary": "OpenAI CEO 奥尔特曼在 DevDay 后表示，只有能对模型安全作出站得住脚的承诺后才会考虑上市，目前没有确定时间节点。他担心上市后资本市场压力会妨碍安全优先的节奏，认为当下正处在向超高能力模型过渡、迎来全新安全要求的阶段，此时上市不明智；但也称若上市拖延太久对世界并非好事。此前 Anthropic 已于 6 月递交上市申请，马斯克旗下 xAI 所在的 SpaceX 同月完成上市。",
+      "latestAt": "2026-10-03T21:45:42.000Z"
     },
     {
-      "id": "khyjby0mw5t22dn9zw2l6fflu",
-      "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
-      "url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
-      "aihotUrl": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
+      "id": "y475ev20b3138yoqrlo3z4wrr",
+      "title": "Aleph Alpha 开源德英双语模型 Kolibri",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "aihotUrl": "https://aihot.news/items/y475ev20b3138yoqrlo3z4wrr",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-03T01:16:54.000Z"
-    },
-    {
-      "id": "epb245so8hb7m1r74gumw2dze",
-      "title": "英伟达发布64GB内存版DGX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-      "aihotUrl": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-02T23:00:38.000Z"
+      "latestAt": "2026-10-04T04:22:26.141Z"
     }
   ]
 }
