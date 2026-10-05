@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-04T05:13:32.555Z",
+  "generatedAt": "2026-10-05T04:57:37.385Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "cmf54gyjdos166m78jip77ptm",
+      "title": "OpenAI Codex 与 ChatGPT Work 承诺 28 天每日更新",
+      "url": "https://www.ithome.com/1/009/761.htm",
+      "aihotUrl": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-05T01:47:27.000Z"
+    },
+    {
+      "id": "cmu9lxijt04a1ro9b80vlc4th",
+      "title": "特朗普成立超级智能工作组，克莱顿牵头",
+      "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
+      "aihotUrl": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-05T04:39:32.000Z"
+    },
     {
       "id": "xmlfce496prtvqpqmcupmsssc",
       "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
       "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
       "aihotUrl": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-04T03:57:32.000Z"
+      "latestAt": "2026-10-04T01:13:09.000Z"
     },
     {
-      "id": "ln6ere28kepk46azfanwaucm2",
-      "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备",
-      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "aihotUrl": "https://aihot.news/items/ln6ere28kepk46azfanwaucm2",
+      "id": "j45voriw6fcykynqwt5gwbtmm",
+      "title": "马斯克确认SpaceXAI将更名为SpaceXSI",
+      "url": "https://www.ithome.com/1/009/688.htm",
+      "aihotUrl": "https://aihot.news/items/j45voriw6fcykynqwt5gwbtmm",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-03T23:35:30.000Z"
+      "latestAt": "2026-10-04T10:04:39.000Z"
     },
     {
-      "id": "gwtipws3qkxm941aqz5iluhdi",
-      "title": "Meta否认Muse读取私信，Apple收紧macOS权限",
-      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-      "aihotUrl": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
+      "id": "w5kdfoydiaj7nyyuy45fg70b0",
+      "title": "Anthropic 邀宗教思想家为 AI 定道德准则",
+      "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "aihotUrl": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-04T01:43:16.000Z"
-    },
-    {
-      "id": "jak6gxsz68wsqdq6n9504d36o",
-      "title": "Sam Altman 谈 AI 模型安全",
-      "url": "https://x.com/Yuchenj_UW/status/2106395374923796759",
-      "aihotUrl": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
-      "summary": "OpenAI CEO 奥尔特曼在 DevDay 后表示，只有能对模型安全作出站得住脚的承诺后才会考虑上市，目前没有确定时间节点。他担心上市后资本市场压力会妨碍安全优先的节奏，认为当下正处在向超高能力模型过渡、迎来全新安全要求的阶段，此时上市不明智；但也称若上市拖延太久对世界并非好事。此前 Anthropic 已于 6 月递交上市申请，马斯克旗下 xAI 所在的 SpaceX 同月完成上市。",
-      "latestAt": "2026-10-03T21:45:42.000Z"
-    },
-    {
-      "id": "y475ev20b3138yoqrlo3z4wrr",
-      "title": "Aleph Alpha 开源德英双语模型 Kolibri",
-      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "aihotUrl": "https://aihot.news/items/y475ev20b3138yoqrlo3z4wrr",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-04T04:22:26.141Z"
+      "latestAt": "2026-10-04T07:38:49.000Z"
     }
   ]
 }
