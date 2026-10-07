@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-06T05:45:15.956Z",
+  "generatedAt": "2026-10-07T05:16:48.233Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "rmc5fz5rbcwzsr7cdl5jo1ojk",
+      "title": "Mistral 发布 Large 4 预览版，月底开放权重",
+      "url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
+      "aihotUrl": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
+      "summary": "Mistral AI 于当地时间 10 月 6 日推出 Mistral Large 4（ML4，代号 le Chonk）公开预览版，API 已在 Mistral Studio 开放，模型权重将于本月底开放下载。",
+      "latestAt": "2026-10-06T20:18:19.000Z"
+    },
+    {
+      "id": "g1k2ragppm8j4apj75qu1k4ug",
+      "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "aihotUrl": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+      "summary": "Google 发布基于 Gemma 4 的开源嵌入模型 EmbeddingGemma 2，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间，参数量从 270M（文本/代码）到 740M（全模态）按需加载。",
+      "latestAt": "2026-10-06T22:41:19.000Z"
+    },
+    {
+      "id": "zvw2i4tg1gnqq72t596vpqoyl",
+      "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "aihotUrl": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-07T01:15:20.000Z"
+    },
+    {
+      "id": "d17jcexm93lo85zkz3iil08c9",
+      "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#10-06-2026",
+      "aihotUrl": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-07T03:47:01.000Z"
+    },
     {
       "id": "qy7y0cfu1wbum1ej9urwylfxr",
       "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
       "url": "https://reflection.ai/blog/introducing-beam",
       "aihotUrl": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-06T00:42:20.000Z"
-    },
-    {
-      "id": "xx5mgdemrqmqw5zw410sbawcz",
-      "title": "OpenAI公布欧盟文本溯源水印方案",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "aihotUrl": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-05T20:36:48.000Z"
-    },
-    {
-      "id": "cmf54gyjdos166m78jip77ptm",
-      "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新",
-      "url": "https://www.ithome.com/1/009/761.htm",
-      "aihotUrl": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
-      "summary": "OpenAI 在 Dev Day 发布多项功能，将 ChatGPT 变为应用发现、启动和使用的平台，用户可在对话中直接连接和使用应用，插件架构现已支持 extensions 交互面板。",
-      "latestAt": "2026-10-05T17:49:34.000Z"
-    },
-    {
-      "id": "eqsd72krt75x22ruxjsncr81j",
-      "title": "华为高通达成5G等专利交叉许可协议",
-      "url": "https://www.ithome.com/1/009/852.htm",
-      "aihotUrl": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-05T16:32:23.000Z"
-    },
-    {
-      "id": "e63lz9ky7ebdxjea930dh3o5y",
-      "title": "OpenAI在ChatGPT图像生成中测试视觉广告",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "aihotUrl": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-05T15:14:24.000Z"
+      "latestAt": "2026-10-06T17:17:23.000Z"
     }
   ]
 }
