@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-08T05:26:09.296Z",
+  "generatedAt": "2026-10-09T05:29:55.162Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,15 +10,7 @@
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "aihotUrl": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
       "summary": "Anthropic 发布 Claude Haiku 5.5，在 Artificial Analysis Intelligence Index 得 43 分，较上一代 Haiku 一年内提升 26 分，是首个支持 effort 设置与 adaptive thinking 的 Haiku 模型。",
-      "latestAt": "2026-10-07T22:26:08.973Z"
-    },
-    {
-      "id": "zvw2i4tg1gnqq72t596vpqoyl",
-      "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "aihotUrl": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-08T03:31:55.000Z"
+      "latestAt": "2026-10-08T20:04:10.000Z"
     },
     {
       "id": "uir31g728myjry383z17txvrw",
@@ -29,20 +21,28 @@
       "latestAt": "2026-10-08T02:22:43.000Z"
     },
     {
-      "id": "rmc5fz5rbcwzsr7cdl5jo1ojk",
-      "title": "Mistral 发布 Large 4 预览版，月底开放权重",
-      "url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
-      "aihotUrl": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
-      "summary": "Mistral AI 于当地时间 10 月 6 日推出 Mistral Large 4（ML4，代号 le Chonk）公开预览版，API 已在 Mistral Studio 开放，模型权重将于本月底开放下载。",
-      "latestAt": "2026-10-07T14:12:37.000Z"
+      "id": "at5dvel8balkaba9wrggcrqoj",
+      "title": "Anthropic 新政策首次禁止虐待模型",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "aihotUrl": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-09T03:10:42.000Z"
     },
     {
-      "id": "dbhowpb183i256684uz2527i1",
-      "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
-      "url": "https://x.com/testingcatalog/status/2107803665457189061",
-      "aihotUrl": "https://aihot.news/items/dbhowpb183i256684uz2527i1",
+      "id": "x4s3jss6ofplyvimq6213cv41",
+      "title": "谷歌云发布通用工作智能体 Gemini Agent",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "aihotUrl": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-07T23:47:32.937Z"
+      "latestAt": "2026-10-08T18:55:17.000Z"
+    },
+    {
+      "id": "i66buy8nl2n5fy63kgf9zr1v5",
+      "title": "OpenAI 数学成果引验证争议",
+      "url": "https://x.com/dongxi_nlp/status/2107613901571420599",
+      "aihotUrl": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-09T01:40:55.240Z"
     }
   ]
 }
