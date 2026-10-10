@@ -1,24 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-09T05:29:55.162Z",
+  "generatedAt": "2026-10-10T05:13:50.507Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "x8r8kta42au39pp06f02shk9f",
-      "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "aihotUrl": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
-      "summary": "Anthropic 发布 Claude Haiku 5.5，在 Artificial Analysis Intelligence Index 得 43 分，较上一代 Haiku 一年内提升 26 分，是首个支持 effort 设置与 adaptive thinking 的 Haiku 模型。",
-      "latestAt": "2026-10-08T20:04:10.000Z"
-    },
-    {
-      "id": "uir31g728myjry383z17txvrw",
-      "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
-      "aihotUrl": "https://aihot.news/items/uir31g728myjry383z17txvrw",
+      "id": "m77leauczmowax4odp8ql7dkl",
+      "title": "Grok Bot 新增专属邮箱功能",
+      "url": "https://x.com/grok/status/2108610528423842095",
+      "aihotUrl": "https://aihot.news/items/m77leauczmowax4odp8ql7dkl",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-08T02:22:43.000Z"
+      "latestAt": "2026-10-10T00:10:15.320Z"
     },
     {
       "id": "at5dvel8balkaba9wrggcrqoj",
@@ -29,20 +21,28 @@
       "latestAt": "2026-10-09T03:10:42.000Z"
     },
     {
-      "id": "x4s3jss6ofplyvimq6213cv41",
-      "title": "谷歌云发布通用工作智能体 Gemini Agent",
-      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "aihotUrl": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
+      "id": "qi3wpj7l1sqi28okj1xttkzse",
+      "title": "OpenAI解雇3名研究员，双方就指控各执一词",
+      "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
+      "aihotUrl": "https://aihot.news/items/qi3wpj7l1sqi28okj1xttkzse",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-08T18:55:17.000Z"
+      "latestAt": "2026-10-09T11:45:04.000Z"
     },
     {
-      "id": "i66buy8nl2n5fy63kgf9zr1v5",
-      "title": "OpenAI 数学成果引验证争议",
-      "url": "https://x.com/dongxi_nlp/status/2107613901571420599",
-      "aihotUrl": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
+      "id": "atyp08chrii2nxc0vrxvjxv0y",
+      "title": "Anthropic 模型误报凶杀线索给费城警方",
+      "url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
+      "aihotUrl": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-09T01:40:55.240Z"
+      "latestAt": "2026-10-10T02:06:24.000Z"
+    },
+    {
+      "id": "b2mwouqv4jhfj70uho7s7guti",
+      "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+      "url": "https://www.ithome.com/1/010/751.htm",
+      "aihotUrl": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-10T01:15:50.000Z"
     }
   ]
 }
