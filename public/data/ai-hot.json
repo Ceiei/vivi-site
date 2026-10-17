@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-16T03:58:07.083Z",
+  "generatedAt": "2026-10-17T03:47:52.710Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -9,24 +9,32 @@
       "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
       "url": "https://pytorch.org/blog/muse-spark-open/",
       "aihotUrl": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-      "summary": "Meta 发布开源权重模型 Muse Spark Open，总参数 816B、激活 42B（MoE），在 Artificial Analysis Intelligence Index 得 39 分，为美国开源权重模型第一。",
-      "latestAt": "2026-10-16T01:25:04.973Z"
+      "summary": "Meta Superintelligence Labs 发布 Muse Spark 模型的开源权重版本 Muse Spark Open，为 816B 总参数、每 token 激活 42B 的多模态 MoE 模型，支持文本、图像、视频和音频输入，上下文窗口 1M token。",
+      "latestAt": "2026-10-16T22:22:42.000Z"
+    },
+    {
+      "id": "p11tj593iq5nrtiotvoxllop4",
+      "title": "商务部拟增列23项AI技术出口管制并答问",
+      "url": "https://www.ithome.com/1/013/983.htm",
+      "aihotUrl": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-17T01:30:54.000Z"
+    },
+    {
+      "id": "rq32az1hr7zpbipiyega9ehjr",
+      "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "aihotUrl": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-16T23:54:20.000Z"
     },
     {
       "id": "smxxtw5ca2c9jscojk4ppe5hf",
-      "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
+      "title": "Google 发布 Gemini 4 Argon，付费用户独享",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "aihotUrl": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-15T23:18:07.000Z"
-    },
-    {
-      "id": "allv4n9g9lhfy72m1pg725apv",
-      "title": "Anthropic三季度收入168亿美元，增速放缓",
-      "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-      "aihotUrl": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-16T00:54:07.827Z"
+      "latestAt": "2026-10-16T07:34:44.337Z"
     },
     {
       "id": "l9jgzg24ei3a7m8xu1xfhy9n7",
@@ -35,14 +43,6 @@
       "aihotUrl": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
       "latestAt": "2026-10-15T19:53:50.000Z"
-    },
-    {
-      "id": "vo248l7ock6kltan370y7gmcd",
-      "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
-      "url": "https://x.com/shao__meng/status/2110628071615365330",
-      "aihotUrl": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-15T09:34:01.117Z"
     }
   ]
 }
