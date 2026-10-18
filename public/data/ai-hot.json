@@ -1,16 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-17T03:47:52.710Z",
+  "generatedAt": "2026-10-18T03:54:50.034Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "w34qm27sedtziwxig5ub9wwhr",
+      "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+      "aihotUrl": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-18T02:53:41.000Z"
+    },
+    {
+      "id": "niwlbjnktvqnoi9st6lakhlo2",
+      "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
+      "url": "https://www.ithome.com/1/014/434.htm",
+      "aihotUrl": "https://aihot.news/items/niwlbjnktvqnoi9st6lakhlo2",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-18T00:19:10.557Z"
+    },
     {
       "id": "s80tw5g2v22j1se4bmqejyaq4",
       "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
       "url": "https://pytorch.org/blog/muse-spark-open/",
       "aihotUrl": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
       "summary": "Meta Superintelligence Labs 发布 Muse Spark 模型的开源权重版本 Muse Spark Open，为 816B 总参数、每 token 激活 42B 的多模态 MoE 模型，支持文本、图像、视频和音频输入，上下文窗口 1M token。",
-      "latestAt": "2026-10-16T22:22:42.000Z"
+      "latestAt": "2026-10-17T14:15:29.000Z"
+    },
+    {
+      "id": "rq32az1hr7zpbipiyega9ehjr",
+      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "aihotUrl": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-18T02:04:38.000Z"
     },
     {
       "id": "p11tj593iq5nrtiotvoxllop4",
@@ -19,30 +43,6 @@
       "aihotUrl": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
       "latestAt": "2026-10-17T01:30:54.000Z"
-    },
-    {
-      "id": "rq32az1hr7zpbipiyega9ehjr",
-      "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "aihotUrl": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-16T23:54:20.000Z"
-    },
-    {
-      "id": "smxxtw5ca2c9jscojk4ppe5hf",
-      "title": "Google 发布 Gemini 4 Argon，付费用户独享",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "aihotUrl": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-16T07:34:44.337Z"
-    },
-    {
-      "id": "l9jgzg24ei3a7m8xu1xfhy9n7",
-      "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "aihotUrl": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-15T19:53:50.000Z"
     }
   ]
 }
