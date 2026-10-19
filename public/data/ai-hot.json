@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-18T03:54:50.034Z",
+  "generatedAt": "2026-10-19T04:03:07.895Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,15 @@
       "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
       "aihotUrl": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-18T02:53:41.000Z"
+      "latestAt": "2026-10-18T18:56:03.000Z"
+    },
+    {
+      "id": "eg3kb6utc3fzmkjqyxdi4i92b",
+      "title": "Anthropic设公益基金 承诺投入5%股份",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "aihotUrl": "https://aihot.news/items/eg3kb6utc3fzmkjqyxdi4i92b",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-18T20:37:40.000Z"
     },
     {
       "id": "niwlbjnktvqnoi9st6lakhlo2",
@@ -21,28 +29,20 @@
       "latestAt": "2026-10-18T00:19:10.557Z"
     },
     {
-      "id": "s80tw5g2v22j1se4bmqejyaq4",
-      "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
-      "url": "https://pytorch.org/blog/muse-spark-open/",
-      "aihotUrl": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-      "summary": "Meta Superintelligence Labs 发布 Muse Spark 模型的开源权重版本 Muse Spark Open，为 816B 总参数、每 token 激活 42B 的多模态 MoE 模型，支持文本、图像、视频和音频输入，上下文窗口 1M token。",
-      "latestAt": "2026-10-17T14:15:29.000Z"
+      "id": "x7hxr1lvyddc8hrbrugfx4uyg",
+      "title": "DeepSeek开放自研搜索API并按次计费",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+      "aihotUrl": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-18T11:59:52.953Z"
     },
     {
-      "id": "rq32az1hr7zpbipiyega9ehjr",
-      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "aihotUrl": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-18T02:04:38.000Z"
-    },
-    {
-      "id": "p11tj593iq5nrtiotvoxllop4",
-      "title": "商务部拟增列23项AI技术出口管制并答问",
-      "url": "https://www.ithome.com/1/013/983.htm",
-      "aihotUrl": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-17T01:30:54.000Z"
+      "id": "zdr1iocr9utx4dpu6qqhfj6r6",
+      "title": "微软终止与Nscale数据中心合作",
+      "url": "https://www.ithome.com/1/014/574.htm",
+      "aihotUrl": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
+      "summary": "据《每日电讯报》报道，微软终止了与英国数据中心企业 Nscale 在埃塞克斯郡劳顿的数据中心项目，Nscale 价值数十亿美元的上市计划因此遭遇重大挫折。微软是 Nscale 最大的两家客户之一，另一家为 Anthropic；Nscale 上个月已在美国提交 IPO 申请，两年半内合同总金额从 1 亿美元增长至超过 1,030 亿美元，双方均未回应置评请求。",
+      "latestAt": "2026-10-18T10:42:51.370Z"
     }
   ]
 }
