@@ -1,16 +1,32 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-19T04:03:07.895Z",
+  "generatedAt": "2026-10-20T04:16:20.109Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "wrnv8dd428iozlj5xax99zbmj",
+      "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "aihotUrl": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-20T03:29:27.000Z"
+    },
     {
       "id": "w34qm27sedtziwxig5ub9wwhr",
       "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
       "aihotUrl": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-18T18:56:03.000Z"
+      "latestAt": "2026-10-19T18:18:50.000Z"
+    },
+    {
+      "id": "p04w1xjk7v6fmlskpf5vsnuka",
+      "title": "美国土安全部令文职机构移除DeepSeek及关联产品",
+      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "aihotUrl": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-19T19:31:18.000Z"
     },
     {
       "id": "eg3kb6utc3fzmkjqyxdi4i92b",
@@ -18,15 +34,7 @@
       "url": "https://www.anthropic.com/news/public-benefit-fund",
       "aihotUrl": "https://aihot.news/items/eg3kb6utc3fzmkjqyxdi4i92b",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-18T20:37:40.000Z"
-    },
-    {
-      "id": "niwlbjnktvqnoi9st6lakhlo2",
-      "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
-      "url": "https://www.ithome.com/1/014/434.htm",
-      "aihotUrl": "https://aihot.news/items/niwlbjnktvqnoi9st6lakhlo2",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-18T00:19:10.557Z"
+      "latestAt": "2026-10-19T05:06:22.000Z"
     },
     {
       "id": "x7hxr1lvyddc8hrbrugfx4uyg",
@@ -35,14 +43,6 @@
       "aihotUrl": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
       "latestAt": "2026-10-18T11:59:52.953Z"
-    },
-    {
-      "id": "zdr1iocr9utx4dpu6qqhfj6r6",
-      "title": "微软终止与Nscale数据中心合作",
-      "url": "https://www.ithome.com/1/014/574.htm",
-      "aihotUrl": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
-      "summary": "据《每日电讯报》报道，微软终止了与英国数据中心企业 Nscale 在埃塞克斯郡劳顿的数据中心项目，Nscale 价值数十亿美元的上市计划因此遭遇重大挫折。微软是 Nscale 最大的两家客户之一，另一家为 Anthropic；Nscale 上个月已在美国提交 IPO 申请，两年半内合同总金额从 1 亿美元增长至超过 1,030 亿美元，双方均未回应置评请求。",
-      "latestAt": "2026-10-18T10:42:51.370Z"
     }
   ]
 }
