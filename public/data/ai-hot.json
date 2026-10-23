@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-22T04:05:16.740Z",
+  "generatedAt": "2026-10-23T04:08:43.152Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,39 +10,39 @@
       "url": "https://claude.com/blog/claude-duet",
       "aihotUrl": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T01:22:36.000Z"
+      "latestAt": "2026-10-22T13:53:26.000Z"
     },
     {
       "id": "r4saw5foxj8v0eb82f3b66cs0",
-      "title": "OpenAI称AI模型协助发现PHP核心RCE漏洞，补丁已发布",
+      "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
       "aihotUrl": "https://aihot.news/items/r4saw5foxj8v0eb82f3b66cs0",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T02:33:39.000Z"
+      "latestAt": "2026-10-22T15:25:02.000Z"
     },
     {
-      "id": "ckykonvith99q6hvd0utjdwfn",
-      "title": "DeepSeek 开源生产推理框架 DeepInfer",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
-      "aihotUrl": "https://aihot.news/items/ckykonvith99q6hvd0utjdwfn",
+      "id": "c7kz49ohg81rxi4ozxv046ttp",
+      "title": "1Password 推出智能体代登录平台，多家接入",
+      "url": "https://x.com/bot/status/2113332983226831339",
+      "aihotUrl": "https://aihot.news/items/c7kz49ohg81rxi4ozxv046ttp",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-21T09:26:08.000Z"
+      "latestAt": "2026-10-22T23:54:44.317Z"
     },
     {
-      "id": "bm4bwid4hdnitbtz7pr6gtd0r",
-      "title": "OpenAI三款模型上架Google Cloud私测",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "aihotUrl": "https://aihot.news/items/bm4bwid4hdnitbtz7pr6gtd0r",
+      "id": "wbi0gsddrrfnavs6vvuqb2r7j",
+      "title": "DeepSeek新一轮融资升至约150亿美元",
+      "url": "https://x.com/thexpin/status/2107524306058289533",
+      "aihotUrl": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-21T19:23:19.000Z"
+      "latestAt": "2026-10-22T13:11:13.000Z"
     },
     {
-      "id": "h05v2w7n5qxnee1h89espx59t",
-      "title": "马斯克推动SpaceX与特斯拉以AI为核心合并",
-      "url": "https://x.com/rohanpaul_ai/status/2112830424418500861",
-      "aihotUrl": "https://aihot.news/items/h05v2w7n5qxnee1h89espx59t",
+      "id": "nkn1qfqlo0oyt205jfrk4th22",
+      "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "aihotUrl": "https://aihot.news/items/nkn1qfqlo0oyt205jfrk4th22",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T03:16:19.000Z"
+      "latestAt": "2026-10-22T14:40:16.000Z"
     }
   ]
 }
