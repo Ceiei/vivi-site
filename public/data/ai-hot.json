@@ -1,16 +1,24 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-23T04:08:43.152Z",
+  "generatedAt": "2026-10-24T04:01:36.478Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "jgg0i29t3o1eycc24c3wev0fx",
-      "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
-      "url": "https://claude.com/blog/claude-duet",
-      "aihotUrl": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx",
+      "id": "okgjn7r72wo7c5j0bu3o1vbie",
+      "title": "月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出",
+      "url": "https://www.kimi.com/blog/kimi-k3-1-pro",
+      "aihotUrl": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T13:53:26.000Z"
+      "latestAt": "2026-10-24T03:50:52.000Z"
+    },
+    {
+      "id": "ss1c1fu81134agwcw2ae90gai",
+      "title": "OpenAI 前沿训练断网，红队测出 Brotli 漏洞",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "aihotUrl": "https://aihot.news/items/ss1c1fu81134agwcw2ae90gai",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-24T00:08:02.000Z"
     },
     {
       "id": "r4saw5foxj8v0eb82f3b66cs0",
@@ -21,28 +29,20 @@
       "latestAt": "2026-10-22T15:25:02.000Z"
     },
     {
-      "id": "c7kz49ohg81rxi4ozxv046ttp",
-      "title": "1Password 推出智能体代登录平台，多家接入",
-      "url": "https://x.com/bot/status/2113332983226831339",
-      "aihotUrl": "https://aihot.news/items/c7kz49ohg81rxi4ozxv046ttp",
+      "id": "jgg0i29t3o1eycc24c3wev0fx",
+      "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
+      "url": "https://claude.com/blog/claude-duet",
+      "aihotUrl": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T23:54:44.317Z"
+      "latestAt": "2026-10-23T19:33:25.000Z"
     },
     {
-      "id": "wbi0gsddrrfnavs6vvuqb2r7j",
-      "title": "DeepSeek新一轮融资升至约150亿美元",
-      "url": "https://x.com/thexpin/status/2107524306058289533",
-      "aihotUrl": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
+      "id": "ofhppbtjnzfrzbv2a11sl8u7h",
+      "title": "Apple折叠屏iPhone Duo发布并开售",
+      "url": "https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/",
+      "aihotUrl": "https://aihot.news/items/ofhppbtjnzfrzbv2a11sl8u7h",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T13:11:13.000Z"
-    },
-    {
-      "id": "nkn1qfqlo0oyt205jfrk4th22",
-      "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "aihotUrl": "https://aihot.news/items/nkn1qfqlo0oyt205jfrk4th22",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-22T14:40:16.000Z"
+      "latestAt": "2026-10-22T16:00:00.000Z"
     }
   ]
 }
