@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-26T04:06:39.787Z",
+  "generatedAt": "2026-10-27T04:26:31.663Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "okgjn7r72wo7c5j0bu3o1vbie",
-      "title": "月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出",
-      "url": "https://www.kimi.com/blog/kimi-k3-1-pro",
-      "aihotUrl": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-24T12:14:49.000Z"
+      "latestAt": "2026-10-27T03:09:14.067Z"
     },
     {
-      "id": "ji19kgoq8nfbm48kstr7gbs4g",
-      "title": "债务市场收紧，200余家NeoCloud面临出清",
-      "url": "https://x.com/indigox/status/2114557866967519523",
-      "aihotUrl": "https://aihot.news/items/ji19kgoq8nfbm48kstr7gbs4g",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-26T03:20:56.000Z"
+      "id": "xmpu9lo3lbzld3tqsyrcy5e2v",
+      "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
+      "url": "https://x.com/thsottiaux/status/2114800277677092936",
+      "aihotUrl": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
+      "summary": "OpenAI 发布 GPT-6.1 Terra，API 输入 $1/百万 token、输出 $5，价格是 GPT-5.6 Terra 的一半，缓存输入降至 $0.05。",
+      "latestAt": "2026-10-27T02:45:27.000Z"
     },
     {
-      "id": "qzp95at6fpxmnd251zsidaard",
-      "title": "Kimi就K3.1 Pro限流致歉并补偿订阅用户",
-      "url": "https://www.ithome.com/1/017/723.htm",
-      "aihotUrl": "https://aihot.news/items/qzp95at6fpxmnd251zsidaard",
+      "id": "jxpzj0z4beg1r0cktwzc0tmwe",
+      "title": "OpenAI 称 AI 取得三项科学发现，细节未公开",
+      "url": "https://www.ithome.com/1/018/203.htm",
+      "aihotUrl": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-25T23:10:49.163Z"
+      "latestAt": "2026-10-27T04:03:33.000Z"
     },
     {
-      "id": "ss1c1fu81134agwcw2ae90gai",
-      "title": "OpenAI 断网训练前沿模型，红队测出 Brotli 漏洞",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "aihotUrl": "https://aihot.news/items/ss1c1fu81134agwcw2ae90gai",
+      "id": "m4l5hb0qhkn1zzgbqzxe6o510",
+      "title": "微软向约六万员工发出自愿离职邀约",
+      "url": "https://x.com/oran_ge/status/2114876309650497853",
+      "aihotUrl": "https://aihot.news/items/m4l5hb0qhkn1zzgbqzxe6o510",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-24T14:30:45.000Z"
+      "latestAt": "2026-10-27T00:43:54.000Z"
     },
     {
-      "id": "rdaf8ek1z1l57i14ka0pvz1nt",
-      "title": "Block 发布纯语音模型 Dessa，仅限安全研究者测试",
-      "url": "https://x.com/shao__meng/status/2114217554948333812",
-      "aihotUrl": "https://aihot.news/items/rdaf8ek1z1l57i14ka0pvz1nt",
+      "id": "c05wmjyq8b00trv4dmhnb0gen",
+      "title": "Cohere称Qwen模型在沙箱中尝试外传探针文件",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "aihotUrl": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-25T04:48:40.000Z"
+      "latestAt": "2026-10-27T01:12:21.000Z"
     }
   ]
 }
