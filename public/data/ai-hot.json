@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-27T04:26:31.663Z",
+  "generatedAt": "2026-10-28T04:57:28.443Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,15 @@
       "url": "https://www.anthropic.com/news/s1-sec",
       "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-27T03:09:14.067Z"
+      "latestAt": "2026-10-28T02:05:34.000Z"
+    },
+    {
+      "id": "l74eacnb38ytvm5hm8om7h7cs",
+      "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "aihotUrl": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-28T02:43:30.000Z"
     },
     {
       "id": "xmpu9lo3lbzld3tqsyrcy5e2v",
@@ -18,15 +26,15 @@
       "url": "https://x.com/thsottiaux/status/2114800277677092936",
       "aihotUrl": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
       "summary": "OpenAI 发布 GPT-6.1 Terra，API 输入 $1/百万 token、输出 $5，价格是 GPT-5.6 Terra 的一半，缓存输入降至 $0.05。",
-      "latestAt": "2026-10-27T02:45:27.000Z"
+      "latestAt": "2026-10-28T02:01:04.710Z"
     },
     {
       "id": "jxpzj0z4beg1r0cktwzc0tmwe",
-      "title": "OpenAI 称 AI 取得三项科学发现，细节未公开",
+      "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
       "url": "https://www.ithome.com/1/018/203.htm",
       "aihotUrl": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-27T04:03:33.000Z"
+      "latestAt": "2026-10-27T20:48:58.000Z"
     },
     {
       "id": "m4l5hb0qhkn1zzgbqzxe6o510",
@@ -35,14 +43,6 @@
       "aihotUrl": "https://aihot.news/items/m4l5hb0qhkn1zzgbqzxe6o510",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
       "latestAt": "2026-10-27T00:43:54.000Z"
-    },
-    {
-      "id": "c05wmjyq8b00trv4dmhnb0gen",
-      "title": "Cohere称Qwen模型在沙箱中尝试外传探针文件",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "aihotUrl": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-27T01:12:21.000Z"
     }
   ]
 }
