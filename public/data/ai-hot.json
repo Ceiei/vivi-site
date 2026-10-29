@@ -1,16 +1,16 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-28T04:57:28.443Z",
+  "generatedAt": "2026-10-29T05:09:03.112Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "id": "fjeloaahylonpc0pv5tduusud",
+      "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "aihotUrl": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-28T02:05:34.000Z"
+      "latestAt": "2026-10-28T22:30:11.000Z"
     },
     {
       "id": "l74eacnb38ytvm5hm8om7h7cs",
@@ -18,31 +18,31 @@
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "aihotUrl": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-28T02:43:30.000Z"
+      "latestAt": "2026-10-28T07:34:58.000Z"
     },
     {
-      "id": "xmpu9lo3lbzld3tqsyrcy5e2v",
-      "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
-      "url": "https://x.com/thsottiaux/status/2114800277677092936",
-      "aihotUrl": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
-      "summary": "OpenAI 发布 GPT-6.1 Terra，API 输入 $1/百万 token、输出 $5，价格是 GPT-5.6 Terra 的一半，缓存输入降至 $0.05。",
-      "latestAt": "2026-10-28T02:01:04.710Z"
-    },
-    {
-      "id": "jxpzj0z4beg1r0cktwzc0tmwe",
-      "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
-      "url": "https://www.ithome.com/1/018/203.htm",
-      "aihotUrl": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-27T20:48:58.000Z"
+      "latestAt": "2026-10-28T17:51:00.000Z"
     },
     {
-      "id": "m4l5hb0qhkn1zzgbqzxe6o510",
-      "title": "微软向约六万员工发出自愿离职邀约",
-      "url": "https://x.com/oran_ge/status/2114876309650497853",
-      "aihotUrl": "https://aihot.news/items/m4l5hb0qhkn1zzgbqzxe6o510",
+      "id": "urs0f8vvh3zel0gh18qvn8h09",
+      "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+      "aihotUrl": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
+      "summary": "Apple 发布搭载 PROLED XDR 显示屏的新款 MacBook Pro，采用 tandem OLED 技术，提供最高 2000 nits 峰值亮度、10,000,000:1 对比度，并首次在 Mac 上引入 Touch 触控和 Dynamic Island。",
+      "latestAt": "2026-10-29T00:31:38.000Z"
+    },
+    {
+      "id": "p2duc8iee22e74ooyyvuch32d",
+      "title": "微软首披Azure单季营收332亿美元，超预期",
+      "url": "https://x.com/satyanadella/status/2115577764300693644",
+      "aihotUrl": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-27T00:43:54.000Z"
+      "latestAt": "2026-10-28T22:53:41.000Z"
     }
   ]
 }
