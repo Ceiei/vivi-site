@@ -1,32 +1,32 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-29T05:09:03.112Z",
+  "generatedAt": "2026-10-30T05:08:43.392Z",
   "mode": "hot-topics",
   "items": [
     {
       "id": "fjeloaahylonpc0pv5tduusud",
-      "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
+      "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "aihotUrl": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-28T22:30:11.000Z"
+      "latestAt": "2026-10-30T02:09:18.000Z"
     },
     {
-      "id": "l74eacnb38ytvm5hm8om7h7cs",
-      "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "aihotUrl": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+      "id": "funx6p4g0gju509j6n0oyxmqu",
+      "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "aihotUrl": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-28T07:34:58.000Z"
+      "latestAt": "2026-10-30T00:34:52.630Z"
     },
     {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "id": "upsd8u37hkkquohy3w3sjvszi",
+      "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "aihotUrl": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-28T17:51:00.000Z"
+      "latestAt": "2026-10-30T01:09:09.660Z"
     },
     {
       "id": "urs0f8vvh3zel0gh18qvn8h09",
@@ -37,12 +37,12 @@
       "latestAt": "2026-10-29T00:31:38.000Z"
     },
     {
-      "id": "p2duc8iee22e74ooyyvuch32d",
-      "title": "微软首披Azure单季营收332亿美元，超预期",
-      "url": "https://x.com/satyanadella/status/2115577764300693644",
-      "aihotUrl": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d",
+      "id": "m5st8pvirbas7phreshbzkrc9",
+      "title": "Alphabet Q3营收增25%，AI搜索变现承压",
+      "url": "https://x.com/sundarpichai/status/2115535455156642066",
+      "aihotUrl": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-28T22:53:41.000Z"
+      "latestAt": "2026-10-29T16:24:55.000Z"
     }
   ]
 }
