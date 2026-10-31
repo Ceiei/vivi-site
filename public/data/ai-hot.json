@@ -1,16 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-10-30T05:08:43.392Z",
+  "generatedAt": "2026-10-31T04:55:11.703Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "fjeloaahylonpc0pv5tduusud",
-      "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "aihotUrl": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+      "id": "lnc48gxlu5nv0he3mw57lzmc6",
+      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "url": "https://www.ithome.com/1/020/392.htm",
+      "aihotUrl": "https://aihot.news/items/lnc48gxlu5nv0he3mw57lzmc6",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-30T02:09:18.000Z"
+      "latestAt": "2026-10-31T00:03:47.000Z"
+    },
+    {
+      "id": "pd3dehdyyhzkyrjsw4b6bmcyj",
+      "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+      "url": "https://x.com/adocomplete/status/2116224220539883992",
+      "aihotUrl": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-30T23:26:41.593Z"
+    },
+    {
+      "id": "cms82puwtmpssdpbjmajoopr9",
+      "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
+      "url": "https://x.com/_philschmid/status/2116235686445502608",
+      "aihotUrl": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-30T23:51:47.903Z"
+    },
+    {
+      "id": "upsd8u37hkkquohy3w3sjvszi",
+      "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "aihotUrl": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-10-30T09:48:50.000Z"
     },
     {
       "id": "funx6p4g0gju509j6n0oyxmqu",
@@ -19,30 +43,6 @@
       "aihotUrl": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
       "latestAt": "2026-10-30T00:34:52.630Z"
-    },
-    {
-      "id": "upsd8u37hkkquohy3w3sjvszi",
-      "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "aihotUrl": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-30T01:09:09.660Z"
-    },
-    {
-      "id": "urs0f8vvh3zel0gh18qvn8h09",
-      "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
-      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
-      "aihotUrl": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
-      "summary": "Apple 发布搭载 PROLED XDR 显示屏的新款 MacBook Pro，采用 tandem OLED 技术，提供最高 2000 nits 峰值亮度、10,000,000:1 对比度，并首次在 Mac 上引入 Touch 触控和 Dynamic Island。",
-      "latestAt": "2026-10-29T00:31:38.000Z"
-    },
-    {
-      "id": "m5st8pvirbas7phreshbzkrc9",
-      "title": "Alphabet Q3营收增25%，AI搜索变现承压",
-      "url": "https://x.com/sundarpichai/status/2115535455156642066",
-      "aihotUrl": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-29T16:24:55.000Z"
     }
   ]
 }
