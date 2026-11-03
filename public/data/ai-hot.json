@@ -1,16 +1,24 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-02T05:20:55.472Z",
+  "generatedAt": "2026-11-03T06:01:09.793Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "oig5qkyz9fzkdpchgk7l2cmm3",
-      "title": "DeepSeek开源Super-agent双层架构原型",
-      "url": "https://www.ithome.com/1/020/615.htm",
-      "aihotUrl": "https://aihot.news/items/oig5qkyz9fzkdpchgk7l2cmm3",
+      "id": "zdajxfep092u90haul1cu9if9",
+      "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
+      "url": "https://www.ithome.com/1/021/337.htm",
+      "aihotUrl": "https://aihot.news/items/zdajxfep092u90haul1cu9if9",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-01T16:05:52.000Z"
+      "latestAt": "2026-11-03T02:00:55.937Z"
+    },
+    {
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-03T00:03:15.000Z"
     },
     {
       "id": "k02hyr58q45b0ip29mm5bfxkf",
@@ -21,28 +29,20 @@
       "latestAt": "2026-11-02T02:29:50.000Z"
     },
     {
-      "id": "f6dxzur6d4pwjdhvm1x6m5rfp",
-      "title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
-      "aihotUrl": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
+      "id": "oig5qkyz9fzkdpchgk7l2cmm3",
+      "title": "DeepSeek 开源 Super-agent 双层架构原型",
+      "url": "https://www.ithome.com/1/020/615.htm",
+      "aihotUrl": "https://aihot.news/items/oig5qkyz9fzkdpchgk7l2cmm3",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-01T09:51:06.000Z"
+      "latestAt": "2026-11-02T14:30:00.000Z"
     },
     {
-      "id": "qexf6est4uitwd71p3ugedxo6",
-      "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
-      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-      "aihotUrl": "https://aihot.news/items/qexf6est4uitwd71p3ugedxo6",
+      "id": "wrmi17szf006yhdo1g9uufn74",
+      "title": "马斯克承认Grok Bot成本高于收入并下调限额",
+      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "aihotUrl": "https://aihot.news/items/wrmi17szf006yhdo1g9uufn74",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-10-31T16:12:55.000Z"
-    },
-    {
-      "id": "lnc48gxlu5nv0he3mw57lzmc6",
-      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
-      "url": "https://www.ithome.com/1/020/392.htm",
-      "aihotUrl": "https://aihot.news/items/lnc48gxlu5nv0he3mw57lzmc6",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-01T15:05:52.000Z"
+      "latestAt": "2026-11-02T18:15:39.000Z"
     }
   ]
 }
