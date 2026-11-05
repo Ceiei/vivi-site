@@ -1,16 +1,32 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-04T05:40:46.614Z",
+  "generatedAt": "2026-11-05T05:58:34.352Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "zdajxfep092u90haul1cu9if9",
-      "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
-      "url": "https://www.ithome.com/1/021/337.htm",
-      "aihotUrl": "https://aihot.news/items/zdajxfep092u90haul1cu9if9",
+      "id": "wwltahauj3uhzwy9yizi2i6f3",
+      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "aihotUrl": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-03T02:00:55.937Z"
+      "latestAt": "2026-11-05T02:54:05.000Z"
+    },
+    {
+      "id": "jsdt72s1n09hnlezc2uqqg1da",
+      "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
+      "url": "https://x.com/thsottiaux/status/2118138648214585591",
+      "aihotUrl": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-05T00:29:41.000Z"
+    },
+    {
+      "id": "z6j7q1gcuwsjjpx3qbtnvl2b3",
+      "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
+      "url": "https://mp.weixin.qq.com/s/JrQeiqx3PXBDSGish2IzwA",
+      "aihotUrl": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+      "summary": "腾讯混元发布 Hy4 正式版，相比 Hy4 preview 扩展预训练与后训练规模，首次引入视觉能力和电脑操作支持，GameDev 与 GameLogic 评测分别提升 19.1% 和 9.8%。",
+      "latestAt": "2026-11-05T02:34:21.000Z"
     },
     {
       "id": "lnc48gxlu5nv0he3mw57lzmc6",
@@ -18,31 +34,15 @@
       "url": "https://www.ithome.com/1/020/392.htm",
       "aihotUrl": "https://aihot.news/items/lnc48gxlu5nv0he3mw57lzmc6",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-03T20:31:34.443Z"
+      "latestAt": "2026-11-04T17:17:16.000Z"
     },
     {
-      "id": "jk7mp3gxpm7orfsalkr0s30rw",
-      "title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭",
-      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
-      "aihotUrl": "https://aihot.news/items/jk7mp3gxpm7orfsalkr0s30rw",
+      "id": "c39s97tylya5njp0nro6dwvbx",
+      "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "aihotUrl": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-03T17:54:43.000Z"
-    },
-    {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-03T17:07:01.000Z"
-    },
-    {
-      "id": "kxvpm36cquem6hg00nbzleoxs",
-      "title": "Anthropic 开源 FlashProve 可验证推理原型",
-      "url": "https://www.anthropic.com/research/provable-inference",
-      "aihotUrl": "https://aihot.news/items/kxvpm36cquem6hg00nbzleoxs",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-03T22:41:03.000Z"
+      "latestAt": "2026-11-04T18:41:03.000Z"
     }
   ]
 }
