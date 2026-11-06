@@ -1,16 +1,32 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-05T05:58:34.352Z",
+  "generatedAt": "2026-11-06T05:55:19.191Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "u904yv6dn7sw6lwjgxxedqd3b",
+      "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "aihotUrl": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-05T23:22:55.767Z"
+    },
     {
       "id": "wwltahauj3uhzwy9yizi2i6f3",
       "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
       "url": "https://openai.com/index/introducing-images-2-6",
       "aihotUrl": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-05T02:54:05.000Z"
+      "latestAt": "2026-11-05T07:03:17.000Z"
+    },
+    {
+      "id": "yjwroxww17lcg4ntcu9ruo105",
+      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "aihotUrl": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-06T02:29:44.000Z"
     },
     {
       "id": "jsdt72s1n09hnlezc2uqqg1da",
@@ -18,31 +34,15 @@
       "url": "https://x.com/thsottiaux/status/2118138648214585591",
       "aihotUrl": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-05T00:29:41.000Z"
+      "latestAt": "2026-11-05T12:20:35.000Z"
     },
     {
-      "id": "z6j7q1gcuwsjjpx3qbtnvl2b3",
-      "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
-      "url": "https://mp.weixin.qq.com/s/JrQeiqx3PXBDSGish2IzwA",
-      "aihotUrl": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
-      "summary": "腾讯混元发布 Hy4 正式版，相比 Hy4 preview 扩展预训练与后训练规模，首次引入视觉能力和电脑操作支持，GameDev 与 GameLogic 评测分别提升 19.1% 和 9.8%。",
-      "latestAt": "2026-11-05T02:34:21.000Z"
-    },
-    {
-      "id": "lnc48gxlu5nv0he3mw57lzmc6",
-      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
-      "url": "https://www.ithome.com/1/020/392.htm",
-      "aihotUrl": "https://aihot.news/items/lnc48gxlu5nv0he3mw57lzmc6",
+      "id": "m70cbaxy1ew2sgmlkernbvi68",
+      "title": "Anthropic 在美国推出 Claude 个人财务测试版",
+      "url": "https://claude.com/blog/introducing-personal-finance-in-claude",
+      "aihotUrl": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-04T17:17:16.000Z"
-    },
-    {
-      "id": "c39s97tylya5njp0nro6dwvbx",
-      "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "aihotUrl": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-04T18:41:03.000Z"
+      "latestAt": "2026-11-06T00:37:10.937Z"
     }
   ]
 }
