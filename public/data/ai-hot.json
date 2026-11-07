@@ -1,9 +1,17 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-06T05:55:19.191Z",
+  "generatedAt": "2026-11-07T05:26:55.125Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "yjwroxww17lcg4ntcu9ruo105",
+      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "aihotUrl": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-06T02:29:44.000Z"
+    },
     {
       "id": "u904yv6dn7sw6lwjgxxedqd3b",
       "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
@@ -14,35 +22,27 @@
     },
     {
       "id": "wwltahauj3uhzwy9yizi2i6f3",
-      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
       "url": "https://openai.com/index/introducing-images-2-6",
       "aihotUrl": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-05T07:03:17.000Z"
+      "latestAt": "2026-11-06T23:46:33.000Z"
     },
     {
-      "id": "yjwroxww17lcg4ntcu9ruo105",
-      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "aihotUrl": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+      "id": "bu8612ca3e1uyxjppk56ef1wl",
+      "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "aihotUrl": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-06T02:29:44.000Z"
+      "latestAt": "2026-11-06T21:41:38.000Z"
     },
     {
-      "id": "jsdt72s1n09hnlezc2uqqg1da",
-      "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
-      "url": "https://x.com/thsottiaux/status/2118138648214585591",
-      "aihotUrl": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-05T12:20:35.000Z"
-    },
-    {
-      "id": "m70cbaxy1ew2sgmlkernbvi68",
-      "title": "Anthropic 在美国推出 Claude 个人财务测试版",
-      "url": "https://claude.com/blog/introducing-personal-finance-in-claude",
-      "aihotUrl": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-06T00:37:10.937Z"
+      "latestAt": "2026-11-07T01:36:48.637Z"
     }
   ]
 }
