@@ -1,32 +1,40 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-07T05:26:55.125Z",
+  "generatedAt": "2026-11-08T05:26:13.833Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "yjwroxww17lcg4ntcu9ruo105",
-      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "aihotUrl": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-06T02:29:44.000Z"
+      "latestAt": "2026-11-08T00:44:04.537Z"
     },
     {
-      "id": "u904yv6dn7sw6lwjgxxedqd3b",
-      "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "aihotUrl": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+      "id": "d28mrqwr7h7tl8b8jcse4b449",
+      "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "aihotUrl": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-05T23:22:55.767Z"
+      "latestAt": "2026-11-06T23:25:14.860Z"
     },
     {
-      "id": "wwltahauj3uhzwy9yizi2i6f3",
-      "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "aihotUrl": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+      "id": "m45kaixmfb2554qlzxbpnir36",
+      "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
+      "url": "https://x.com/rohanpaul_ai/status/2118813225336873181",
+      "aihotUrl": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-06T23:46:33.000Z"
+      "latestAt": "2026-11-07T09:45:23.000Z"
+    },
+    {
+      "id": "f3hogz1c4bmgbcwblqblumxpv",
+      "title": "Meta在Muse推出spaces并升级模型",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "aihotUrl": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-07T07:40:53.263Z"
     },
     {
       "id": "bu8612ca3e1uyxjppk56ef1wl",
@@ -34,15 +42,7 @@
       "url": "https://thinkingmachines.ai/news/inkling-2-small/",
       "aihotUrl": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-06T21:41:38.000Z"
-    },
-    {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-07T01:36:48.637Z"
+      "latestAt": "2026-11-07T16:31:00.000Z"
     }
   ]
 }
