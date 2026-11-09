@@ -1,9 +1,33 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-08T05:26:13.833Z",
+  "generatedAt": "2026-11-09T05:36:55.546Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "lq97h52ctxw2nkri4qqxj5lbx",
+      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查",
+      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "aihotUrl": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-09T02:04:38.000Z"
+    },
+    {
+      "id": "fhtzzpeq9pxo021k0uk7s034p",
+      "title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
+      "url": "https://x.com/rohanpaul_ai/status/2119431232165683269",
+      "aihotUrl": "https://aihot.news/items/fhtzzpeq9pxo021k0uk7s034p",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-08T14:05:57.000Z"
+    },
+    {
+      "id": "svii78aucgrcj4ccd1gzmtsq0",
+      "title": "xAI 连夜修复 Grok Bot，承诺次日显著改善",
+      "url": "https://x.com/elonmusk/status/2119419126045454531",
+      "aihotUrl": "https://aihot.news/items/svii78aucgrcj4ccd1gzmtsq0",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-09T02:33:58.000Z"
+    },
     {
       "id": "xywgx35ocbe6mzl2pnajw8ruu",
       "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
@@ -13,36 +37,12 @@
       "latestAt": "2026-11-08T00:44:04.537Z"
     },
     {
-      "id": "d28mrqwr7h7tl8b8jcse4b449",
-      "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "aihotUrl": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
+      "id": "hegqek9bt5a6qp3b0qlxhuckq",
+      "title": "特朗普谈AI监管：不介意设护栏，称美国不能居第二",
+      "url": "https://x.com/rohanpaul_ai/status/2119616928297943209",
+      "aihotUrl": "https://aihot.news/items/hegqek9bt5a6qp3b0qlxhuckq",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-06T23:25:14.860Z"
-    },
-    {
-      "id": "m45kaixmfb2554qlzxbpnir36",
-      "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
-      "url": "https://x.com/rohanpaul_ai/status/2118813225336873181",
-      "aihotUrl": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-07T09:45:23.000Z"
-    },
-    {
-      "id": "f3hogz1c4bmgbcwblqblumxpv",
-      "title": "Meta在Muse推出spaces并升级模型",
-      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
-      "aihotUrl": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-07T07:40:53.263Z"
-    },
-    {
-      "id": "bu8612ca3e1uyxjppk56ef1wl",
-      "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-      "aihotUrl": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-07T16:31:00.000Z"
+      "latestAt": "2026-11-09T02:43:18.707Z"
     }
   ]
 }
