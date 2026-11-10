@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-09T05:36:55.546Z",
+  "generatedAt": "2026-11-10T06:46:43.970Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "lq97h52ctxw2nkri4qqxj5lbx",
-      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查",
-      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
-      "aihotUrl": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-09T02:04:38.000Z"
+      "id": "va9trgwaw3r4por6vdqbjxrhd",
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "aihotUrl": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
+      "summary": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，两模型同一基础但访问策略不同：Fable 带网络安全与生物安全护栏向所有用户开放，Mythos 移除部分限制，仅向通过 Verification Programs 申请的组织开放。",
+      "latestAt": "2026-11-10T05:52:12.373Z"
     },
     {
-      "id": "fhtzzpeq9pxo021k0uk7s034p",
-      "title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
-      "url": "https://x.com/rohanpaul_ai/status/2119431232165683269",
-      "aihotUrl": "https://aihot.news/items/fhtzzpeq9pxo021k0uk7s034p",
+      "id": "kci32x4hgxrdl0v5o4xrjlxri",
+      "title": "英伟达董事会调查黄仁勋涉情报事件",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "aihotUrl": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-08T14:05:57.000Z"
+      "latestAt": "2026-11-09T23:51:58.000Z"
     },
     {
-      "id": "svii78aucgrcj4ccd1gzmtsq0",
-      "title": "xAI 连夜修复 Grok Bot，承诺次日显著改善",
-      "url": "https://x.com/elonmusk/status/2119419126045454531",
-      "aihotUrl": "https://aihot.news/items/svii78aucgrcj4ccd1gzmtsq0",
+      "id": "phwieennfk1nppru29uek1b0y",
+      "title": "Google 一年内交付四款第八代 TPU",
+      "url": "https://x.com/Google/status/2119788086490001906",
+      "aihotUrl": "https://aihot.news/items/phwieennfk1nppru29uek1b0y",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-09T02:33:58.000Z"
+      "latestAt": "2026-11-09T18:19:08.000Z"
     },
     {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "id": "cox936nwax49rkiimi1oicgzu",
+      "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "aihotUrl": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-08T00:44:04.537Z"
+      "latestAt": "2026-11-10T00:59:26.907Z"
     },
     {
-      "id": "hegqek9bt5a6qp3b0qlxhuckq",
-      "title": "特朗普谈AI监管：不介意设护栏，称美国不能居第二",
-      "url": "https://x.com/rohanpaul_ai/status/2119616928297943209",
-      "aihotUrl": "https://aihot.news/items/hegqek9bt5a6qp3b0qlxhuckq",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-09T02:43:18.707Z"
+      "id": "xsvt2hlwuovul9sdvazcw7cxk",
+      "title": "字节发布 Seedream 5.5 图像模型",
+      "url": "https://seed.bytedance.com/zh/blog/%E7%94%9F%E6%88%90%E6%9B%B4%E7%9C%9F%E5%AE%9E-%E7%99%BE%E8%BD%AE%E7%BC%96%E8%BE%91%E6%9B%B4%E7%A8%B3%E5%AE%9A-seedream-5-5-%E5%8F%91%E5%B8%83",
+      "aihotUrl": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
+      "summary": "字节 Seed 发布新一代图像创作模型 Seedream 5.5，带来三项升级：非编辑区域像素级保持、支持围绕同一作品多达 100 轮连续编辑；新增原生 RGBA 透明素材生成，直接输出带 Alpha 通道的图像，省去抠图；改善光照材质与皮肤纹理表现，并显著提升文字渲染能力。",
+      "latestAt": "2026-11-09T18:50:01.000Z"
     }
   ]
 }
