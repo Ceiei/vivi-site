@@ -1,16 +1,24 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-11T05:33:07.364Z",
+  "generatedAt": "2026-11-12T06:39:12.941Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "kci32x4hgxrdl0v5o4xrjlxri",
+      "title": "英伟达董事会调查黄仁勋涉外国情报事件",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "aihotUrl": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-12T04:15:28.377Z"
+    },
     {
       "id": "va9trgwaw3r4por6vdqbjxrhd",
       "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
       "aihotUrl": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
       "summary": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，Fable 5.2 在 Artificial Analysis Intelligence Index v5 以 65 分登顶，超过 Gemini 4 Carbon 和 Opus 5.5。",
-      "latestAt": "2026-11-10T22:12:54.000Z"
+      "latestAt": "2026-11-12T02:00:20.000Z"
     },
     {
       "id": "w8cvkd1j2o1c3m8ikh8x2kpfx",
@@ -18,15 +26,7 @@
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
       "aihotUrl": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-10T22:43:37.660Z"
-    },
-    {
-      "id": "kci32x4hgxrdl0v5o4xrjlxri",
-      "title": "英伟达董事会调查黄仁勋涉情报事件",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "aihotUrl": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-10T20:28:14.000Z"
+      "latestAt": "2026-11-11T22:53:02.000Z"
     },
     {
       "id": "xywgx35ocbe6mzl2pnajw8ruu",
@@ -34,15 +34,15 @@
       "url": "https://www.anthropic.com/news/s1-sec",
       "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-11T00:58:06.000Z"
+      "latestAt": "2026-11-11T15:11:59.000Z"
     },
     {
-      "id": "c1fodrvts3po1pprz70weooju",
-      "title": "Claude 新增白板、表格与数据三类 artifact",
-      "url": "https://claude.com/blog/sheets-whiteboards-data",
-      "aihotUrl": "https://aihot.news/items/c1fodrvts3po1pprz70weooju",
+      "id": "r8hsm3m3munjwk1n3u885zszw",
+      "title": "Google发布Gemini Decision 1决策模型，评测得66分",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "aihotUrl": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-10T22:43:46.407Z"
+      "latestAt": "2026-11-12T00:55:39.970Z"
     }
   ]
 }
