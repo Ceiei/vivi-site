@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-13T05:56:52.134Z",
+  "generatedAt": "2026-11-14T05:46:08.775Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -18,31 +18,31 @@
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "aihotUrl": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-13T04:31:12.000Z"
+      "latestAt": "2026-11-13T22:05:33.000Z"
     },
     {
-      "id": "l36ne5q2gsdx6thyia7fi10kn",
-      "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
-      "url": "https://claude.com/blog/claude-meetings",
-      "aihotUrl": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
-      "summary": "Anthropic 推出 Claude Whiteboards 和 Claude Sheets 测试版，Claude Dashboards 正式可用并更名为 Claude Data，三款产品面向所有付费计划开放。",
-      "latestAt": "2026-11-12T22:36:29.000Z"
-    },
-    {
-      "id": "r8hsm3m3munjwk1n3u885zszw",
-      "title": "Google发布Gemini Decision 1决策模型与Decisions API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "aihotUrl": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
+      "id": "h2nxkfqpvkcqzof1dlta9j5w0",
+      "title": "微软365故障波及Claude，Anthropic通报中断",
+      "url": "https://www.ithome.com/1/026/948.htm",
+      "aihotUrl": "https://aihot.news/items/h2nxkfqpvkcqzof1dlta9j5w0",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-13T01:10:07.000Z"
+      "latestAt": "2026-11-13T13:10:18.303Z"
     },
     {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "id": "nnbnoebf6mvo97usmwj5wziyl",
+      "title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api",
+      "aihotUrl": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-12T11:30:46.000Z"
+      "latestAt": "2026-11-13T20:31:51.000Z"
+    },
+    {
+      "id": "vot1htumxjgnb0i88rbq3zsuq",
+      "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
+      "url": "https://x.com/ChatGPT/status/2121283151729496235",
+      "aihotUrl": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-13T20:45:10.000Z"
     }
   ]
 }
