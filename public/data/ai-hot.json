@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-14T05:46:08.775Z",
+  "generatedAt": "2026-11-15T05:45:15.799Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,23 +10,15 @@
       "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
       "aihotUrl": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-13T04:17:46.000Z"
+      "latestAt": "2026-11-14T14:49:22.000Z"
     },
     {
-      "id": "uy1ayrrlqx1snqsv4lub7whsa",
-      "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "aihotUrl": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
+      "id": "vot1htumxjgnb0i88rbq3zsuq",
+      "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
+      "url": "https://x.com/ChatGPT/status/2121283151729496235",
+      "aihotUrl": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-13T22:05:33.000Z"
-    },
-    {
-      "id": "h2nxkfqpvkcqzof1dlta9j5w0",
-      "title": "微软365故障波及Claude，Anthropic通报中断",
-      "url": "https://www.ithome.com/1/026/948.htm",
-      "aihotUrl": "https://aihot.news/items/h2nxkfqpvkcqzof1dlta9j5w0",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-13T13:10:18.303Z"
+      "latestAt": "2026-11-13T20:45:10.000Z"
     },
     {
       "id": "nnbnoebf6mvo97usmwj5wziyl",
@@ -37,12 +29,20 @@
       "latestAt": "2026-11-13T20:31:51.000Z"
     },
     {
-      "id": "vot1htumxjgnb0i88rbq3zsuq",
-      "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
-      "url": "https://x.com/ChatGPT/status/2121283151729496235",
-      "aihotUrl": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
+      "id": "h2nxkfqpvkcqzof1dlta9j5w0",
+      "title": "微软365故障波及Claude，Anthropic通报中断",
+      "url": "https://www.ithome.com/1/026/948.htm",
+      "aihotUrl": "https://aihot.news/items/h2nxkfqpvkcqzof1dlta9j5w0",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-13T20:45:10.000Z"
+      "latestAt": "2026-11-13T13:10:18.303Z"
+    },
+    {
+      "id": "uy1ayrrlqx1snqsv4lub7whsa",
+      "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "aihotUrl": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-13T22:05:33.000Z"
     }
   ]
 }
