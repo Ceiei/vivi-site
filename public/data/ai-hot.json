@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-16T05:45:27.283Z",
+  "generatedAt": "2026-11-17T07:23:07.722Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -10,7 +10,7 @@
       "url": "https://qwen.ai/blog?id=qwen4-max",
       "aihotUrl": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-16T04:30:30.000Z"
+      "latestAt": "2026-11-17T03:37:35.000Z"
     },
     {
       "id": "qsbjbz754aodhcijq56puh6va",
@@ -21,28 +21,28 @@
       "latestAt": "2026-11-15T13:00:00.000Z"
     },
     {
-      "id": "w9235nqq0senjfvm8lz7g51aa",
-      "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者",
-      "url": "https://x.com/thexpin/status/2121156882064937448",
-      "aihotUrl": "https://aihot.news/items/w9235nqq0senjfvm8lz7g51aa",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-14T19:38:34.000Z"
+      "id": "t1ol5cc73f6teh8f32wvri1cn",
+      "title": "加州总检察长起诉OpenAI智能体失控",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "aihotUrl": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
+      "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。OpenAI 回应称已开展透明整改，并认为该诉讼将所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
+      "latestAt": "2026-11-16T20:46:01.000Z"
     },
     {
-      "id": "va9trgwaw3r4por6vdqbjxrhd",
-      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "aihotUrl": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-      "summary": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，Fable 5.2 在 Artificial Analysis Intelligence Index v5 以 65 分登顶，超过 Gemini 4 Carbon 和 Opus 5.5。",
-      "latestAt": "2026-11-16T01:01:05.343Z"
+      "id": "u36vxmxeopbsx4if4lap30899",
+      "title": "腾讯混元 Hy4 flash 发布并接入多平台",
+      "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+      "aihotUrl": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-17T00:21:04.000Z"
     },
     {
-      "id": "txbnasfrp3d0w6wqmor5rp8fk",
-      "title": "苹果联合 OpenEvidence 启动健康 AI 使用研究",
-      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
-      "aihotUrl": "https://aihot.news/items/txbnasfrp3d0w6wqmor5rp8fk",
+      "id": "z7hs74i3gy5lelr41tobcp2vz",
+      "title": "AMD宣布收购World Labs，李飞飞确认加入",
+      "url": "https://x.com/drfeifei/status/2122375532163866756",
+      "aihotUrl": "https://aihot.news/items/z7hs74i3gy5lelr41tobcp2vz",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-16T01:30:00.000Z"
+      "latestAt": "2026-11-16T17:15:00.000Z"
     }
   ]
 }
