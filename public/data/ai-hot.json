@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-17T07:23:07.722Z",
+  "generatedAt": "2026-11-18T06:47:52.654Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "nqcfrkilrh7nhnpd03t9q1zfh",
-      "title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
-      "url": "https://qwen.ai/blog?id=qwen4-max",
-      "aihotUrl": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-17T03:37:35.000Z"
+      "id": "jr7fqw95e5ihuevr1rzib208l",
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "aihotUrl": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l",
+      "summary": "OpenAI 发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款闭源模型，面向专业与智能体工作，API 名为 gpt-6.2-astra 和 gpt-6.2-sol。",
+      "latestAt": "2026-11-18T01:04:01.000Z"
     },
     {
-      "id": "qsbjbz754aodhcijq56puh6va",
-      "title": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接任",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "aihotUrl": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
+      "id": "mkahdchhxfc4z36augopprdh9",
+      "title": "黄仁勋辞任英伟达CEO，称愿在董事会决定下回归",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "aihotUrl": "https://aihot.news/items/mkahdchhxfc4z36augopprdh9",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-15T13:00:00.000Z"
+      "latestAt": "2026-11-17T20:34:07.000Z"
     },
     {
-      "id": "t1ol5cc73f6teh8f32wvri1cn",
-      "title": "加州总检察长起诉OpenAI智能体失控",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "aihotUrl": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
-      "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。OpenAI 回应称已开展透明整改，并认为该诉讼将所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
-      "latestAt": "2026-11-16T20:46:01.000Z"
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-18T00:15:01.000Z"
     },
     {
       "id": "u36vxmxeopbsx4if4lap30899",
-      "title": "腾讯混元 Hy4 flash 发布并接入多平台",
+      "title": "腾讯混元发布 Hy4 flash 并开源、接入多平台",
       "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
       "aihotUrl": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-17T00:21:04.000Z"
+      "latestAt": "2026-11-18T04:39:34.000Z"
     },
     {
-      "id": "z7hs74i3gy5lelr41tobcp2vz",
-      "title": "AMD宣布收购World Labs，李飞飞确认加入",
-      "url": "https://x.com/drfeifei/status/2122375532163866756",
-      "aihotUrl": "https://aihot.news/items/z7hs74i3gy5lelr41tobcp2vz",
+      "id": "vgopllkh4so1p1q01nefg1364",
+      "title": "英伟达Q3营收1158亿美元，董事会明确不恢复黄仁勋职务",
+      "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
+      "aihotUrl": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-16T17:15:00.000Z"
+      "latestAt": "2026-11-18T05:30:49.000Z"
     }
   ]
 }
