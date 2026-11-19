@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-18T06:47:52.654Z",
+  "generatedAt": "2026-11-19T06:49:07.031Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "lp0snt9lfrx5ju7mg3wma6hnw",
+      "title": "Google 发布 Gemini 4 Neon，API 支持直传 Office 文件",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "aihotUrl": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-19T02:41:18.000Z"
+    },
     {
       "id": "jr7fqw95e5ihuevr1rzib208l",
       "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
       "aihotUrl": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l",
-      "summary": "OpenAI 发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款闭源模型，面向专业与智能体工作，API 名为 gpt-6.2-astra 和 gpt-6.2-sol。",
+      "summary": "OpenAI 发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款模型，重点提升专业工作、编程、计算机操作和多步骤智能体任务，同时降低完成任务所需 token 数。",
       "latestAt": "2026-11-18T01:04:01.000Z"
     },
     {
-      "id": "mkahdchhxfc4z36augopprdh9",
-      "title": "黄仁勋辞任英伟达CEO，称愿在董事会决定下回归",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "aihotUrl": "https://aihot.news/items/mkahdchhxfc4z36augopprdh9",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-17T20:34:07.000Z"
-    },
-    {
       "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
+      "title": "Anthropic IPO 定价 83 美元，估值约 1.5 万亿美元",
       "url": "https://www.anthropic.com/news/s1-sec",
       "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-18T00:15:01.000Z"
+      "latestAt": "2026-11-19T00:15:51.000Z"
     },
     {
-      "id": "u36vxmxeopbsx4if4lap30899",
-      "title": "腾讯混元发布 Hy4 flash 并开源、接入多平台",
-      "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
-      "aihotUrl": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
+      "id": "mkahdchhxfc4z36augopprdh9",
+      "title": "黄仁勋辞任英伟达CEO，称若董事会决定愿回归",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "aihotUrl": "https://aihot.news/items/mkahdchhxfc4z36augopprdh9",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-18T04:39:34.000Z"
+      "latestAt": "2026-11-18T19:30:00.000Z"
     },
     {
       "id": "vgopllkh4so1p1q01nefg1364",
-      "title": "英伟达Q3营收1158亿美元，董事会明确不恢复黄仁勋职务",
+      "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
       "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
       "aihotUrl": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-18T05:30:49.000Z"
+      "latestAt": "2026-11-19T05:08:33.010Z"
     }
   ]
 }
