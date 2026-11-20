@@ -1,48 +1,48 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-19T06:49:07.031Z",
+  "generatedAt": "2026-11-20T06:37:34.507Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "lp0snt9lfrx5ju7mg3wma6hnw",
-      "title": "Google 发布 Gemini 4 Neon，API 支持直传 Office 文件",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "aihotUrl": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-19T02:41:18.000Z"
-    },
-    {
-      "id": "jr7fqw95e5ihuevr1rzib208l",
-      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "aihotUrl": "https://aihot.news/items/jr7fqw95e5ihuevr1rzib208l",
-      "summary": "OpenAI 发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款模型，重点提升专业工作、编程、计算机操作和多步骤智能体任务，同时降低完成任务所需 token 数。",
-      "latestAt": "2026-11-18T01:04:01.000Z"
-    },
-    {
       "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic IPO 定价 83 美元，估值约 1.5 万亿美元",
+      "title": "Anthropic 上市：83 美元定价，首日收涨 17%",
       "url": "https://www.anthropic.com/news/s1-sec",
       "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-19T00:15:51.000Z"
+      "latestAt": "2026-11-20T01:37:44.000Z"
     },
     {
-      "id": "mkahdchhxfc4z36augopprdh9",
-      "title": "黄仁勋辞任英伟达CEO，称若董事会决定愿回归",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "aihotUrl": "https://aihot.news/items/mkahdchhxfc4z36augopprdh9",
+      "id": "lp0snt9lfrx5ju7mg3wma6hnw",
+      "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "aihotUrl": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-18T19:30:00.000Z"
+      "latestAt": "2026-11-20T04:52:33.000Z"
     },
     {
-      "id": "vgopllkh4so1p1q01nefg1364",
-      "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
-      "url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
-      "aihotUrl": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
+      "id": "h5xjk79bhcu8vgnbrynj208uj",
+      "title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
+      "url": "https://x.com/joshwoodward/status/2123534862569324703",
+      "aihotUrl": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-19T05:08:33.010Z"
+      "latestAt": "2026-11-19T21:52:19.000Z"
+    },
+    {
+      "id": "l74eacnb38ytvm5hm8om7h7cs",
+      "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "aihotUrl": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-19T21:12:59.000Z"
+    },
+    {
+      "id": "pbsmf70cnjk0h578776eylwm1",
+      "title": "苹果被曝加速Siri智能体化并招聘工程师",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "aihotUrl": "https://aihot.news/items/pbsmf70cnjk0h578776eylwm1",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-20T00:56:01.000Z"
     }
   ]
 }
