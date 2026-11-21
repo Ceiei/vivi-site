@@ -1,16 +1,24 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-20T06:37:34.507Z",
+  "generatedAt": "2026-11-21T06:28:54.116Z",
   "mode": "hot-topics",
   "items": [
     {
       "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 上市：83 美元定价，首日收涨 17%",
+      "title": "Anthropic 上市首日收涨 17%，次日回落",
       "url": "https://www.anthropic.com/news/s1-sec",
       "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-20T01:37:44.000Z"
+      "latestAt": "2026-11-20T13:53:13.000Z"
+    },
+    {
+      "id": "vu6fw8wmrs3xcln4u9gwzf1f4",
+      "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
+      "url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
+      "aihotUrl": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-21T00:18:26.000Z"
     },
     {
       "id": "lp0snt9lfrx5ju7mg3wma6hnw",
@@ -18,7 +26,15 @@
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
       "aihotUrl": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-20T04:52:33.000Z"
+      "latestAt": "2026-11-20T14:30:00.000Z"
+    },
+    {
+      "id": "y7nk77dxae51qwi826gpmvbho",
+      "title": "Thinking Machines 发布可本地运行的开源模型 Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "aihotUrl": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-21T00:47:56.000Z"
     },
     {
       "id": "h5xjk79bhcu8vgnbrynj208uj",
@@ -26,23 +42,7 @@
       "url": "https://x.com/joshwoodward/status/2123534862569324703",
       "aihotUrl": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-19T21:52:19.000Z"
-    },
-    {
-      "id": "l74eacnb38ytvm5hm8om7h7cs",
-      "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "aihotUrl": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-19T21:12:59.000Z"
-    },
-    {
-      "id": "pbsmf70cnjk0h578776eylwm1",
-      "title": "苹果被曝加速Siri智能体化并招聘工程师",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "aihotUrl": "https://aihot.news/items/pbsmf70cnjk0h578776eylwm1",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-20T00:56:01.000Z"
+      "latestAt": "2026-11-20T18:50:31.000Z"
     }
   ]
 }
