@@ -1,16 +1,32 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-23T06:49:37.422Z",
+  "generatedAt": "2026-11-24T09:16:55.594Z",
   "mode": "hot-topics",
   "items": [
     {
-      "id": "w6aesnkh72hkkxhr4ptrhddd9",
-      "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "aihotUrl": "https://aihot.news/items/w6aesnkh72hkkxhr4ptrhddd9",
+      "id": "ajcxs84uezjqgsgxpdtr31o0l",
+      "title": "英伟达董事会全票恢复黄仁勋职务",
+      "url": "https://x.com/thexpin/status/2124866686025400819",
+      "aihotUrl": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-23T01:00:23.127Z"
+      "latestAt": "2026-11-23T20:46:15.000Z"
+    },
+    {
+      "id": "d4hhqnlmrclsx7d6idtvq95wz",
+      "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan",
+      "url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
+      "aihotUrl": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-23T23:40:49.000Z"
+    },
+    {
+      "id": "t7jlbaldqf2zcliuva1sofoks",
+      "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
+      "url": "https://claude.com/blog/introducing-claude-ship",
+      "aihotUrl": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-24T00:02:39.000Z"
     },
     {
       "id": "vu6fw8wmrs3xcln4u9gwzf1f4",
@@ -18,31 +34,15 @@
       "url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
       "aihotUrl": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-22T18:37:02.000Z"
+      "latestAt": "2026-11-23T13:59:36.000Z"
     },
     {
-      "id": "y7nk77dxae51qwi826gpmvbho",
-      "title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "aihotUrl": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
+      "id": "eg97pyuem4incr7vpqsklw36v",
+      "title": "亚马逊75亿美元收购Decart大部分业务",
+      "url": "https://x.com/rohanpaul_ai/status/2124294348712092061",
+      "aihotUrl": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-21T18:31:39.000Z"
-    },
-    {
-      "id": "xriwds9rtl5niekinxe2uwxsu",
-      "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
-      "url": "https://x.com/indigox/status/2124264257273643371",
-      "aihotUrl": "https://aihot.news/items/xriwds9rtl5niekinxe2uwxsu",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-22T23:40:36.000Z"
-    },
-    {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 上市首日收涨 17%，次日回落",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-21T15:00:00.000Z"
+      "latestAt": "2026-11-24T00:13:49.970Z"
     }
   ]
 }
