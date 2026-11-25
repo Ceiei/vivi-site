@@ -1,7 +1,7 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-24T09:16:55.594Z",
+  "generatedAt": "2026-11-25T07:51:44.507Z",
   "mode": "hot-topics",
   "items": [
     {
@@ -14,11 +14,19 @@
     },
     {
       "id": "d4hhqnlmrclsx7d6idtvq95wz",
-      "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan",
+      "title": "智谱发布GLM-5.4旗舰模型，采用循环Transformer架构",
       "url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
       "aihotUrl": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
       "latestAt": "2026-11-23T23:40:49.000Z"
+    },
+    {
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 上市首日涨 17%，一周内跌破发行价",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "aihotUrl": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-25T03:29:13.877Z"
     },
     {
       "id": "t7jlbaldqf2zcliuva1sofoks",
@@ -26,7 +34,7 @@
       "url": "https://claude.com/blog/introducing-claude-ship",
       "aihotUrl": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-24T00:02:39.000Z"
+      "latestAt": "2026-11-25T07:30:08.000Z"
     },
     {
       "id": "vu6fw8wmrs3xcln4u9gwzf1f4",
@@ -34,15 +42,7 @@
       "url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
       "aihotUrl": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-23T13:59:36.000Z"
-    },
-    {
-      "id": "eg97pyuem4incr7vpqsklw36v",
-      "title": "亚马逊75亿美元收购Decart大部分业务",
-      "url": "https://x.com/rohanpaul_ai/status/2124294348712092061",
-      "aihotUrl": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-24T00:13:49.970Z"
+      "latestAt": "2026-11-24T21:43:33.000Z"
     }
   ]
 }
