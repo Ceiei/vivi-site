@@ -1,9 +1,17 @@
 {
   "sourceName": "AI HOT",
   "sourceUrl": "https://aihot.virxact.com",
-  "generatedAt": "2026-11-27T07:41:46.351Z",
+  "generatedAt": "2026-11-28T07:08:53.483Z",
   "mode": "hot-topics",
   "items": [
+    {
+      "id": "wxkw4txq9hmpj95l0vlpqt7sn",
+      "title": "OpenAI反诉苹果窃取商业机密并胁迫供应商",
+      "url": "https://x.com/rohanpaul_ai/status/2126428722907812197",
+      "aihotUrl": "https://aihot.news/items/wxkw4txq9hmpj95l0vlpqt7sn",
+      "summary": "AI HOT 暂未提供这条热点的摘要。",
+      "latestAt": "2026-11-27T21:31:29.000Z"
+    },
     {
       "id": "rlt60gq96bl1cf5b88o8rbj30",
       "title": "Nvidia 暂停向东南亚四国发运服务器",
@@ -11,14 +19,6 @@
       "aihotUrl": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
       "summary": "据 FT 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼发运服务器，原因是美国要求这些国家及巴西的先进 AI 芯片需申请许可。此前中国 AI 实验室通过当地云厂商租用 Nvidia 算力绕开直接出口禁令，云厂商现有 90 天证明无受限用户但缺乏申请指引；Nvidia 2025 年经新加坡部门入账 $104B，同比增长 72%。",
       "latestAt": "2026-11-27T07:07:27.000Z"
-    },
-    {
-      "id": "oysonctc1s0cizth9lunf32y5",
-      "title": "FCC批准SpaceX部署百万颗AI卫星",
-      "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
-      "aihotUrl": "https://aihot.news/items/oysonctc1s0cizth9lunf32y5",
-      "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-26T13:41:07.000Z"
     },
     {
       "id": "reedvq9m1fb7xktmvk0dnqqpk",
@@ -29,20 +29,20 @@
       "latestAt": "2026-11-26T17:28:56.000Z"
     },
     {
-      "id": "u71y2i8e6zhwauu7gpuyxrp4z",
-      "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
-      "url": "https://mp.weixin.qq.com/s/JkZM9s6tC_Wz5MKeYcccxw",
-      "aihotUrl": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+      "id": "xm92utwg1pnubws7t5hmdpwqz",
+      "title": "美空军 Cloud One 云平台遭黑客入侵控制面",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "aihotUrl": "https://aihot.news/items/xm92utwg1pnubws7t5hmdpwqz",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-26T17:11:25.000Z"
+      "latestAt": "2026-11-27T18:48:45.000Z"
     },
     {
-      "id": "vu6fw8wmrs3xcln4u9gwzf1f4",
-      "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
-      "url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
-      "aihotUrl": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
+      "id": "srpo49fnds5wrj0b8csrot4ve",
+      "title": "SAP拟AI重组裁员至少1万人，德国岗位保障至2028年",
+      "url": "https://x.com/rohanpaul_ai/status/2126041605144739986",
+      "aihotUrl": "https://aihot.news/items/srpo49fnds5wrj0b8csrot4ve",
       "summary": "AI HOT 暂未提供这条热点的摘要。",
-      "latestAt": "2026-11-26T03:01:11.990Z"
+      "latestAt": "2026-11-27T14:57:25.000Z"
     }
   ]
 }
